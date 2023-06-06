@@ -4996,7 +4996,7 @@ Realme Chongqing Mobile Telecommunications Corp., Ltd. モデル：%s"</string>
     <string name="oplus_default_apps_manager">デフォルトのアプリ</string>
     <string name="oplus_delete_fingerprints">指紋を削除する</string>
     <string name="oplus_device_info_not_available">使用不可</string>
-    <string name="oplus_device_info_show_ixd_version">realme UI バージョン</string>
+    <string name="oplus_device_info_show_ixd_version">Project Tawā バージョン</string>
     <string name="oplus_dial_sound_title">ダイヤルパッドの音</string>
     <string name="oplus_display_light">画面のライト効果</string>
     <string name="oplus_display_setting_keep_on_looking">画面を見ている間は画面オン</string>
@@ -6994,15 +6994,15 @@ PIN が正しくない可能性があります。"</string>
     <string name="string_alert_description">アラーム音を現在の天気に合った音に自動的に調整します。</string>
     <string name="string_clear_all_data_confirm_sdcard_hint">これにより SD カードのすべてのデータは完全に消去され、SD カードのパスワードをオフにします。</string>
     <string name="string_erase_sdcard">SD カードのフォーマット</string>
-    <string name="string_laboratory_banner_title">Laboratory</string>
-    <string name="string_laboratory_summary">"realme ラボについて
+    <string name="string_laboratory_banner_title">Laboratory...?</string>
+    <string name="string_laboratory_summary">"Project Tawā ラボについて
 
- 1.realme ラボでは、OS 機能のベータバージョンをお試しいただけます。
-
- 2.realme ラボの機能は随時アップデートされます。一部の機能は、安定していることが証明されてから正式な OS バージョンでリリースされ、それ以外のものはキャンセルされる可能性があります。
-
- 3.realme ラボでリリースされる新しい機能は、ベータテスト段階です。この段階にはいくつかのバグが存在する可能性があり、弊社は修正のために最善を尽くします。提案やフィードバックがある場合は、弊社の realme コミュニティから報告できます。"</string>
-    <string name="string_laboratory_title">realme ラボ</string>
+ ここにはまだ何もありません！
+ ですが、将来的に何か追加される可能性もあります。
+ 乞うご期待！
+ 
+ 　　　　　　　　　　　　　　―Project Tawā"</string>
+    <string name="string_laboratory_title">Project Tawā ラボ</string>
     <string name="string_low_refresh_rate">このリフレッシュレートはシステム全体で使用されます。また、省エネモードがオンになっているときに自動的に使用されます。</string>
     <string name="string_ring_vibration">着信バイブ</string>
     <string name="string_sdcard_is_locked_note">新しいデバイスに挿入して、SD カードパスワードを使って SD カードのロックを解除する必要があります。パスワードを忘れた場合は、SD カードを古いデバイスに挿入してパスワードを変更またはオフにするか、またはすぐに SD カードをフォーマットすると、データが消去されます。</string>

@@ -5,12 +5,12 @@
     <bool name="auto_confirm_bluetooth_activation_dialog">false</bool>
     <bool name="config_additional_system_update_setting_enable">false</bool>
     <bool name="config_agps_enabled">false</bool>
-    <bool name="config_allow_edit_carrier_enabled">false</bool>
+    <bool name="config_allow_edit_carrier_enabled">true</bool>
     <bool name="config_alwaysShowTypeIcon">false</bool>
     <bool name="config_disable_uninstall_update">false</bool>
     <bool name="config_display_recent_apps">true</bool>
-    <bool name="config_display_volte">false</bool>
-    <bool name="config_display_vowifi">false</bool>
+    <bool name="config_display_volte">true</bool>
+    <bool name="config_display_vowifi">true</bool>
     <bool name="config_enableColorTemperature">false</bool>
     <bool name="config_enable_extra_screen_zoom_preview">true</bool>
     <bool name="config_face_education_use_lottie">false</bool>
@@ -94,7 +94,7 @@
     <bool name="config_show_wifi_mac_address">true</bool>
     <bool name="config_show_wifi_settings">true</bool>
     <bool name="config_sim_deletion_confirmation_default_on">false</bool>
-    <bool name="config_storage_manager_settings_enabled">false</bool>
+    <bool name="config_storage_manager_settings_enabled">true</bool>
     <bool name="config_suc_use_partner_resource">false</bool>
     <bool name="config_support_CT_PA">false</bool>
     <bool name="config_support_enabled">false</bool>
@@ -103,7 +103,7 @@
     <bool name="coui_button_anim_enable">true</bool>
     <bool name="coui_config_actionMenuItemAllCaps">false</bool>
     <bool name="coui_support_elegant_text_height">false</bool>
-    <bool name="coui_switch_theme_enable">false</bool>
+    <bool name="coui_switch_theme_enable">true</bool>
     <bool name="crypt_keeper_allow_rotation">true</bool>
     <bool name="enable_dreamsettings">true</bool>
     <bool name="enable_ex_appointed_language">true</bool>

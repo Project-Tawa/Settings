@@ -1684,7 +1684,7 @@ While connected, %2$s will receive all calls made to %3$s."</string>
     <string name="bottom_recommended_header_title">You might be looking for:</string>
     <string name="bottom_sheet_behavior">com.coui.appcompat.dialog.panel.COUIBottomSheetBehavior</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
-    <string name="brand_name">realme</string>
+    <string name="brand_name">Project Tawā</string>
     <string name="breathing_light">Breathing light</string>
     <string name="breathing_light_atmosphere_lighting_effect">For ambience</string>
     <string name="breathing_light_boot_up">Device startup</string>
@@ -2053,8 +2053,8 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="common_permission_manager_open">On</string>
     <string name="common_permission_setting_summary_disable">Not Monitored</string>
     <string name="common_system_permission_manager_state_title">Permission Monitoring</string>
-    <string name="company_name_lower_case">Realme Chongqing Mobile Telecommunications Corp., Ltd.</string>
-    <string name="company_name_upper_case">REALME CHONGQING MOBILE TELECOMMUNICATIONS CORP., LTD.</string>
+    <string name="company_name_lower_case">Project Tawā LLC</string>
+    <string name="company_name_upper_case">Project Tawā LLC</string>
     <string name="component_maxx_audio_main_act">com.oppo.maxxaudio.MainActivity</string>
     <string name="computing_size">Calculating…</string>
     <string name="condition_airplane_mode_turn_off" />
@@ -5564,7 +5564,7 @@ Realme Chongqing Mobile Telecommunications Corp., Ltd. Model: %s"</string>
     <string name="oplus_default_apps_manager">Default apps</string>
     <string name="oplus_delete_fingerprints">Delete the fingerprint</string>
     <string name="oplus_device_info_not_available">Unavailable</string>
-    <string name="oplus_device_info_show_ixd_version">realme UI version</string>
+    <string name="oplus_device_info_show_ixd_version">Project Tawā version</string>
     <string name="oplus_dial_sound_title">Dial pad tone</string>
     <string name="oplus_display_light">Edge lighting</string>
     <string name="oplus_display_setting_keep_on_looking">Adaptive Sleep</string>
@@ -7697,15 +7697,15 @@ Try using a faster ^3, or use this ^4 for portable storage instead."</string>
     <string name="string_alert_description">Automatically adapt your alarm sound to the current weather.</string>
     <string name="string_clear_all_data_confirm_sdcard_hint">This will permanently erase all data on the SD card and turn off the SD card password.</string>
     <string name="string_erase_sdcard">Format SD card</string>
-    <string name="string_laboratory_banner_title">Laboratory</string>
-    <string name="string_laboratory_summary">"About realme Lab
+    <string name="string_laboratory_banner_title">Laboratory...?</string>
+    <string name="string_laboratory_summary">"About Project Tawā Labs:
 
- 1. In realme Lab, you can try out beta versions of OS functions.
-
- 2. Functions in realme Lab are updated from time to time. Some functions will be released in official OS versions after they are proved to be stable, while others may be canceled.
-
- 3. New functions released in realme Lab are in the beta testing phase. There may be some bugs in this phase and we'll try our best to fix them. You can go to our realme community to report your suggestions or feedback."</string>
-    <string name="string_laboratory_title">realme Lab</string>
+ There's nothing provide to you for now.
+ But maybe we're add something.
+ Stay tuned!
+ 
+ 　　　　　　　　　　　　　　―Project Tawā"</string>
+    <string name="string_laboratory_title">Project Tawā Labs</string>
     <string name="string_low_refresh_rate">This refresh rate is used across the system and is used automatically when Power saving mode is on.</string>
     <string name="string_ring_vibration">Vibrate on ring</string>
     <string name="string_sdcard_is_locked_note">You need to unlock the SD card using the SD card password as you have inserted it into a new device. If you forgot the password, insert the SD card into your old device to change or turn off the password, or format the SD card now, which will erase its data.</string>
