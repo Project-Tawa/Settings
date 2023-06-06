@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/open_time_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:paddingStart="@dimen/zenmode_padding_start" android:paddingEnd="@dimen/zenmode_padding_end">
+        <TextView android:textSize="@dimen/oplus_font_size_9" android:textColor="@color/color_zenmode_time_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zenmode_rule_name_margin_top" android:text="@string/open_protect_eye_time" />
+        <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="?couiTintControlNormal" android:id="@id/open_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zenmode_rule_name_to_rule_summary_margin_top" android:layout_marginBottom="@dimen/zenmode_rule_summary_margin_bottom" />
+    </LinearLayout>
+    <com.oplus.settings.widget.LocalTimePicker android:id="@id/open_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@drawable/coui_divider_horizontal_without_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/list_item_left_margin" android:layout_marginEnd="@dimen/M3" />
+    <LinearLayout android:orientation="vertical" android:id="@id/close_time_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:paddingStart="@dimen/zenmode_padding_start" android:paddingEnd="@dimen/zenmode_padding_end">
+        <TextView android:textSize="@dimen/oplus_font_size_9" android:textColor="@color/color_zenmode_time_picker" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zenmode_rule_name_margin_top" android:text="@string/close_protect_eye_time" />
+        <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="?couiTintControlNormal" android:id="@id/close_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zenmode_rule_name_to_rule_summary_margin_top" android:layout_marginBottom="@dimen/zenmode_rule_summary_margin_bottom" />
+    </LinearLayout>
+    <com.oplus.settings.widget.LocalTimePicker android:id="@id/close_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</LinearLayout>

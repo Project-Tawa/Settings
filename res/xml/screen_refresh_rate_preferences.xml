@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_refresh_rate" android:key="key_screen_refresh_rate"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.feature.display.darkmode.ScreenRefreshRatePreference android:key="refresh_rate" />
+    <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_auto_switch" android:key="refresh_rate_auto" android:summary="@string/screen_refresh_rate_auto_switch_summary" />
+    <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/high_refresh_rate_title_new" android:key="refresh_rate_high" />
+    <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/simple_refresh_rate_title_new" android:key="refresh_rate_simple" />
+    <com.oplus.settings.widget.preference.SettingsFooterPreference android:key="refresh_rate_footer_description" />
+</PreferenceScreen>

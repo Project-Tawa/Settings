@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/usage_chart_group" android:tag="layout/layout_usage_chart_with_mark_0" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/usage_chart" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dimen_14" android:layout_marginEnd="9.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/usage_chart_container" android:layout_width="283.0dip" android:layout_height="fill_parent" android:overScrollMode="never" android:layoutDirection="ltr" />
+        <RelativeLayout android:id="@id/usage_chart_y_marks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_10" android:forceDarkAllowed="false">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_26">
+                <TextView android:textColor="@color/barchart_dashline_color" android:id="@id/usage_chart_y_mark_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_10" android:layout_toEndOf="@id/max_line" style="@style/UsageChartMark" />
+                <ImageView android:id="@id/max_line" android:background="@drawable/bar_chart_dash_line" android:layout_width="273.0dip" android:layout_height="2.0dip" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_88">
+                <TextView android:textColor="@color/barchart_dashline_color" android:id="@id/usage_chart_y_mark_median" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_10" android:layout_toEndOf="@id/mid_line" style="@style/UsageChartMark" />
+                <ImageView android:id="@id/mid_line" android:background="@drawable/bar_chart_dash_line" android:layout_width="273.0dip" android:layout_height="2.0dip" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="148.0dip">
+                <TextView android:textColor="@color/barchart_dashline_color" android:id="@id/usage_chart_y_mark_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_10" android:layout_toEndOf="@id/min_line" style="@style/UsageChartMark" />
+                <ImageView android:id="@id/min_line" android:background="@drawable/bar_chart_dash_line" android:layout_width="273.0dip" android:layout_height="2.0dip" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/content_parent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.coui.appcompat.widget.COUISearchViewAnimate android:layout_gravity="center_horizontal" android:id="@id/searchView" android:paddingTop="@dimen/toolbar_margin_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_min_height" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" app:searchHint="@string/settings_search_tips" />
+        <include layout="@layout/search_result_panel" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

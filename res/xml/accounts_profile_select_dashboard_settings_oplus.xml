@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/accounts_and_users" settings:keywords="@string/keywords_accounts"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/user_add_user_item_title" android:key="key_user" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingsJumpIconPreference android:title="@string/user_settings_title" android:key="user_settings_title" android:order="1" android:fragment="com.android.settings.users.UserSettings" settings:controller="com.oplus.settings.feature.accounts.controller.MultiUserPreferenceController" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory />
+</androidx.preference.PreferenceScreen>

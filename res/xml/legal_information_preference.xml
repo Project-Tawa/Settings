@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/legal_information" android:key="container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="dummy_category" settings:isFirstCategory="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplus_user_protocol" android:key="userProtocol">
+        <intent android:action="com.oplus.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="1" />
+        </intent>
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/enterprice_edition_statement" android:key="enterprise_edit_state">
+        <intent android:action="com.oplus.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="7" />
+        </intent>
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplus_user_secret" android:key="userSecret">
+        <intent android:action="com.oplus.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="2" />
+        </intent>
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/copyright_title" android:key="copyright">
+        <intent android:action="android.settings.COPYRIGHT" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/settings_license_activity_title" android:key="license">
+        <intent android:action="android.settings.LICENSE" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/terms_title" android:key="terms">
+        <intent android:action="android.settings.TERMS" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/module_license_title" android:key="module_license" android:fragment="com.android.settings.deviceinfo.legal.ModuleLicensesDashboard" settings:controller="com.android.settings.deviceinfo.legal.ModuleLicensesListPreferenceController" />
+</PreferenceScreen>

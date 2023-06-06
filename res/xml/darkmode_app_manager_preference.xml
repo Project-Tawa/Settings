@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/third_app_title" android:key="key_dark_mode_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:selectable="false" android:summary="@string/darkmode_third_app_list_top_hint" />
+    <androidx.preference.Preference android:layout="@layout/preference_hint_divider" android:selectable="false" />
+</androidx.preference.PreferenceScreen>

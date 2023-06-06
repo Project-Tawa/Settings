@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/touch_and_sound" android:key="sound_vibrate_feedback" settings:keywords="@string/keywords_touch_and_sound"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/touch" android:key="touch_feedback_category" android:order="10" settings:isFirstCategory="true">
+        <com.oplus.settings.feature.sound.touchstyle.OhapticsPreviewPreference android:enabled="true" android:selectable="true" android:key="haptics_preview_key" android:order="20" />
+        <com.oplus.settings.feature.sound.touchstyle.OhapticTitlePreference android:title="@string/haptics_touch_card_title" android:key="haptics_describe_key" android:summary="@string/haptics_tips" android:order="30" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="touch_feedback_second_category" android:order="100" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/system_haptics" android:key="vibrate_on_touch" android:summary="@string/system_haptics_tips" android:order="120" android:defaultValue="true" settings:keywords="@string/keywords_system_haptics" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/input_method_system_haptics" android:key="input_method_key_vibration" android:summary="@string/input_method_key_vibration_customization" android:order="130" android:defaultValue="false" settings:keywords="@string/keywords_input_method_key_vibration" />
+        <Preference android:title="@string/haptic_feed_strength" android:key="touch_vibration_title" android:order="135" />
+        <com.oplus.settings.widget.preference.TouchVibrationPreference android:selectable="false" android:key="touch_vibration" android:order="140" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.MalayalamNotTruncationJumpPreference android:title="@string/touch_style_title" android:key="key_haptics_style" android:order="145" android:fragment="com.oplus.settings.feature.sound.HapticsStyleFragment" settings:showNormalColor="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/prompt_tone" android:key="sound_feedback_category" android:order="150">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_dial_sound_title" android:key="dial_pad_tones" android:order="160" android:defaultValue="true" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/lock_sounds_enable_title" android:key="screen_locking_sounds" android:order="170" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/screen_capture_sound" android:key="screen_capture_sound" android:order="180" android:defaultValue="true" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/global_delete_sound" android:key="global_delete_sound" android:order="190" android:defaultValue="true" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/front_finger_sound" android:key="front_finger_sound" android:order="200" android:defaultValue="true" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/touch_sounds_title" android:key="touch_sounds" android:order="210" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:soundEffectsEnabled="false" android:paddingEnd="@dimen/support_preference_titel_padding_end">
+        <View android:id="@id/divider" android:background="@color/coui_preference_switch_vertical_divider_color" android:layout_width="0.6700001dip" android:layout_height="22.0dip" android:layout_marginEnd="@dimen/support_preference_titel_padding_end" android:forceDarkAllowed="false" />
+        <com.coui.appcompat.widget.COUISwitch android:id="@id/switch_layout" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Switch android:gravity="center_vertical" android:id="@id/switchWidget" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/two_target_min_width" android:paddingStart="?android:listPreferredItemPaddingEnd" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/msg_entry_item_icon_width" android:width="@dimen/msg_entry_item_icon_width" />
+            <solid android:color="#ff39bf56" />
+        </shape>
+    </item>
+    <item android:height="@dimen/msg_entry_item_icon_width" android:width="@dimen/msg_entry_item_icon_width" android:drawable="@drawable/style_title_message_back_inner" android:top="0.0dip" android:start="0.0dip" />
+</layer-list>

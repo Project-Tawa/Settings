@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.settings.widget.HomePageCoordinatorLayout android:id="@id/settings_homepage_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" />
+    <FrameLayout android:id="@id/search_bg_mask_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/search_bg_mask" android:background="?android:windowBackground" style="@style/BackgroundMaskStyle" />
+    </FrameLayout>
+    <ViewStub android:id="@id/stub_search_result" android:layout="@layout/search_result_panel" android:inflatedId="@id/search_result_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/homepage_toolbar" />
+</com.oplus.settings.widget.HomePageCoordinatorLayout>

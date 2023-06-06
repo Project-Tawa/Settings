@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/touch_style_title" android:key="key_haptics_pref"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.HapticsStyleAnimPreference android:selectable="false" android:key="key_haptics_anim_preference" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_haptics_choose_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.MalayalamNotTruncationMarkPreference android:title="@string/clear_and_crisp_sound" android:key="key_clear_and_crisp_sound" />
+        <com.oplus.settings.widget.preference.SettingsMarkPreference android:title="@string/soft_sound" android:key="key_soft_sound" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

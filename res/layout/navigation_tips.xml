@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_TD05" android:textColor="@color/navigation_tip_setting_color" android:id="@id/tv_navigation_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_M6" android:text="@string/swipe_up_gesture_navigation_tip" android:textAlignment="center" android:layout_marginStart="@dimen/margin_M10" android:layout_marginEnd="@dimen/margin_M10" />
+</LinearLayout>

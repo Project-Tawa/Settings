@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/coui_list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/default_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/single_selected_list_item_icon" android:layout_width="@dimen/file_listview_icon_size" android:layout_height="@dimen/file_listview_icon_size" android:src="@drawable/file_audio_icon_ringtone" />
+        <ImageView android:id="@id/drm_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drm" android:contentDescription="@null" />
+    </FrameLayout>
+    <FrameLayout android:gravity="center_vertical" android:id="@id/mark_check" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/default_margin" android:layout_alignParentEnd="true">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/audio_selected_radio_btn" android:focusable="false" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/file_list_item_info_margin" android:layout_toStartOf="@id/mark_check" android:layout_toEndOf="@id/icon_layout">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/file_list_item_title_text_size" android:ellipsize="end" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

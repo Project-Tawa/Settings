@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/accessibility_control_timeout_title" android:key="accessibility_control_timeout_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.feature.accessibility.AccessibilityLottieViewPreference android:selectable="false" android:key="accessibility_control_timeout_animate" />
+    <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_default" android:key="accessibility_control_timeout_default" settings:allowDividerAbove="true" />
+    <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_10secs" android:key="accessibility_control_timeout_10secs" />
+    <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_30secs" android:key="accessibility_control_timeout_30secs" />
+    <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_1min" android:key="accessibility_control_timeout_1min" />
+    <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_2mins" android:key="accessibility_control_timeout_2mins" />
+    <PreferenceCategory android:key="footer_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference_oplus" android:selectable="false" android:key="footer_description_pref" android:summary="@string/accessibility_control_timeout_tips" />
+    </PreferenceCategory>
+</PreferenceScreen>

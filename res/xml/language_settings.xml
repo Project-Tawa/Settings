@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_settings_new" android:key="language_keyboard_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.SpacePreference android:layout_height="10.0dip" android:key="key_header" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/oplus_keyboard_settings_category" android:key="keyboard_settings_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/current_input_method" android:key="current_input_method" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/security_window_title" android:key="security_window" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/builtin_keyboard_settings_title" android:key="hard_keyboard" />
+    <PreferenceCategory android:persistent="false" android:title="@string/installed_ime_category" android:key="installed_ime_category" />
+    <PreferenceCategory android:title="@string/keyboard_setting" android:key="keyboard_setting_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/keyboard_position" android:key="keyboard_position" android:fragment="com.oplus.settings.feature.othersettings.input.OplusKeyboardPositionFragment" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/keyboard_prevents_accidental_touch_title" android:key="keyboard_prevent_touch" android:summary="@string/keyboard_prevents_accidental_touch_desc" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/use_separate_keyboard" android:key="key_use_separate_keyboard" android:summary="@string/input_method_key_vibration_customization" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/game_controller_settings_category" android:key="game_controller_settings_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/vibrate_input_devices" android:key="vibrate_input_devices" android:summaryOn="@string/vibrate_input_devices_summary" android:summaryOff="@string/vibrate_input_devices_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/autofill_app_service" android:key="auto_fill_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/autofill_app" android:key="auto_fill" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pointer_and_dictionary">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/user_dict_settings_title" android:key="key_user_dictionary_settings" android:fragment="com.android.settings.inputmethod.UserDictionaryList" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pointer_speed" android:key="pointer_speed_container">
+        <com.oplus.settings.feature.othersettings.input.OplusPointerSpeedSeekBarPreference android:title="@string/pointer_speed" android:key="pointer_speed_seekbar" />
+    </PreferenceCategory>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/language_and_input_for_work_category_title" android:key="language_and_input_for_work_category" settings:searchable="false">
+        <Preference android:title="@string/virtual_keyboards_for_work_title" android:key="virtual_keyboards_for_work_pref" android:fragment="com.oplus.settings.feature.othersettings.input.OplusVirtualKeyboardFragment" settings:controller="com.android.settings.inputmethod.VirtualKeyboardForWorkPreferenceController" settings:forWork="true" />
+    </com.android.settings.widget.WorkOnlyCategory>
+</PreferenceScreen>

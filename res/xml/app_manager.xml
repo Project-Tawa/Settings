@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/applications" android:key="app_manager" settings:keywords="@string/keywords_applications_manager"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:order="100" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/applications_manager" android:key="app_list" android:order="110" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:activity="com.oplus.settings.OplusSubSettings">
+            <extra android:name="dcs_event_id" android:value="manage_application_app_list" />
+            <extra android:name="attach_to_base_layout" android:value="true" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:targetPackage="com.android.settings" android:title="@string/running_applications_title" android:key="processes_new_settings" android:order="115">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.feature.process.RunningApplicationActivity" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/default_apps_title_new" android:key="default_apps_manager" android:order="120">
+            <extra android:name="dcs_event_id" android:value="manage_application_default_app" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/disabled_app" android:key="disabled_apps_manager" android:order="125" android:fragment="com.android.settings.applications.disableapps.DisabledAppManager" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="category_app_manager" android:order="130">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/special_access" android:key="oplus_special_access" android:order="140" android:fragment="com.oplus.settings.privacy.OplusSpecialAccessSettings">
+            <extra android:name="dcs_event_id" android:value="manage_application_special_access" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/auto_launch_title" android:key="auto_launch_manager" android:order="150">
+            <extra android:name="dcs_event_id" android:value="manage_application_auto_launch" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/association_launch_title" android:key="association_launch_manager" android:order="160">
+            <extra android:name="dcs_event_id" android:value="manage_application_associated_launch" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/floating_window_title" android:key="floating_window_manager" android:order="170">
+            <extra android:name="dcs_event_id" android:value="manage_application_float_window" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_app_attr_category" android:order="200">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/application_usage_time_statistics" android:key="app_usage_time" android:order="210" settings:keywords="@string/keywords_application_usage_time_statistics" settings:showSummary="false" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/multi_app_settings" android:key="multi_app_settings" android:summary="@string/multi_app_summary" android:order="220">
+            <extra android:name="dcs_event_id" android:value="top_level_multi_app" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:persistent="false" android:title="@string/resizeable_screen_title" android:key="resizeable_screen" android:order="225" android:fragment="com.oplus.settings.feature.stackdivider.SplitScreenSettingFragment" settings:showSummary="false">
+            <extra android:name="dcs_event_id" android:value="top_level_resizeable_screen" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/system_unloadable_application_retrieve" android:key="system_unloadable_app_retrieve" android:order="230">
+            <extra android:name="dcs_event_id" android:value="manage_application_system_app_retrieve" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="@dimen/dimen_16" android:order="290" />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="application_lock_recommend" android:order="300" />
+</PreferenceScreen>

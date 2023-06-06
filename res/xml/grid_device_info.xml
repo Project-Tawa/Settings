@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_device" android:key="my_device_info_pref_screen" settings:keywords="@string/keywords_about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/device_info_header" android:selectable="false" android:key="device_info_header" android:order="-10" settings:controller="com.oplus.settings.feature.deviceinfo.controller.DeviceInfoHeaderPreferenceController" />
+    <com.oplus.settings.feature.deviceinfo.DeviceNameEditPreference android:icon="@drawable/settings_info_phone_ic" android:title="@string/device_info_phone_name" android:key="phone_name" android:order="-1" android:dialogTitle="@string/device_change_device_name" android:dialogMessage="@string/device_change_device_name_message" android:positiveButtonText="@string/change" android:negativeButtonText="@string/cancel" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_version_ic" android:title="@string/device_version_info" android:key="version_info" android:summary="@string/device_version_info_summary" android:order="0" android:fragment="com.oplus.settings.feature.deviceinfo.aboutphone.DeviceVersionInfoFragment" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_system_ic" android:title="@string/device_info_show_ixd_version" android:selectable="false" android:key="oplusos_version" android:order="5" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_system_ic" android:title="@string/oplus_device_info_show_ixd_version" android:selectable="false" android:key="oplusos_rlm_version" android:order="5" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/firmware_version" android:key="firmware_version" android:order="10" android:fragment="com.oplus.settings.feature.deviceinfo.aboutphone.AndroidVersionInfoFragment" settings:coui_jump_mark="@null" settings:keywords="@string/keywords_android_version" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_cpu_ic" android:title="@string/device_info_show_CPU" android:selectable="false" android:key="cpu_info" android:order="15" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_camera_ic" android:title="@string/device_camera_info" android:selectable="false" android:key="camera_info" android:order="20" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceRamInfoItemPreference android:icon="@drawable/settings_info_memory_ic" android:title="@string/device_info_show_RAM" android:selectable="false" android:key="ram_info" android:order="25" android:fragment="com.oplus.settings.feature.ramexpand.RamExpandFragment" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_hdd_ic" android:title="@string/device_info_show_ROM" android:selectable="false" android:key="mem_info" android:order="30" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_legal_ic" android:title="@string/legal_information" android:key="legal_container" android:summary="@string/device_legal_info_summary" android:order="35" android:fragment="com.oplus.settings.feature.legalinfo.OplusLegalSettings" settings:allowDividerAbove="true">
+        <extra android:name="dcs_event_id" android:value="about_device_legal_container" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_authentication_ic" android:title="@string/oplus_authentication_title" android:key="authentication_info" android:summary="@string/device_authentication_info_summary" android:order="40" android:fragment="com.oplus.settings.feature.deviceinfo.AuthenticationInfoFragment">
+        <extra android:name="dcs_event_id" android:value="about_device_authentication_info" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_model_ic" android:title="@string/device_info_show_model_num" android:selectable="false" android:key="device_model" android:order="45" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_sim_ic" android:title="@string/sim_status_title" android:key="sim_status" android:summary="@string/summary_placeholder" android:order="50" settings:allowDividerAbove="true" settings:keywords="@string/oplus_keywords_sim_status">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.OplusSettingsActivity$SimStatusInfoActivity" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_state_ic" android:layout="@layout/coui_preference" android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_info_summary" android:order="55">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.OplusSettingsActivity$StatusInfoActivity" />
+        <extra android:name="dcs_event_id" android:value="about_device_status_info" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_contributor_ic" android:title="@string/oplusos_co_creator_planet" android:key="contributor_info" android:summary="@string/outstanding_contributors_list" android:order="58" settings:controller="com.oplus.settings.feature.deviceinfo.controller.ContributorInfoPreferenceController">
+        <intent android:action="oplus.intent.action.Contributors_List" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:layout="@layout/coui_preference" android:title="@string/regulatory_labels" android:key="regulatory_info" android:order="60">
+        <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/safety_and_regulatory_info" android:key="safety_info" android:order="62">
+        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/device_feedback" android:key="device_feedback" android:order="65" />
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/network_access_license" android:key="network_access_license" android:order="70">
+        <intent android:action="android.settings.NETWORK_ACCESS_LICENCE" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:title="@string/e_label" android:key="e_label" android:order="72">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.oplus.settings.feature.deviceinfo.ELabelActivity" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/network_access_license" android:key="regulatory_info_above_oplusos_six" android:order="75">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.oplus.settings.feature.deviceinfo.regulatory.RegulatoryInfoActivity" />
+    </com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.oplus.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/award_icon" android:title="@string/forum_award_title" android:key="forum_contributors_info" android:summary="@string/forum_contributors_summary" android:order="80" android:fragment="com.oplus.settings.feature.deviceinfo.ForumContributorsFragment" settings:controller="com.oplus.settings.feature.deviceinfo.controller.ForumContributorsInfoController" />
+</PreferenceScreen>

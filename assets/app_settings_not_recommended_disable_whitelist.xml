@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<filter-conf>
+    <version>2021072316</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_settings_not_recommended_disable_whitelist</filter-name>
+    <string>com.coloros.phonemanager</string>
+    <string>com.oplus.athena</string>
+    <string>com.oplus.wirelesssettings</string>
+    <string>com.oplus.trafficmonitor</string>
+    <string>com.android.incallui</string>
+    <string>com.oplus.battery</string>
+    <string>com.oplus.romupdate</string>
+    <string>com.oplus.sau</string>
+</filter-conf>

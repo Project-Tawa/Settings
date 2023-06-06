@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ic_laboratory_banner" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:src="@drawable/ic_laboratory_banner_logo" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/oplus_font_size_10" android:textColor="@color/couiWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/string_laboratory_banner_title" android:layout_below="@id/logo" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/storage_settings_new" android:orderingFromXml="false" settings:keywords="@string/keywords_storage_settings_new"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_images" android:key="pref_photos" android:summary="@string/memory_calculating_size" android:order="1" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_videos" android:key="pref_videos" android:summary="@string/memory_calculating_size" android:order="2" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_install_apks" android:key="pref_apks" android:summary="@string/memory_calculating_size" android:order="3" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_application" android:key="pref_apps" android:summary="@string/memory_calculating_size" android:order="4" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_documents" android:key="pref_documents" android:summary="@string/memory_calculating_size" android:order="5" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_audio" android:key="pref_audios" android:summary="@string/memory_calculating_size" android:order="6" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_detail_other" android:selectable="false" android:key="pref_others" android:summary="@string/memory_calculating_size" android:order="7" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/storage_system" android:selectable="false" android:key="pref_system" android:summary="@string/memory_calculating_size" android:order="100" android:shouldDisableView="true" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.android.settings.applications.SpacePreference android:layout_height="@dimen/preference_footer_height" android:order="5100" />
+</androidx.preference.PreferenceScreen>

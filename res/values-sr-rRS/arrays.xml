@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aod_date_entries">
+        <item>Prikaži gregorijanski kalendar</item>
+        <item>Prikaži gregorijanski i lunarni kalendar</item>
+        <item>Ne prikazuj</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Uvek potrebno</item>
+        <item>Potrebno posle 15 minuta</item>
+    </string-array>
+    <string-array name="cut_mode_entries">
+        <item>Automatski prilagodi</item>
+        <item>Prikaži prednju kameru</item>
+        <item>Sakrij prednju kameru (režim celog ekrana)</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Jačina tona zvona</item>
+        <item>Jačina medijskog sadržaja</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Isključeno</item>
+        <item>Pop</item>
+        <item>Rok</item>
+        <item>Kantri</item>
+        <item>Džez</item>
+        <item>Klasika</item>
+        <item>Metal</item>
+        <item>Bluz</item>
+        <item>Hip-hop</item>
+        <item>Dens</item>
+        <item>Elektronska muzika</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (podrazumevano)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>Najčešće korišćeni tip datoteke sistema kod mobilnih uređaja za skladištenje</item>
+        <item>Poboljšan tip sistema datoteka, podržava pojedinačne datoteke preko 4G, pri povezivanju na računar prvo može biti potrebno instaliranje drajvera</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries_new">
+        <item>Prikaži ikone</item>
+        <item>Prikaži broj obaveštenja</item>
+    </string-array>
+    <string-array name="oplus_app_install_location_entries_removable_sd">
+        <item>Skladište sistema</item>
+        <item>Skladište telefona</item>
+        <item>Podrazumevane vrednosti sistema</item>
+    </string-array>
+    <string-array name="oplus_app_install_location_entries_unremovable_sd">
+        <item>Prostor za sistem</item>
+        <item>Skladište telefona</item>
+        <item>Zavisno od sistema</item>
+    </string-array>
+    <string-array name="oplus_preset_names">
+        <item>Podrazumevano</item>
+        <item>Pop</item>
+        <item>Rok</item>
+        <item>Kantri</item>
+        <item>Džez</item>
+        <item>Klasika</item>
+        <item>Metal</item>
+        <item>Bluz</item>
+        <item>Hip-hop</item>
+        <item>Dens</item>
+        <item>Elektronska muzika</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6 s</item>
+        <item>Uvek uključeno</item>
+        <item>Isključeno</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>Kako se zvao vaš nastavnik?</item>
+        <item>Kako se zove vaša majka?</item>
+        <item>Kako se zove vaš otac?</item>
+        <item>U koju ste srednju školu išli?</item>
+        <item>Koji je vaš omiljeni restoran?</item>
+    </string-array>
+    <string-array name="running_applications_tabs">
+        <item>Aplik. trećih strana</item>
+        <item>Sist. aplik.</item>
+    </string-array>
+</resources>

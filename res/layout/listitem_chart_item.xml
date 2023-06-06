@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/bar_item" android:tag="layout/listitem_chart_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bar_frame" android:layout_width="36.0dip" android:layout_height="154.0dip" android:layout_marginBottom="10.0dip">
+        <View android:id="@id/bar_background" android:background="@color/barchart_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/bar_content" android:background="?couiTintControlNormal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false" />
+    </FrameLayout>
+    <ImageView android:id="@id/app_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/dimen_12" android:layout_below="@id/bar_frame" android:layout_centerHorizontal="true" />
+</RelativeLayout>

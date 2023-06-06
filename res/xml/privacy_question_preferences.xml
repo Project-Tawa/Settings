@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.SpacePreference android:layout_height="10.0dip" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="question_parent" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:key="question_set" />
+        <com.coui.appcompat.preference.COUIInputPreference android:singleLine="true" android:maxLength="@integer/max_answer_input" android:key="answer_input" settings:couiContent="" settings:couiHint="@string/privacy_question_hint" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/answer_input_divider" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="10.0dip" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/privacy_bind_title" android:key="other_parent" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/privacy_bind_email" android:key="bind_email" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/privacy_bind_account" android:key="bind_account" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

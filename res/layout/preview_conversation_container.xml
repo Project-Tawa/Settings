@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.feature.display.zoom.OplusConversationMessageView android:id="@id/conversation_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:incoming="false" app:messageText="@string/font_and_display_size_conversation_example_question" />
+    <com.oplus.settings.feature.display.zoom.OplusConversationMessageView android:id="@id/conversation_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:incoming="true" app:messageText="@string/font_and_display_size_conversation_example_answer" />
+    <com.oplus.settings.feature.display.zoom.OplusConversationMessageView android:id="@id/conversation_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:incoming="false" app:messageText="@string/font_and_display_size_conversation_example_three" />
+    <com.oplus.settings.feature.display.zoom.OplusConversationMessageView android:id="@id/conversation_4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:incoming="true" app:messageText="@string/font_and_display_size_conversation_example_four" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/textPanel" android:paddingTop="@dimen/seekbar_text_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/VibrationText" android:textColor="@color/section_seekbar_text_color" android:gravity="center" android:id="@id/relative_cold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edge_prevent_mistouch_level_null" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:textColor="@color/section_seekbar_text_color" android:gravity="center" android:id="@id/relative_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edge_prevent_mistouch_level_weak" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:textColor="@color/section_seekbar_text_color" android:gravity="center" android:id="@id/relative_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edge_prevent_mistouch_level_default" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:textColor="@color/section_seekbar_text_color" android:gravity="center" android:id="@id/relative_warm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edge_prevent_mistouch_level_strong" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.coui.appcompat.widget.seekbar.COUISectionSeekBar android:id="@id/seekbar" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_progressbar_margin_top" android:layout_marginBottom="@dimen/color_temperature_progressbar_margin_bottom" android:hapticFeedbackEnabled="false" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" settings:couiSectionMarkEnable="true" />
+</LinearLayout>

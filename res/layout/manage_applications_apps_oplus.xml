@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/apps_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:fastScrollEnabled="false" settings:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" settings:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" settings:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" settings:fastScrollVerticalTrackDrawable="@drawable/line_drawable" />
+                <com.oplus.settings.feature.appmanager.search.SearchEmptyLayout android:gravity="center" android:id="@android:id/empty" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/pinned_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" />
+        </RelativeLayout>
+        <include layout="@layout/loading_container_oplus" />
+    </FrameLayout>
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/abl" android:background="@drawable/coui_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" settings:elevation="0.0dip" settings:layout_behavior="@string/appbarlayout_collapse_behavior">
+        <com.coui.appcompat.widget.toolbar.COUIToolbar android:id="@id/toolbar" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/toolbar_min_height" settings:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="?couiDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:alpha="0.0" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" android:forceDarkAllowed="false" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

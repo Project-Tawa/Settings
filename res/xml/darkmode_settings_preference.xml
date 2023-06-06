@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/darkmode_settings" android:key="key_dark_mode_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.feature.display.darkmode.ui.DarkModeStylePreference android:selectable="false" android:key="dark_mode_style_selector" />
+    <androidx.preference.Preference android:layout="@layout/darkmode_preference_bottom_devider" android:selectable="false" />
+    <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/dark_mode_self_adaption" android:key="darkmode_auto_contrast_switch" android:summary="@string/dark_mode_self_adaption_summary" />
+    <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/darkmode_wallpaper_darken" android:key="darkmode_wallpaper_darken" settings:keywords="@string/darkmode_wallpaper_darken" />
+    <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/darkmode_icon_darken" android:key="darkmode_icon_darken" settings:keywords="@string/darkmode_icon_darken" />
+    <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/third_app_title" android:key="darkmode_third_app" android:fragment="com.oplus.settings.feature.display.darkmode.ui.DarkModeApplicationManageFragment" />
+    <androidx.preference.Preference android:layout="@layout/darkmode_preference_bottom_devider" android:selectable="false" />
+    <androidx.preference.Preference android:layout="@layout/darkmode_settings_preference_hint" android:selectable="false" android:key="dark_mode_third_app_hint" />
+</androidx.preference.PreferenceScreen>

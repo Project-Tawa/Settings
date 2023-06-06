@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/notification_envelope_settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false">
+        <TextView android:textSize="@dimen/envelope_settings_count_text_size" android:textColor="@color/theme_color_C12" android:id="@id/count_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/envelope_settings_text_margin_top" android:text="@string/envelope_settings_count_text" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/envelope_settings_count_margin_top" android:layout_marginBottom="@dimen/envelope_settings_count_margin_bottom" android:layout_below="@id/count_text" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/envelope_settings_count_size" android:textColor="@color/envelope_settings_count_color" android:id="@id/envelope_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" />
+            <TextView android:textSize="@dimen/envelope_settings_count_unit_size" android:textColor="@color/theme_color_C12" android:id="@id/count_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/envelope_settings_unit" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

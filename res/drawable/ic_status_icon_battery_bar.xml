@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h32v32h-32z" />
+        <path android:fillColor="@color/status_icon_dialog_item_color" android:pathData="M18,6.0996C18.3314,6.0996 18.6,6.3682 18.6,6.6996V7.8996H20.2C21.1941,7.8996 22,8.7055 22,9.6996V24.0996C22,25.0937 21.1941,25.8996 20.2,25.8996H11.8C10.8059,25.8996 10,25.0937 10,24.0996V9.6996C10,8.7055 10.8059,7.8996 11.8,7.8996H13.4V6.6996C13.4,6.3682 13.6686,6.0996 14,6.0996H18ZM11.8,12.5796H20.2V9.6996H11.8V12.5796Z" android:fillAlpha="0.85" android:fillType="evenOdd" />
+    </group>
+</vector>

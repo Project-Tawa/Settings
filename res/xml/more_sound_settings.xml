@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/advanced_settings" android:key="sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="ktv_loopback_category" android:order="0" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/default_volume_type" android:layout="@layout/coui_preference" android:title="@string/default_volume_type" android:key="default_volume_type" android:order="5" android:entryValues="@array/default_volume_type_value" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/default_recording_equipment" android:key="sound_settings_default_sound_device" android:order="10" settings:coui_jump_mark="@null" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/oplus_ktv_loopback_switch" android:key="ktv_loopback_support" android:summary="@string/oplus_ktv_loopback_summary_2" android:order="20" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/oplus_ktv_loopback_switch" android:key="ktv_loopback" android:summary="@string/oplus_ktv_loopback_switch_summer" android:order="30" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

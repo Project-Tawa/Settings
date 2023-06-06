@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:fillBefore="false" android:fillAfter="true" android:zAdjustment="normal" android:fillEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@anim/search_page_enter_alpha_interpolator" android:duration="180" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <translate android:interpolator="@anim/search_page_enter_translate_interpolator" android:duration="330" android:fromYDelta="@integer/search_page_anim_y_delta" android:toYDelta="0.0" />
+</set>

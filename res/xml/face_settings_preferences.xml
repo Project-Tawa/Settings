@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:fitsSystemWindows="true" android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="face_category" settings:isFirstCategory="true" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/oplus_facial_feature_used_for" android:key="face_usage_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_unlock" android:key="face_unlock" android:defaultValue="false" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/privacy_title_apps_lock" android:key="face_encrypt_application" android:defaultValue="false" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_encrypt_file" android:key="face_encrypt_file_switch" android:defaultValue="false" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/fingerprint_security_center_switch" android:key="face_security_center_switch" android:defaultValue="false" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="face_unlock_settings_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/enter_desktop_after_unlock" android:key="face_unlock_enter_desktop" android:defaultValue="false" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_fill_screen_light_in_dark_light" android:key="face_screen_light" android:order="5" android:defaultValue="false" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_dont_recongnize_while_eyes_closed" android:key="dont_recognize_while_eyes_closed" android:order="6" android:defaultValue="false" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="16.0dip" android:key="space" />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="face_bottom_recommended" settings:isPreferenceVisible="false" />
+</PreferenceScreen>

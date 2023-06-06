@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_and_region_exp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/coui_pager_header_preference" android:selectable="false" android:summary="@string/system_language_description" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="phone_language_category" settings:isFirstCategory="false">
+        <com.oplus.settings.feature.language.CurrentLanguagesPreference android:key="current_language_list" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:layout="@layout/coui_preference_focus" android:title="@string/add_a_language" android:key="add_language" settings:coui_jump_mark="@null" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="phone_region_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/phone_region" android:key="phone_region" android:fragment="com.oplus.settings.feature.language.localepicker.RegionPickerFragment" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/character_encoding" android:key="phone_encode" android:fragment="com.oplus.settings.feature.language.localepicker.EncodePicker" settings:controller="com.oplus.settings.feature.language.LanguageEncodeController" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/tai_lue_support_text" android:key="tai_lue_support" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.feature.language.RegionFormatExamplePreference android:title="@string/region_format_sample" android:key="key_region_example" settings:selectable="false" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="phone_language_footer" />
+</PreferenceScreen>

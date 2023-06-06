@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.CheckableRelativeLayout android:paddingBottom="12.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/coui_delete_alert_dialog_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_single_list_padding_left" android:paddingEnd="@dimen/alert_dialog_single_list_padding_right" style="@style/PreferenceContent">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/radioButton" style="@style/PreferenceTitle" />
+        <TextView android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_alert_dialog_content_panel_padding_top" android:layout_below="@id/title" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/radioButton" style="@style/PreferenceSummary" />
+        <RadioButton android:id="@id/radioButton" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:forceDarkAllowed="false" />
+    </RelativeLayout>
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/content" />
+</com.android.settings.widget.CheckableRelativeLayout>

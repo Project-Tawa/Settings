@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_bottom_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?couiDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:alpha="1.0" android:forceDarkAllowed="false" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="68.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <com.coui.appcompat.widget.COUIButton android:id="@id/rl_bottom_control_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/back_button_label" android:layout_weight="1.0" android:contentDescription="@string/back_button_label" style="?couiButtonColorfulWhiteStyle" />
+        <com.coui.appcompat.widget.COUIButton android:id="@id/rl_next_step" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/next" android:layout_weight="1.0" android:contentDescription="@string/next" android:layout_marginStart="8.0dip" style="?couiButtonColorfulDefaultStyle" />
+    </LinearLayout>
+</RelativeLayout>

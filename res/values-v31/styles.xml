@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudDynamicColorThemeGlifV3" parent="@style/SudThemeGlifV3">
+        <item name="android:textColorLink">@color/sud_dynamic_color_accent_glif_v3_dark</item>
+        <item name="android:timePickerDialogTheme">@style/SudDynamicColorDateTimePickerDialogTheme</item>
+        <item name="android:datePickerDialogTheme">@style/SudDynamicColorDateTimePickerDialogTheme</item>
+        <item name="alertDialogTheme">@style/SudDynamicColorAlertDialogThemeCompat</item>
+        <item name="colorAccent">@color/sud_dynamic_color_accent_glif_v3_dark</item>
+        <item name="sucFullDynamicColor">false</item>
+    </style>
+    <style name="SudDynamicColorThemeGlifV3.Light" parent="@style/SudThemeGlifV3.Light">
+        <item name="android:textColorLink">@color/sud_dynamic_color_accent_glif_v3_light</item>
+        <item name="android:timePickerDialogTheme">@style/SudDynamicColorDateTimePickerDialogTheme.Light</item>
+        <item name="android:datePickerDialogTheme">@style/SudDynamicColorDateTimePickerDialogTheme.Light</item>
+        <item name="alertDialogTheme">@style/SudDynamicColorAlertDialogThemeCompat.Light</item>
+        <item name="colorAccent">@color/sud_dynamic_color_accent_glif_v3_light</item>
+        <item name="sucFullDynamicColor">false</item>
+    </style>
+    <style name="SudFullDynamicColorThemeGlifV3" parent="@style/SudDynamicColorThemeGlifV3">
+        <item name="android:colorForeground">@android:color/Indigo_800</item>
+        <item name="android:colorBackground">@android:color/accent_device_default_50</item>
+        <item name="android:textColorPrimary">@color/sud_system_primary_text</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/sud_system_tertiary_text_inactive</item>
+        <item name="android:textColorSecondary">@color/sud_system_secondary_text</item>
+        <item name="android:windowBackground">@android:color/accent_device_default_50</item>
+        <item name="android:colorForegroundInverse">@android:color/accent_device_default_50</item>
+        <item name="android:textColorTertiary">@color/sud_system_tertiary_text_inactive</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/sud_system_tertiary_text_inactive</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/accent_device_default_50</item>
+        <item name="android:navigationBarColor">@android:color/accent_device_default_50</item>
+        <item name="alertDialogTheme">@style/SudFullDynamicColorAlertDialogThemeCompat</item>
+        <item name="colorBackgroundFloating">@android:color/accent_device_default_50</item>
+        <item name="colorButtonNormal">@color/button_material_dark</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="sucFullDynamicColor">true</item>
+    </style>
+    <style name="SudFullDynamicColorThemeGlifV3.Light" parent="@style/SudDynamicColorThemeGlifV3.Light">
+        <item name="android:colorForeground">@android:color/accent_device_default_50</item>
+        <item name="android:colorBackground">@android:color/Indigo_800</item>
+        <item name="android:textColorPrimary">@color/sud_system_primary_text</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/sud_system_tertiary_text_inactive</item>
+        <item name="android:textColorSecondary">@color/sud_system_secondary_text</item>
+        <item name="android:windowBackground">@android:color/Indigo_800</item>
+        <item name="android:colorForegroundInverse">@android:color/Indigo_800</item>
+        <item name="android:textColorTertiary">@color/sud_system_tertiary_text_inactive</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/Indigo_800</item>
+        <item name="android:navigationBarColor">@android:color/Indigo_800</item>
+        <item name="alertDialogTheme">@style/SudFullDynamicColorAlertDialogThemeCompat.Light</item>
+        <item name="colorBackgroundFloating">@android:color/Indigo_800</item>
+        <item name="colorButtonNormal">@color/button_material_light</item>
+        <item name="colorControlHighlight">@color/ripple_material_light</item>
+        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+        <item name="sucFullDynamicColor">true</item>
+    </style>
+    <style name="Theme.AlertDialog.SettingsLib" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:colorBackground">@color/settingslib_dialog_background</item>
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:colorError">@color/settingslib_dialog_colorError</item>
+        <item name="colorAccent">@color/settingslib_dialog_accent</item>
+        <item name="dialogCornerRadius">@dimen/settingslib_dialogCornerRadius</item>
+    </style>
+    <style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="colorAccent">@color/settingslib_accent_device_default_light</item>
+        <item name="colorPrimary">@color/settingslib_primary_device_default_settings_light</item>
+        <item name="elevationOverlayColor">?colorPrimary</item>
+        <item name="elevationOverlayEnabled">true</item>
+    </style>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:progressBarStyleHorizontal">@style/HorizontalProgressBar.SettingsLib</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.PreferenceTitle.SettingsLib</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">16.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">16.0dip</item>
+        <item name="android:switchStyle">@style/Switch.SettingsLib</item>
+        <item name="preferenceTheme">@style/PreferenceTheme.SettingsLib</item>
+    </style>
+    <style name="Theme.SubSettingsBase" parent="@style/Theme.SettingsBase">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="alertDialogTheme">@style/Theme.AlertDialog.SettingsLib</item>
+        <item name="colorControlNormal">?android:colorControlNormal</item>
+    </style>
+    <style name="Banner.ButtonText.SettingsLib" parent="@android:style/AlertDialog">
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+    <style name="Banner.Dismiss.SettingsLib" parent="@android:style/Widget.DeviceDefault.ImageButton">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="Banner.Preference.SettingsLib" parent="@android:style/Widget.DeviceDefault">
+        <item name="android:background">@drawable/settingslib_card_background</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:paddingStart">20.0dip</item>
+        <item name="android:paddingEnd">20.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="Banner.Subtitle.SettingsLib" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Banner.Summary.SettingsLib" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Banner.Title.SettingsLib" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+    </style>
+    <style name="CollapsingToolbarTitle.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+    </style>
+    <style name="CollapsingToolbarTitle.Expanded" parent="@style/CollapsingToolbarTitle.Collapsed">
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+    </style>
+    <style name="HorizontalProgressBar.SettingsLib" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/settingslib_progress_horizontal</item>
+        <item name="android:scaleY">0.5</item>
+    </style>
+    <style name="MainSwitchText.Settingslib" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+    </style>
+    <style name="PreferenceTheme.SettingsLib" parent="@style/PreferenceThemeOverlay">
+        <item name="checkBoxPreferenceStyle">@style/SettingsCheckBoxPreference.SettingsLib</item>
+        <item name="dialogPreferenceStyle">@style/SettingsPreference.SettingsLib</item>
+        <item name="dropdownPreferenceStyle">@style/SettingsDropdownPreference.SettingsLib</item>
+        <item name="editTextPreferenceStyle">@style/SettingsEditTextPreference.SettingsLib</item>
+        <item name="footerPreferenceStyle">@style/Preference.Material</item>
+        <item name="preferenceCategoryStyle">@style/SettingsCategoryPreference.SettingsLib</item>
+        <item name="preferenceCategoryTitleTextAppearance">@style/TextAppearance.CategoryTitle.SettingsLib</item>
+        <item name="preferenceStyle">@style/SettingsPreference.SettingsLib</item>
+        <item name="seekBarPreferenceStyle">@style/SettingsSeekbarPreference.SettingsLib</item>
+        <item name="switchPreferenceStyle">@style/SettingsSwitchPreference.SettingsLib</item>
+    </style>
+    <style name="SettingsCategoryPreference.SettingsLib" parent="@style/Preference.Category.Material">
+        <item name="allowDividerAbove">@bool/settingslib_config_allow_divider</item>
+        <item name="allowDividerBelow">@bool/settingslib_config_allow_divider</item>
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style>
+    <style name="SettingsCheckBoxPreference.SettingsLib" parent="@style/Preference.CheckBoxPreference.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+        <item name="layout">@layout/settingslib_preference</item>
+    </style>
+    <style name="SettingsDropdownPreference.SettingsLib" parent="@style/Preference.DropDown.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+        <item name="layout">@layout/settingslib_dropdown_preference</item>
+    </style>
+    <style name="SettingsEditTextPreference.SettingsLib" parent="@style/Preference.DialogPreference.EditTextPreference.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+        <item name="layout">@layout/settingslib_preference</item>
+    </style>
+    <style name="SettingsPreference.SettingsLib" parent="@style/Preference.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+        <item name="layout">@layout/settingslib_preference</item>
+    </style>
+    <style name="SettingsSeekbarPreference.SettingsLib" parent="@style/Preference.SeekBarPreference.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+    </style>
+    <style name="SettingsSwitchPreference.SettingsLib" parent="@style/Preference.SwitchPreference.Material">
+        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
+        <item name="layout">@layout/settingslib_preference</item>
+    </style>
+    <style name="SudDynamicColorAlertDialogThemeCompat" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:colorBackground">@color/sud_glif_v3_dialog_background_color_dark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorAccent">@color/sud_dynamic_color_accent_glif_v3_dark</item>
+        <item name="dialogCornerRadius">@dimen/sud_glif_device_default_dialog_corner_radius</item>
+    </style>
+    <style name="SudDynamicColorAlertDialogThemeCompat.Light" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorBackground">@color/sud_glif_v3_dialog_background_color_light</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorAccent">@color/sud_dynamic_color_accent_glif_v3_light</item>
+        <item name="dialogCornerRadius">@dimen/sud_glif_device_default_dialog_corner_radius</item>
+    </style>
+    <style name="SudDynamicColorDateTimePickerDialogTheme" parent="@style/SudDateTimePickerDialogTheme">
+        <item name="colorAccent">@color/sud_dynamic_color_accent_glif_v3_dark</item>
+        <item name="dialogCornerRadius">@dimen/sud_glif_device_default_dialog_corner_radius</item>
+    </style>
+    <style name="SudDynamicColorDateTimePickerDialogTheme.Light" parent="@style/SudDateTimePickerDialogTheme.Light">
+        <item name="colorAccent">@color/sud_dynamic_color_accent_glif_v3_light</item>
+        <item name="dialogCornerRadius">@dimen/sud_glif_device_default_dialog_corner_radius</item>
+    </style>
+    <style name="SudFullDynamicColorAlertDialogThemeCompat" parent="@style/SudDynamicColorAlertDialogThemeCompat">
+        <item name="android:colorBackground">@color/sud_system_neutral1_900</item>
+    </style>
+    <style name="SudFullDynamicColorAlertDialogThemeCompat.Light" parent="@style/SudDynamicColorAlertDialogThemeCompat.Light">
+        <item name="android:colorBackground">@color/sud_system_neutral1_50</item>
+    </style>
+    <style name="Switch.SettingsLib" parent="@android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:minHeight">@dimen/settingslib_preferred_minimum_touch_target</item>
+        <item name="android:thumb">@drawable/settingslib_switch_thumb</item>
+        <item name="android:track">@drawable/settingslib_switch_track</item>
+        <item name="android:switchMinWidth">52.0dip</item>
+    </style>
+    <style name="TextAppearance.CategoryTitle.SettingsLib" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.PreferenceTitle.SettingsLib" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+    </style>
+</resources>

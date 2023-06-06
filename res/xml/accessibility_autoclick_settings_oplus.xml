@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_autoclick_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_autoclick_preference_title" android:key="auto_click_switch" />
+    <PreferenceCategory android:title="@string/accessibility_autoclick_stay_time" android:key="auto_click_delay_time">
+        <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:title="@string/accessibility_autoclick_short_title" android:key="accessibility_control_autoclick_200ms" android:summary="@string/accessibility_autoclick_short_summary" />
+        <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:title="@string/accessibility_autoclick_medium_title" android:key="accessibility_control_autoclick_600ms" android:summary="@string/accessibility_autoclick_medium_summary" />
+        <com.oplus.settings.widget.preference.OplusRadioButtonPreference android:title="@string/accessibility_autoclick_long_title" android:key="accessibility_control_autoclick_1sec" android:summary="@string/accessibility_autoclick_long_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="footer_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference_oplus" android:selectable="false" android:key="autoclick_footer" android:summary="@string/accessibility_autoclick_tips" />
+    </PreferenceCategory>
+</PreferenceScreen>

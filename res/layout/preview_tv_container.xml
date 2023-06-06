@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.android.settings.TouchBlockingFrameLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:textColor="@color/coui_preference_title_color_normal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0sp" android:text="@string/font_size_preview_text_title" android:lineSpacingExtra="@dimen/font_size_preview_line_space_extra" android:lineSpacingMultiplier="1.1" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textColor="@color/coui_preference_title_color_normal" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0sp" android:text="@string/font_size_preview_text_subtitle" android:lineSpacingExtra="@dimen/font_size_preview_line_space_extra" android:lineSpacingMultiplier="1.4" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="@color/coui_preference_title_color_normal" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/font_size_preview_text_body" android:lineSpacingExtra="@dimen/font_size_preview_line_space_extra" android:lineSpacingMultiplier="1.4" />
+</merge>

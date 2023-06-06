@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>Väike</item>
+        <item>Suur</item>
+    </string-array>
+    <string-array name="aod_date_entries">
+        <item>Kuva Gregoriuse kalender</item>
+        <item>Kuva Gregoriuse ja kuufaaside kalender</item>
+        <item>Ära kuva</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Puudub</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP või CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Seadme sisemälu</item>
+        <item>Eemaldatav SD-kaart</item>
+        <item>Laske süsteemil valida</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Asukoht</item>
+        <item>Isiklik</item>
+        <item>SMS</item>
+        <item>Meedium</item>
+        <item>Seade</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Nõua alati</item>
+        <item>Nõutav 15 minuti pärast</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Väljas</item>
+        <item>Silu</item>
+        <item>Laiendatud</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Üle 30 päeva</item>
+        <item>Üle 60 päeva</item>
+        <item>Üle 90 päeva</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Kasuta süsteemi vaikesätet: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutit</item>
+        <item>5 minutit</item>
+        <item>1 tund</item>
+        <item>Ajalõputa</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Vaikimisi</item>
+        <item>Puudub</item>
+        <item>Liigendus</item>
+        <item>Langev vari</item>
+        <item>Tõstetud</item>
+        <item>Alla vajutatud</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Vaikimisi</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif, tihendatud</item>
+        <item>Sans-Serif Monospace</item>
+        <item>Serif</item>
+        <item>Serif Monospace</item>
+        <item>Lihtne</item>
+        <item>Kursiiv</item>
+        <item>Väikesed suurtähed</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Ainult kodu</item>
+        <item>Automaatne</item>
+    </string-array>
+    <string-array name="coui_solor_mounth">
+        <item>jaanuar</item>
+        <item>veebruar</item>
+        <item>märts</item>
+        <item>aprill</item>
+        <item>mai</item>
+        <item>juuni</item>
+        <item>juuli</item>
+        <item>august</item>
+        <item>september</item>
+        <item>oktoober</item>
+        <item>november</item>
+        <item>detsember</item>
+    </string-array>
+    <string-array name="coui_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="cut_mode_entries">
+        <item>Automaatne kohandamine</item>
+        <item>Kuva esikaamera</item>
+        <item>Peida esikaamera (täisekraan)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Tume</item>
+        <item>Valgus</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Viimase 30 päeva jooksul</item>
+        <item>Määrake usage cycle.</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Helina helitugevus</item>
+        <item>Meediumi helitugevus</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Mitte kunagi</item>
+        <item>15 sekundit</item>
+        <item>30 sekundit</item>
+        <item>1 minut</item>
+        <item>2 minutit</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>30 minutit</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Väike</item>
+        <item>Vaikimisi</item>
+        <item>Suur</item>
+        <item>Maksimaalne</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Väljas</item>
+        <item>Popm.</item>
+        <item>Rokk</item>
+        <item>Riik</item>
+        <item>Džäss</item>
+        <item>Klass. muusika</item>
+        <item>Metal</item>
+        <item>Bluus</item>
+        <item>Hiphop</item>
+        <item>Tantsumuusika</item>
+        <item>Elektr. muusika</item>
+        <item>Kohand.</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (vaikimisi)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>Enimkasutatav failisüsteemi tüüp mobiilsete mäluseadmete jaoks</item>
+        <item>Täiustatud failisüsteem, mis lubab suuremaid kui 4 GB faile. Failde edastamiseks tuleb arvutisse installida draiver.</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Kohe</item>
+        <item>5 sekundit</item>
+        <item>15 sekundit</item>
+        <item>30 sekundit</item>
+        <item>1 minut</item>
+        <item>2 minutit</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>30 minutit</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Lühike</item>
+        <item>Keskmine</item>
+        <item>Pikk</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Puudub</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries_new">
+        <item>Näita ikoone</item>
+        <item>Näita teavituste arvu</item>
+    </string-array>
+    <string-array name="oplus_app_install_location_entries_removable_sd">
+        <item>Süsteemimälu</item>
+        <item>Telefoni mäluruum</item>
+        <item>Süsteemi vaikesäte</item>
+    </string-array>
+    <string-array name="oplus_app_install_location_entries_unremovable_sd">
+        <item>Süsteemiruum</item>
+        <item>Telefoni mäluruum</item>
+        <item>Oleneb süsteemist</item>
+    </string-array>
+    <string-array name="oplus_preset_names">
+        <item>Vaikesäte</item>
+        <item>Popmuusika</item>
+        <item>Rokk</item>
+        <item>Kantri</item>
+        <item>Džäss</item>
+        <item>Klassikaline muusika</item>
+        <item>Metal</item>
+        <item>Bluus</item>
+        <item>Hiphop</item>
+        <item>Tants</item>
+        <item>Elektrooniline</item>
+        <item>Kohandatud</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6 sek</item>
+        <item>Alati sees</item>
+        <item>Väljas</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>Mis on teie õpetaja nimi?</item>
+        <item>Mis on teie ema nimi?</item>
+        <item>Mis on teie isa nimi?</item>
+        <item>Mis on teie keskkooli nimi?</item>
+        <item>Mis on teie lemmikrestoran?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normaalne</item>
+        <item>Mõõdukas</item>
+        <item>Madal</item>
+        <item>Kriitiline</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Püsiv</item>
+        <item>Ülemine tegevus</item>
+        <item>Oluline (esiplaan)</item>
+        <item>Oluline (taustavärv)</item>
+        <item>Varundamine</item>
+        <item>Suur kaal</item>
+        <item>Teenus (käivitamine)</item>
+        <item>Teenus (taaskäivitamine)</item>
+        <item>Vastuvõtja</item>
+        <item>Avakuva</item>
+        <item>Viimane tegevus</item>
+        <item>Vahemällu talletatud (tegevus)</item>
+        <item>Vahemällu talletatud (tegevuse klient)</item>
+        <item>Vahemällu talletatud (tühi)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normaalne</item>
+        <item>Mõõdukas</item>
+        <item>Madal</item>
+        <item>Väga madal</item>
+        <item>tundmatu</item>
+    </string-array>
+    <string-array name="running_applications_tabs">
+        <item>Kolmanda osapoole rakendused</item>
+        <item>Süsteemi rakendused</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekundit</item>
+        <item>30 sekundit</item>
+        <item>1 minut</item>
+        <item>2 minutit</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>30 minutit</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Küsi</item>
+        <item>Ära kunagi luba</item>
+        <item>Luba alati</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Ameerika</item>
+        <item>Euroopa</item>
+        <item>Aafrika</item>
+        <item>Aasia</item>
+        <item>Austraalia</item>
+        <item>Vaikse ookeani piirkond</item>
+        <item>Kõik</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Kasutusaeg</item>
+        <item>Viimati kasutatud aeg</item>
+        <item>Rakenduse nimi</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Puudub</item>
+        <item>Käsitsi</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Ühendus on katkestatud</item>
+        <item>Käivitamine …</item>
+        <item>Ühenduse loomine …</item>
+        <item>Ühendatud</item>
+        <item>Ajalõpp</item>
+        <item>Ebaõnnestus</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>Mobiilsidevõrk</item>
+        <item>Ainult Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>Mobiilsidevõrk</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>Ei</item>
+        <item>Jah</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Staatiline</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Tuvasta automaatselt</item>
+        <item>Käsitle mõõdetavana</item>
+        <item>Käsitle mittemõõdetevana</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Ühendatud</item>
+        <item>Kutsutud</item>
+        <item>Ebaõnnestus</item>
+        <item>Saadaval</item>
+        <item>Vahemikust väljas</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Vajutage nuppu</item>
+        <item>PIN-kood partnerseadmest</item>
+        <item>PIN-kood sellest seadmest</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Juhuslik MAC-aadress (vaikimisi)</item>
+        <item>Seadme MAC-aadress</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Kehv</item>
+        <item>Kehv</item>
+        <item>Rahuldav</item>
+        <item>Hea</item>
+        <item>Suurepärane</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skannimine…</item>
+        <item>Ühenduse loomine…</item>
+        <item>Autentimine…</item>
+        <item>IP-aadressi hankimine…</item>
+        <item>Ühendatud</item>
+        <item>Peatatud</item>
+        <item>Ühenduse katkestamine…</item>
+        <item>Ühendus on katkestatud</item>
+        <item>Nurjus</item>
+        <item>Blokeeritud</item>
+        <item>Ajutine halbade ühenduste vältimine</item>
+    </string-array>
+</resources>

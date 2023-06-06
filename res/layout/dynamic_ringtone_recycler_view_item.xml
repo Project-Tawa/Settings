@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dynamic_ringtone_bg" android:background="@drawable/dynamic_ringtone_mode_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false">
+        <ImageView android:id="@id/dynamic_ringtone_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/dynamic_ringtone_anim" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/coui_preference_title_color" android:layout_gravity="center_horizontal" android:id="@id/dynamic_ringtone_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</LinearLayout>

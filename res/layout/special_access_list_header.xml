@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/toolbar_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/toolbar_margin" android:paddingEnd="@dimen/toolbar_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/TF05" android:id="@id/special_access_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/special_access_divider" android:background="@drawable/coui_divider_horizontal_without_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:contentDescription="@null" />
+    <include android:id="@id/tab_container" android:layout_width="fill_parent" android:layout_height="@dimen/special_access_chip_group_height" android:layout_marginTop="@dimen/common_margin" android:layout_marginBottom="@dimen/common_margin" layout="@layout/special_access_chip_group" />
+</LinearLayout>

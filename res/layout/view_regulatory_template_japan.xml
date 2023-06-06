@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/regulatory_item_padding_mader" android:paddingRight="@dimen/regulatory_item_padding_mader" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:text="@string/japan_country" style="@style/RegulatoryTitleStyle" />
+    <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/regulatory_content_margin_top" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <ImageView android:id="@id/ic_japan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_japan_regulatory" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/t_text" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/ic_japan_regulatory_t" app:layout_constraintBottom_toBottomOf="@id/t_number" app:layout_constraintLeft_toRightOf="@id/ic_japan" app:layout_constraintTop_toTopOf="@id/t_number" />
+        <LinearLayout android:id="@id/t_number_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layoutDirection="ltr" app:layout_constraintLeft_toRightOf="@id/t_text">
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/japan_regulatory_adf" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:id="@id/t_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:id="@id/r_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/ic_japan_regulatory_r" app:layout_constraintLeft_toRightOf="@id/ic_japan" app:layout_constraintTop_toBottomOf="@id/t_text" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:id="@id/r_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="7.0dip" android:text="018-200043" app:layout_constraintLeft_toRightOf="@id/r_text" app:layout_constraintTop_toBottomOf="@id/t_number_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@id/japan_bottom_statement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:src="@drawable/ic_regulatory_japan_5g" />
+</LinearLayout>

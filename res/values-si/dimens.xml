@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="finger_promote_lineSpacing">1.1</item>
+    <item type="dimen" name="security_sheild_lineSpacing">1.2</item>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/accessibility_category_feedback" android:key="interaction_control_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/long_press_timeout_selector_titles" android:layout="@layout/coui_preference" android:title="@string/accessibility_long_press_timeout_preference_title" android:key="select_long_press_timeout_preference" android:widgetLayout="@layout/coui_preference_widget_jump" android:entryValues="@array/long_press_timeout_selector_values" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/accessibility_control_timeout_title" android:key="accessibility_control_timeout_preference_fragment" android:fragment="com.oplus.settings.feature.accessibility.OplusAccessibilityControlTimeoutPreferenceFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_vibration_settings_title_new" android:key="vibration_preference_screen" android:fragment="com.oplus.settings.feature.accessibility.OplusVibrationSettings" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_ignore_repeat_click" android:key="accessibility_ignore_repeat_click" android:fragment="com.oplus.settings.feature.accessibility.AccessibilityIgnoreRepeatClickFragment" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:title="@string/accessibility_category_input" android:key="input_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_toggle_large_pointer_icon_title" android:key="toggle_large_pointer_icon" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_autoclick_preference_title" android:key="autoclick_preference" android:fragment="com.oplus.settings.feature.accessibility.OplusToggleAutoclickPreferenceFragment" settings:showNormalColor="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

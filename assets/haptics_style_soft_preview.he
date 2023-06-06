@@ -1,0 +1,69 @@
+{
+    "Metadata": {
+        "Version": 2,
+        "Created": "2021-11-18",
+        "Description": "Export from RichTap HeConvert"
+    },
+    "PatternList": [
+        {
+            "AbsoluteTime": 0,
+            "Pattern": [
+                {
+                    "Event": {
+                        "Parameters": {
+                            "Frequency": 45,
+                            "Intensity": 60
+                        },
+                        "Type": "transient",
+                        "RelativeTime": 416,
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Parameters": {
+                            "Frequency": 45,
+                            "Intensity": 100
+                        },
+                        "Type": "transient",
+                        "RelativeTime": 1833,
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Parameters": {
+                            "Frequency": 50,
+                            "Intensity": 30
+                        },
+                        "Type": "transient",
+                        "RelativeTime": 4917,
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Parameters": {
+                            "Frequency": 50,
+                            "Intensity": 30
+                        },
+                        "Type": "transient",
+                        "RelativeTime": 5533,
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Parameters": {
+                            "Frequency": 45,
+                            "Intensity": 60
+                        },
+                        "Type": "transient",
+                        "RelativeTime": 6167,
+                        "Index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

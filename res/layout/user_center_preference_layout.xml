@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/user_center_preference" android:background="@drawable/coui_list_selector_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/support_preference_titel_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" settings:couiType="round" style="@style/PreferenceIcon" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/PreferenceContent">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/COUIPreferenceTitleStyle" />
+        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/COUIPreferenceSummaryStyle" />
+    </RelativeLayout>
+    <com.coui.appcompat.widget.COUIHintRedDot android:layout_gravity="center_vertical" android:id="@id/jump_icon_red_dot" android:visibility="invisible" android:layout_width="@dimen/user_center_red_dot_size" android:layout_height="@dimen/user_center_red_dot_size" android:layout_marginStart="@dimen/support_preference_red_dot_margin_start" android:layout_marginEnd="@dimen/user_center_red_dot_margin_end" settings:couiHintRedDotColor="@color/user_center_reddot_color" settings:couiHintRedPointMode="ponitOnly" style="@style/Widget.COUI.COUIHintRedDot.Small" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/coui_jump" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/coui_btn_next" />
+</LinearLayout>

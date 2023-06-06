@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/disabled_app" android:key="disabled_app"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/dont_recommended_disable_app" android:key="dont_recommended_disable_app_category" settings:isFirstCategory="true" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="normal_disable_app_category" />
+</PreferenceScreen>

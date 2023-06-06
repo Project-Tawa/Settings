@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/message_container" android:paddingTop="10.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_text_description_margin" android:paddingEnd="@dimen/preference_text_description_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/accessibility_introduction" android:fontFamily="sans-serif-medium" style="@style/COUIListViewTextAppearance.Small" />
+    <TextView android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/COUIListViewTextAppearance.Small" />
+</LinearLayout>

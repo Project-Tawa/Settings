@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/regulatory_item_padding" android:paddingRight="@dimen/regulatory_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:text="@string/ksa_country" style="@style/RegulatoryTitleStyle" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/regulatory_dash_line_rect" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/regulatory_content_margin_top">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/citc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CITC" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/number_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/sabic_regulatory" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/number_right_parentheses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text=")" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/application_detail_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/installed_app_details_header" android:selectable="false" android:key="header_view" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/instant_app_buttons" android:selectable="false" android:key="instant_app_buttons" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory settings:isFirstCategory="true" settings:key="permission_control_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplus_manage_notification" android:key="key_notification_manager" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusAppNotificationPreferenceController" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/permission_manage" android:key="key_permission_manager" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusAppPermissionPreferenceController" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/power_management" android:key="battery" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="state_control_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/data_consume_title" android:key="key_data_usage" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusAppDataUsagePreferenceController" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/storage_use" android:key="storage_use" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusAppStoragePreferenceController" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/action_record_title" android:key="key_action_record" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusAppActionRecordPreferenceController" settings:showSummary="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="display_control_category" settings:controller="com.oplus.settings.feature.appmanager.details.controller.DisplayCategoryPreferenceController">
+        <SwitchPreference android:title="@string/match_screen_title" android:key="display_compat" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/picture_in_picture_title" android:key="picture_in_picture" android:fragment="com.oplus.settings.feature.appmanager.details.OplusPictureInPictureDetails" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusPictureInPictureDetailPreferenceController" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/launch_by_default" android:selectable="true" android:key="preferred_settings" settings:controller="com.oplus.settings.feature.appmanager.details.controller.OplusAppOpenByDefaultPreferenceController" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/unused_apps" android:key="app_hibernation_info" settings:controller="com.android.settings.applications.appinfo.AppHibernationPreferenceCategoryController">
+        <SwitchPreference android:title="@string/unused_apps_switch" android:key="hibernation_switch" settings:controller="com.android.settings.applications.appinfo.HibernationSwitchPreferenceController" />
+    </PreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="app_settings_link_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/app_settings_link" android:key="app_settings_link" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

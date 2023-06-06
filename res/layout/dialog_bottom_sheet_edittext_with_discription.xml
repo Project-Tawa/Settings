@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/coui_transparence" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.widget.toolbar.COUIToolbar android:id="@id/normal_bottom_sheet_toolbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/coui_textview_default_normal" android:id="@id/normal_bottom_sheet_edit_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:textAlignment="textStart" android:paddingStart="@dimen/toolbar_margin" android:paddingEnd="@dimen/toolbar_margin" />
+            <com.coui.appcompat.widget.COUIEditText android:id="@id/normal_bottom_sheet_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:quickDelete="true" style="?couiEditTextLineHintDisableStyle" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

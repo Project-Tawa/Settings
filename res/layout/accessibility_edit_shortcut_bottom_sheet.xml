@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/coui_toolbar_title_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/accessibility_shortcut_select" android:fontFamily="sans-serif-medium" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/accessibility_edit_shortcut_oplus" />
+</LinearLayout>

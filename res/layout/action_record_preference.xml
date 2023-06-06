@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/action_record_preference_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/action_record_bar_chart_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <fragment android:name="com.oplus.settings.privacy.barchart.MainUsageFragment" android:id="@id/action_record_bar_chart_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_resolution" android:key="key_screen_resolution"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="screen_resolution_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_auto_switch" android:key="screen_resolution_auto" android:summary="@string/screen_resolution_change_auto" android:order="1" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/screen_resolution_qhd" android:key="screen_resolution_qhd" android:order="3" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/screen_resolution_fhd" android:key="screen_resolution_fhd" android:order="2" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="disable_qhd_category">
+        <com.oplus.settings.widget.preference.SettingsSpannablePreference android:persistent="false" android:layout="@layout/coui_detail_preference" android:key="disable_qhd_preference" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

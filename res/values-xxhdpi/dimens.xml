@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size_in_preference">28.0dip</dimen>
+    <dimen name="coui_navigation_item_text_size">10.0sp</dimen>
+    <dimen name="dynamic_ringtone_list_item_radius">36.0px</dimen>
+    <dimen name="used_text_size">36.0px</dimen>
+    <dimen name="coui_search_linear_divider_width">2.0px</dimen>
+    <dimen name="display_font_preview_divider">2.0px</dimen>
+    <dimen name="manage_application_button_height">25.0dip</dimen>
+    <dimen name="manage_application_lock_height">27.0dip</dimen>
+    <dimen name="manage_application_lock_padding">23.0dip</dimen>
+    <dimen name="manage_application_lock_width">27.0dip</dimen>
+</resources>

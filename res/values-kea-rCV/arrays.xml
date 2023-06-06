@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>883959_Small</item>
+        <item>883959_Large</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>73848_Animation off</item>
+        <item>73848_Animation scale 0.5x</item>
+        <item>73848_Animation scale 1x</item>
+        <item>73848_Animation scale 1.5x</item>
+        <item>73848_Animation scale 2x</item>
+        <item>73848_Animation scale 5x</item>
+        <item>73848_Animation scale 10x</item>
+    </string-array>
+    <string-array name="aod_date_entries">
+        <item>120804_Display Gregorian calendar</item>
+        <item>120804_Display Gregorian and lunar calendars</item>
+        <item>120804_Do not display</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>5427_None</item>
+        <item>5427_PAP</item>
+        <item>5427_CHAP</item>
+        <item>5427_PAP or CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>5428_IPv4</item>
+        <item>5428_IPv6</item>
+        <item>5428_IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>50988_Internal device storage</item>
+        <item>50988_Removable SD card</item>
+        <item>50988_Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>36868_Location</item>
+        <item>36868_Personal</item>
+        <item>36868_SMS</item>
+        <item>36868_Media</item>
+        <item>36868_Device</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>145967_Location</item>
+        <item>145967_Location</item>
+        <item>145967_Location</item>
+        <item>145967_Vibrate</item>
+        <item>145967_Read contacts</item>
+        <item>145967_Modify contacts</item>
+        <item>145967_Read call log</item>
+        <item>145967_Modify call log</item>
+        <item>145967_Read calendar</item>
+        <item>145967_Modify calendar</item>
+        <item>145967_Location</item>
+        <item>145967_Post notification</item>
+        <item>145967_Location</item>
+        <item>145967_Call phone</item>
+        <item>145967_Read SMS/MMS</item>
+        <item>145967_Write SMS/MMS</item>
+        <item>145967_Receive SMS/MMS</item>
+        <item>145967_Receive SMS/MMS</item>
+        <item>145967_Receive SMS/MMS</item>
+        <item>145967_Receive SMS/MMS</item>
+        <item>145967_Send SMS/MMS</item>
+        <item>145967_Read SMS/MMS</item>
+        <item>145967_Write SMS/MMS</item>
+        <item>145967_Modify settings</item>
+        <item>145967_Draw on top</item>
+        <item>145967_Access notifications</item>
+        <item>145967_Camera</item>
+        <item>145967_Record audio</item>
+        <item>145967_Play audio</item>
+        <item>145967_Read clipboard</item>
+        <item>145967_Modify clipboard</item>
+        <item>145967_Media buttons</item>
+        <item>145967_Audio focus</item>
+        <item>145967_Master volume</item>
+        <item>145967_Voice volume</item>
+        <item>145967_Ring volume</item>
+        <item>145967_Media volume</item>
+        <item>145967_Alarm volume</item>
+        <item>145967_Notification volume</item>
+        <item>145967_Bluetooth volume</item>
+        <item>145967_Keep awake</item>
+        <item>145967_Location</item>
+        <item>145967_Location</item>
+        <item>145967_Get usage stats</item>
+        <item>145967_Mute/unmute microphone</item>
+        <item>145967_Show toast</item>
+        <item>145967_Project media</item>
+        <item>145967_Activate VPN</item>
+        <item>145967_Write wallpaper</item>
+        <item>145967_Assist structure</item>
+        <item>145967_Assist screenshot</item>
+        <item>145967_Read phone state</item>
+        <item>145967_Add voicemail</item>
+        <item>145967_Use sip</item>
+        <item>145967_Process outgoing call</item>
+        <item>145967_Fingerprint</item>
+        <item>145967_Body sensors</item>
+        <item>145967_Read cell broadcasts</item>
+        <item>145967_Mock location</item>
+        <item>145967_Read storage</item>
+        <item>145967_Write storage</item>
+        <item>145967_Turn on screen</item>
+        <item>145967_Get accounts</item>
+        <item>145967_Run in background</item>
+        <item>145967_Accessibility volume</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>145966_coarse location</item>
+        <item>145966_fine location</item>
+        <item>145966_GPS</item>
+        <item>145966_vibrate</item>
+        <item>145966_read contacts</item>
+        <item>145966_modify contacts</item>
+        <item>145966_read call log</item>
+        <item>145966_modify call log</item>
+        <item>145966_read calendar</item>
+        <item>145966_modify calendar</item>
+        <item>145966_wi-fi scan</item>
+        <item>145966_notification</item>
+        <item>145966_cell scan</item>
+        <item>145966_call phone</item>
+        <item>145966_read SMS</item>
+        <item>145966_write SMS</item>
+        <item>145966_receive SMS</item>
+        <item>145966_receive emergency SMS</item>
+        <item>145966_receive MMS</item>
+        <item>145966_receive WAP push</item>
+        <item>145966_send SMS</item>
+        <item>145966_read ICC SMS</item>
+        <item>145966_write ICC SMS</item>
+        <item>145966_modify settings</item>
+        <item>145966_draw on top</item>
+        <item>145966_access notifications</item>
+        <item>145966_camera</item>
+        <item>145966_record audio</item>
+        <item>145966_play audio</item>
+        <item>145966_read clipboard</item>
+        <item>145966_modify clipboard</item>
+        <item>145966_media buttons</item>
+        <item>145966_audio focus</item>
+        <item>145966_master volume</item>
+        <item>145966_voice volume</item>
+        <item>145966_ring volume</item>
+        <item>145966_media volume</item>
+        <item>145966_alarm volume</item>
+        <item>145966_notification volume</item>
+        <item>145966_bluetooth volume</item>
+        <item>145966_keep awake</item>
+        <item>145966_monitor location</item>
+        <item>145966_monitor high power location</item>
+        <item>145966_get usage stats</item>
+        <item>145966_mute/unmute microphone</item>
+        <item>145966_show toast</item>
+        <item>145966_project media</item>
+        <item>145966_activate VPN</item>
+        <item>145966_write wallpaper</item>
+        <item>145966_assist structure</item>
+        <item>145966_assist screenshot</item>
+        <item>145966_read phone state</item>
+        <item>145966_add voicemail</item>
+        <item>145966_use sip</item>
+        <item>145966_process outgoing call</item>
+        <item>145966_fingerprint</item>
+        <item>145966_body sensors</item>
+        <item>145966_read cell broadcasts</item>
+        <item>145966_mock location</item>
+        <item>145966_read storage</item>
+        <item>145966_write storage</item>
+        <item>145966_turn on screen</item>
+        <item>145966_get accounts</item>
+        <item>145966_run in background</item>
+        <item>145966_accessibility volume</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>73842_Standard limit</item>
+        <item>73842_No background processes</item>
+        <item>73842_At most 1 process</item>
+        <item>73842_At most 2 processes</item>
+        <item>73842_At most 3 processes</item>
+        <item>73842_At most 4 processes</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>84656_Always required</item>
+        <item>84656_Required after 15 minutes</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>145978_Off</item>
+        <item>145978_Debug</item>
+        <item>145978_Verbose</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>75005_More than 30 days</item>
+        <item>75005_More than 60 days</item>
+        <item>75005_More than 90 days</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>73597_0%</item>
+        <item>73597_50%</item>
+        <item>73597_100%</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>815060_Unspecified</item>
+        <item>815060_LTE</item>
+        <item>815060_HSPAP</item>
+        <item>815060_HSPA</item>
+        <item>815060_HSUPA</item>
+        <item>815060_HSDPA</item>
+        <item>815060_UMTS</item>
+        <item>815060_EDGE</item>
+        <item>815060_GPRS</item>
+        <item>815060_eHRPD</item>
+        <item>815060_EVDO_B</item>
+        <item>815060_EVDO_A</item>
+        <item>815060_EVDO_0</item>
+        <item>815060_1xRTT</item>
+        <item>815060_IS95B</item>
+        <item>815060_IS95A</item>
+        <item>815060_NR</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>147878_Use System Selection (Default)</item>
+        <item>147878_16 bits/sample</item>
+        <item>147878_24 bits/sample</item>
+        <item>147878_32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>147877_Use System Selection (Default)</item>
+        <item>147877_16 bits/sample</item>
+        <item>147877_24 bits/sample</item>
+        <item>147877_32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>147880_Use System Selection (Default)</item>
+        <item>147880_Mono</item>
+        <item>147880_Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>147879_Use System Selection (Default)</item>
+        <item>147879_Mono</item>
+        <item>147879_Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>147882_Optimized for Audio Quality</item>
+        <item>147882_Balanced Audio And Connection Quality</item>
+        <item>147882_Optimized for Connection Quality</item>
+        <item>147882_Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>147881_Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>147881_Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>147881_Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>147881_Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>147876_Use System Selection (Default)</item>
+        <item>147876_44.1 kHz</item>
+        <item>147876_48.0 kHz</item>
+        <item>147876_88.2 kHz</item>
+        <item>147876_96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>147875_Use System Selection (Default)</item>
+        <item>147875_44.1 kHz</item>
+        <item>147875_48.0 kHz</item>
+        <item>147875_88.2 kHz</item>
+        <item>147875_96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>147883_, active</item>
+        <item>147883_, active (media)</item>
+        <item>147883_, active (phone)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>147872_avrcp14</item>
+        <item>147872_avrcp13</item>
+        <item>147872_avrcp15</item>
+        <item>147872_avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>147871_AVRCP 1.4 (Default)</item>
+        <item>147871_AVRCP 1.3</item>
+        <item>147871_AVRCP 1.5</item>
+        <item>147871_AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>828940_MAP 1.2 (Default)</item>
+        <item>828940_MAP 1.3</item>
+        <item>828940_MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>145960_Use system default: %1$d</item>
+        <item>145960_1</item>
+        <item>145960_2</item>
+        <item>145960_3</item>
+        <item>145960_4</item>
+        <item>145960_5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>5416_2 minutes</item>
+        <item>5416_5 minutes</item>
+        <item>5416_1 hour</item>
+        <item>5416_Never time out</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries_new">
+        <item>829018_Disabled</item>
+        <item>829018_Enabled Filtered</item>
+        <item>829018_Enabled</item>
+        <item>829018_Enabled Headers Filtered</item>
+        <item>829018_Enabled Media Pkts Filtered</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>50984_Default</item>
+        <item>50984_None</item>
+        <item>50984_Outline</item>
+        <item>50984_Drop Shadow</item>
+        <item>50984_Raised</item>
+        <item>50984_Depressed</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>815058_Very small</item>
+        <item>815058_Small</item>
+        <item>815058_Default</item>
+        <item>815058_Large</item>
+        <item>815058_Very large</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>36862_25%</item>
+        <item>36862_50%</item>
+        <item>36862_75%</item>
+        <item>36862_100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>807692_Set by app</item>
+        <item>807692_White on black</item>
+        <item>807692_Black on white</item>
+        <item>807692_Yellow on black</item>
+        <item>807692_Yellow on blue</item>
+        <item>807692_Custom</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>50985_Default</item>
+        <item>50985_Sans-Serif</item>
+        <item>50985_Sans-Serif condensed</item>
+        <item>50985_Sans-Serif Monospace</item>
+        <item>50985_Serif</item>
+        <item>50985_Serif Monospace</item>
+        <item>50985_Casual</item>
+        <item>50985_Cursive</item>
+        <item>50985_Small Capitals</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>145982_RUIM/SIM</item>
+        <item>145982_NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>145979_Home only</item>
+        <item>145979_Automatic</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>73652_Enhanced Color</item>
+        <item>73652_Natural Colors Visible to the Naked Eye</item>
+        <item>73652_Colors Optimized for Digital Content</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>73653_Bright (Default)</item>
+        <item>73653_Natural</item>
+        <item>73653_Standard</item>
+    </string-array>
+    <string-array name="coui_lunar_mounth">
+        <item>76907_正月</item>
+        <item>76907_二月</item>
+        <item>76907_三月</item>
+        <item>76907_四月</item>
+        <item>76907_五月</item>
+        <item>76907_六月</item>
+        <item>76907_七月</item>
+        <item>76907_八月</item>
+        <item>76907_九月</item>
+        <item>76907_十月</item>
+        <item>76907_冬月</item>
+        <item>76907_腊月</item>
+    </string-array>
+    <string-array name="coui_solor_mounth">
+        <item>76906_January</item>
+        <item>76906_February</item>
+        <item>76906_March</item>
+        <item>76906_April</item>
+        <item>76906_May</item>
+        <item>76906_June</item>
+        <item>76906_July</item>
+        <item>76906_August</item>
+        <item>76906_September</item>
+        <item>76906_October</item>
+        <item>76906_November</item>
+        <item>76906_December</item>
+    </string-array>
+    <string-array name="coui_time_picker_ampm">
+        <item>852769_AM</item>
+        <item>852769_PM</item>
+    </string-array>
+    <string-array name="cut_mode_entries">
+        <item>145041_Auto adapt</item>
+        <item>145041_Show front camera</item>
+        <item>145041_Hide front camera (Show app in full screen)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>145977_Dark</item>
+        <item>145977_Light</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>50992_Last 30 days</item>
+        <item>50992_Set usage cycle...</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>73843_Off</item>
+        <item>73843_Show overdraw areas</item>
+        <item>73843_Shows areas for Deuteranomaly</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>87746_Ringtone volume</item>
+        <item>87746_Media volume</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>5406_Never</item>
+        <item>5406_15 seconds</item>
+        <item>5406_30 seconds</item>
+        <item>5406_1 minute</item>
+        <item>5406_2 minutes</item>
+        <item>5406_5 minutes</item>
+        <item>5406_10 minutes</item>
+        <item>5406_30 minutes</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>73846_None</item>
+        <item>73846_Logcat</item>
+        <item>73846_Systrace (Graphics)</item>
+        <item>73846_Call Stack on glGetError</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>73542_Small</item>
+        <item>73542_Default</item>
+        <item>73542_Large</item>
+        <item>73542_Maximum</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>84990_Off</item>
+        <item>84990_Pop</item>
+        <item>84990_Rock</item>
+        <item>84990_Country</item>
+        <item>84990_Jazz</item>
+        <item>84990_Classical</item>
+        <item>84990_Metal</item>
+        <item>84990_Blues</item>
+        <item>84990_Hip Hop</item>
+        <item>84990_Dance</item>
+        <item>84990_Electronics</item>
+        <item>84990_Custom</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>32242_FAT32 (Default)</item>
+        <item>32242_exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>32241_Most widely used file system type for mobile storage devices</item>
+        <item>32241_Improved file system that allows for files over 4GB. Might require a driver to be installed on your PC for file transfers.</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>73854_Never use HDCP checking</item>
+        <item>73854_Use HDCP checking for DRM content only</item>
+        <item>73854_Always use HDCP checking</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>73855_Never check</item>
+        <item>73855_Check DRM content only</item>
+        <item>73855_Always check</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>145954_Immediately</item>
+        <item>145954_5 seconds</item>
+        <item>145954_15 seconds</item>
+        <item>145954_30 seconds</item>
+        <item>145954_1 minute</item>
+        <item>145954_2 minutes</item>
+        <item>145954_5 minutes</item>
+        <item>145954_10 minutes</item>
+        <item>145954_30 minutes</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>5431_Short</item>
+        <item>5431_Medium</item>
+        <item>5431_Long</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>32754_None</item>
+        <item>32754_SPN</item>
+        <item>32754_IMSI</item>
+        <item>32754_GID</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries_new">
+        <item>166951_Show icons</item>
+        <item>166951_Show number of notifications</item>
+    </string-array>
+    <string-array name="oplus_app_install_location_entries_removable_sd">
+        <item>840801_System storage</item>
+        <item>840801_Phone storage</item>
+        <item>840801_System default</item>
+    </string-array>
+    <string-array name="oplus_app_install_location_entries_unremovable_sd">
+        <item>840802_System space</item>
+        <item>840802_Phone storage</item>
+        <item>840802_Depends on the system</item>
+    </string-array>
+    <string-array name="oplus_preset_names">
+        <item>840803_Default</item>
+        <item>840803_Pop</item>
+        <item>840803_Rock</item>
+        <item>840803_Country</item>
+        <item>840803_Jazz</item>
+        <item>840803_Classical</item>
+        <item>840803_Metal</item>
+        <item>840803_Blues</item>
+        <item>840803_Hip Hop</item>
+        <item>840803_Dance</item>
+        <item>840803_Electronic</item>
+        <item>840803_Custom</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>73847_None</item>
+        <item>73847_480p</item>
+        <item>73847_480p (safe)</item>
+        <item>73847_720p</item>
+        <item>73847_720p (safe)</item>
+        <item>73847_1080p</item>
+        <item>73847_1080p (safe)</item>
+        <item>73847_4K</item>
+        <item>73847_4K (safe)</item>
+        <item>73847_4K (Enhanced)</item>
+        <item>73847_4K (Enhanced, safe)</item>
+        <item>73847_720p, 1080p (dual screen)</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>815056_GSM/WCDMA preferred</item>
+        <item>815056_GSM only</item>
+        <item>815056_WCDMA only</item>
+        <item>815056_GSM/WCDMA auto</item>
+        <item>815056_CDMA/EvDo auto</item>
+        <item>815056_CDMA w/o EvDo</item>
+        <item>815056_EvDo only</item>
+        <item>815056_CDMA/EvDo/GSM/WCDMA</item>
+        <item>815056_CDMA + LTE/EvDo</item>
+        <item>815056_GSM/WCDMA/LTE</item>
+        <item>815056_Global</item>
+        <item>815056_LTE</item>
+        <item>815056_LTE / WCDMA</item>
+        <item>815056_TDSCDMA only</item>
+        <item>815056_TDSCDMA/WCDMA</item>
+        <item>815056_LTE/TDSCDMA</item>
+        <item>815056_TDSCDMA/GSM</item>
+        <item>815056_LTE/TDSCDMA/GSM</item>
+        <item>815056_TDSCDMA/GSM/WCDMA</item>
+        <item>815056_LTE/TDSCDMA/WCDMA</item>
+        <item>815056_LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>815056_TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>815056_LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>815056_NR only</item>
+        <item>815056_NR/LTE</item>
+        <item>815056_NR/LTE/CDMA/EvDo</item>
+        <item>815056_NR/LTE/GSM/WCDMA</item>
+        <item>815056_NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>815056_NR/LTE/WCDMA</item>
+        <item>815056_NR/LTE/TDSCDMA</item>
+        <item>815056_NR/LTE/TDSCDMA/GSM</item>
+        <item>815056_NR/LTE/TDSCDMA/WCDMA</item>
+        <item>815056_NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>815056_NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>114205_6 sec</item>
+        <item>114205_Always on</item>
+        <item>114205_Off</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>88090_What is the name of one of your teachers?</item>
+        <item>"88090_What is your mother's name?"</item>
+        <item>"88090_What is your father's name?"</item>
+        <item>88090_What is the name of your high school?</item>
+        <item>88090_What is the name of your favorite restaurant?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>50975_Normal</item>
+        <item>50975_Moderate</item>
+        <item>50975_Low</item>
+        <item>50975_Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>145970_Persistent</item>
+        <item>145970_Top activity</item>
+        <item>145970_Important (foreground)</item>
+        <item>145970_Important (background)</item>
+        <item>145970_Backup</item>
+        <item>145970_Heavy weight</item>
+        <item>145970_Service (running)</item>
+        <item>145970_Service (restarting)</item>
+        <item>145970_Receiver</item>
+        <item>145970_Home</item>
+        <item>145970_Last activity</item>
+        <item>145970_Cached (activity)</item>
+        <item>145970_Cached (activity client)</item>
+        <item>145970_Cached (empty)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>63606_Normal</item>
+        <item>63606_Moderate</item>
+        <item>63606_Low</item>
+        <item>63606_Very low</item>
+        <item>63606_unknown</item>
+    </string-array>
+    <string-array name="running_applications_tabs">
+        <item>145205_Third-party apps</item>
+        <item>145205_System apps</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>5405_15 seconds</item>
+        <item>5405_30 seconds</item>
+        <item>5405_1 minute</item>
+        <item>5405_2 minutes</item>
+        <item>5405_5 minutes</item>
+        <item>5405_10 minutes</item>
+        <item>5405_30 minutes</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>5442_Ask</item>
+        <item>5442_Never allow</item>
+        <item>5442_Always allow</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>73852_Off</item>
+        <item>73852_64K</item>
+        <item>73852_256K</item>
+        <item>73852_1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>73851_Off</item>
+        <item>73851_64K per log buffer</item>
+        <item>73851_256K per log buffer</item>
+        <item>73851_1M per log buffer</item>
+        <item>73851_4M per log buffer</item>
+        <item>73851_16M per log buffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>73853_Off</item>
+        <item>73853_64K</item>
+        <item>73853_256K</item>
+        <item>73853_1M</item>
+        <item>73853_4M</item>
+        <item>73853_16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>73054_Off</item>
+        <item>73054_All Log Buffers</item>
+        <item>73054_All Non-radio Log Buffers</item>
+        <item>73054_Kernel Log Buffers Only</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>73055_Off</item>
+        <item>73055_All</item>
+        <item>73055_All Non-radio</item>
+        <item>73055_Kernel Only</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>73845_Off</item>
+        <item>73845_Draw non-rectangular clip region in blue</item>
+        <item>73845_Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="sound_quality_enhancement_entries">
+        <item>147737_通用增强</item>
+        <item>147737_realme原耳</item>
+        <item>147737_realme灵耳</item>
+        <item>147737_realme幻耳</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>145972_1</item>
+        <item>145972_0</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>5404_America</item>
+        <item>5404_Europe</item>
+        <item>5404_Africa</item>
+        <item>5404_Asia</item>
+        <item>5404_Australia</item>
+        <item>5404_Pacific</item>
+        <item>5404_All</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>147884_Off</item>
+        <item>147884_On screen as bars</item>
+        <item>147884_In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>73849_Turn off Animation</item>
+        <item>73849_Animation Zoom 0.5x</item>
+        <item>73849_Animation Zoom 1x</item>
+        <item>73849_Animation Zoom 1.5x</item>
+        <item>73849_Animation Zoom 2x</item>
+        <item>73849_Animation Zoom 5x</item>
+        <item>73849_Animation Zoom 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>73792_Very Slow</item>
+        <item>73792_Slow</item>
+        <item>73792_Normal</item>
+        <item>73792_Fast</item>
+        <item>73792_Faster</item>
+        <item>73792_Very Fast</item>
+        <item>73792_Super Fast</item>
+        <item>73792_Ultra Fast</item>
+        <item>73792_Fastest</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>50990_Usage time</item>
+        <item>50990_Last time used</item>
+        <item>50990_App name</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>73841_Charge</item>
+        <item>73841_MTP (Media Transfer Protocol)</item>
+        <item>73841_PTP (Picture Transfer Protocol)</item>
+        <item>73841_RNDIS (USB Ethernet)</item>
+        <item>73841_Audio Source</item>
+        <item>73841_MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>145969_None</item>
+        <item>145969_Manual</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>5441_Disconnected</item>
+        <item>5441_Initializing…</item>
+        <item>5441_Connecting…</item>
+        <item>5441_Connected</item>
+        <item>5441_Timeout</item>
+        <item>5441_Unsuccessful</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>815057_PPTP VPN</item>
+        <item>815057_L2TP/IPSec VPN with pre-shared keys</item>
+        <item>815057_L2TP/IPSec VPN with certificates</item>
+        <item>815057_IPSec VPN with pre-shared keys and Xauth authentication</item>
+        <item>815057_IPSec VPN with certificates and Xauth authentication</item>
+        <item>815057_IPSec VPN with certificates and hybrid authentication</item>
+        <item>815057_IKEv2/IPSec VPN with certificates and username/password authentication</item>
+        <item>815057_IKEv2/IPSec VPN with pre-shared keys</item>
+        <item>815057_IKEv2/IPSec VPN with certificates</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>147105_Wi-Fi</item>
+        <item>147105_Mobile</item>
+        <item>147105_Wi-Fi only</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>147107_Wi-Fi</item>
+        <item>147107_Mobile</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>5422_PEAP</item>
+        <item>5422_TLS</item>
+        <item>5422_TTLS</item>
+        <item>5422_PWD</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>145975_No</item>
+        <item>145975_Yes</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>7611_DHCP</item>
+        <item>7611_Static</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>145973_Detect automatically</item>
+        <item>145973_Treat as metered</item>
+        <item>145973_Treat as unmetered</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>5415_Connected</item>
+        <item>5415_Invited</item>
+        <item>5415_Unsuccessful</item>
+        <item>5415_Available</item>
+        <item>5415_Out-of-range</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>145958_Push button</item>
+        <item>145958_PIN from peer device</item>
+        <item>145958_PIN from this device</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>815061_MSCHAPV2</item>
+        <item>815061_GTC</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>815059_MSCHAPV2</item>
+        <item>815059_GTC</item>
+        <item>815059_SIM</item>
+        <item>815059_AKA</item>
+        <item>"815059_AKA'"</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>122147_Random MAC (default)</item>
+        <item>122147_Device MAC</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>145961_Poor</item>
+        <item>145961_Poor</item>
+        <item>145961_Fair</item>
+        <item>145961_Good</item>
+        <item>145961_Excellent</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>144176_Scanning…</item>
+        <item>144176_Connecting…</item>
+        <item>144176_Authenticating…</item>
+        <item>144176_Obtaining IP address…</item>
+        <item>144176_Connected</item>
+        <item>144176_Suspended</item>
+        <item>144176_Disconnecting…</item>
+        <item>144176_Disconnected</item>
+        <item>144176_Unsuccessful</item>
+        <item>144176_Blocked</item>
+        <item>144176_Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>224023_PAP</item>
+        <item>224023_MSCHAP</item>
+        <item>224023_MSCHAPV2</item>
+        <item>224023_GTC</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>73850_Animation off</item>
+        <item>73850_Animation scale 0.5x</item>
+        <item>73850_Animation scale 1x</item>
+        <item>73850_Animation scale 1.5x</item>
+        <item>73850_Animation scale 2x</item>
+        <item>73850_Animation scale 5x</item>
+        <item>73850_Animation scale 10x</item>
+    </string-array>
+</resources>

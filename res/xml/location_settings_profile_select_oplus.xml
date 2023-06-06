@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title" android:key="location_settings" settings:keywords="@string/keywords_location"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.RestrictedSwitchPreference android:layout="@layout/coui_preference" android:title="@string/location_settings_toggle_title" android:key="location_toggle" settings:useAdminDisabledSummary="true" settings:userRestriction="no_share_location" />
+    <PreferenceCategory />
+</PreferenceScreen>

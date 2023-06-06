@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_buttons_navigation" android:background="@drawable/navigation_type_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_buttons_navigation" android:layout_width="126.0dip" android:layout_height="249.0dip" android:src="@drawable/buttons_navigation" android:maxWidth="126.0dip" android:maxHeight="249.0dip" android:forceDarkAllowed="false" />
+        <TextView android:textSize="@dimen/font_size_TD05" android:textColor="@color/oplus_nav_setting_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_buttons_navigation" android:layout_width="108.0dip" android:layout_height="wrap_content" android:text="@string/oplus_navigation_bar_type" />
+        <RadioButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rb_buttons_navigation" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_gesture_navigation" android:background="@drawable/navigation_type_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false">
+        <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/animation_gesture_navigation" android:background="@drawable/side_gesture_background" android:layout_width="126.0dip" android:layout_height="249.0dip" android:maxWidth="126.0dip" android:maxHeight="249.0dip" android:forceDarkAllowed="false" />
+        <TextView android:textSize="@dimen/font_size_TD05" android:textColor="@color/oplus_nav_setting_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_gesture_navigation" android:layout_width="108.0dip" android:layout_height="wrap_content" android:text="@string/gesture_navigation" />
+        <RadioButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rb_gesture_navigation" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

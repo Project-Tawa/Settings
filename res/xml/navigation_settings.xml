@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_navigation_method" android:key="nav_bar_screen_pref_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="nav_type_pref_key" app:isFirstCategory="true">
+        <com.oplus.settings.feature.navbar.NavigationTypePreference android:selectable="false" android:key="navigation_type_pref_key" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_divider_for_nav_type" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="gesture_side_component_pref_key" app:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_shortcuts_gesture_hide_guide_bar" android:key="gesture_side_hide_guide_bar_key" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/navigation_side_gesture_enable_back_vibrate" android:key="gesture_side_enable_back_vibrate" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/navigation_side_gesture_disable_switch" android:key="gesture_side_enable_switch_task_key" android:summary="@string/navigation_side_gesture_switch_app_tip" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_shortcuts_gesture_mistouch_prevention" android:key="gesture_side_mistouch_prevention_key" android:summary="@string/gesture_navigation_land_mistouch_prevention_tips" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/learn_to_use_gestures" android:key="gesture_side_guide" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/buttons_navigation_combinations" android:key="virtual_key_combination_pref_key" app:isFirstCategory="true">
+        <com.oplus.settings.feature.navbar.VirtualKeyCombinationPreference android:persistent="false" android:key="virtual_key_combination_recent_left_key" android:disableDependentsState="true" />
+        <com.oplus.settings.feature.navbar.VirtualKeyCombinationPreference android:persistent="false" android:key="virtual_key_combination_recent_right_key" android:disableDependentsState="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:layout="@layout/navigation_tips" android:selectable="false" android:key="gesture_up_component_pref_key" app:isFirstCategory="true" />
+    <androidx.preference.Preference android:layout="@layout/common_divide_space" android:selectable="false" android:key="bottom_divider_space" />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="gesture_side_bottom_recommended_pref_key" app:recommendedHeaderTitle="@string/bottom_recommended_header_title" />
+    <androidx.preference.Preference android:layout="@layout/navbar_layout_preference_footer" android:selectable="false" />
+</PreferenceScreen>

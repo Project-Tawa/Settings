@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/accessibility_category_convenient" android:key="convenient_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_power_button_ends_call_title" android:key="toggle_power_button_ends_call_preference" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_shortcut_software" android:key="accessibility_button_preference" android:fragment="com.oplus.settings.feature.accessibility.AccessibilityButtonFragment" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_shortcut_on_lock_screen_title" android:key="accessibility_shortcut_preference" android:summary="@string/accessibility_shortcut_on_lock_screen_summary_new" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:title="@string/accessibility_category_more" android:key="user_installed_services_category" />
+</PreferenceScreen>

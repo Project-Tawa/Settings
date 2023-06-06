@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_dc_backlight_mode_title_new_DC" android:key="key_dc_backlight_show" settings:keywords="@string/keywords_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_dc_backlight_mode_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/settings_dc_backlight_start" android:key="key_dc_backlight_mode_dimming" android:summary="@string/settings_dc_backlight_mode_tip_new_DC" settings:controller="com.oplus.settings.feature.display.controller.DcDimmingModePreferenceController" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:selectable="false" android:key="double_ear_page_lab_like_contain" settings:couiClickStyle="unclick">
+        <com.oplus.settings.widget.preference.LikeFunctionPreference android:key="double_ear_page_lab_like_key" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

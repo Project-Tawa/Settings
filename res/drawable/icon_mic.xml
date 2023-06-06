@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="56.0dip" android:viewportWidth="56.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/chip_unchecked_background_color" android:pathData="M0 16c0-8.84 7.16-16 16-16h24c8.84 0 16 7.16 16 16v0c0 8.84-7.16 16-16 16h-24c-8.84 0-16-7.16-16-16z" />
+    <path android:fillColor="@color/chip_unchecked_text_color_choice" android:pathData="M24.34 12c0-2.02 1.64-3.67 3.66-3.67c2.02 0 3.66 1.65 3.66 3.67v3c0 2.02-1.64 3.66-3.66 3.66c-2.02 0-3.66-1.64-3.66-3.66v-3zM28 9.66c-1.29 0-2.34 1.05-2.34 2.34v3c0 1.29 1.05 2.34 2.34 2.34c1.29 0 2.34-1.05 2.34-2.34v-3c0-1.29-1.05-2.34-2.34-2.34zm-5.09 5.59c0 2.8 2.28 5.09 5.09 5.09c2.8 0 5.09-2.28 5.09-5.09h1.32c0 3.32-2.51 6.05-5.74 6.38v1.87h-1.34v-1.87c-3.23-0.33-5.74-3.06-5.74-6.38h1.32z" android:fillType="evenOdd" />
+</vector>

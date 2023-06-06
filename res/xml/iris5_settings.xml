@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="opppo_oise_iris5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.Iris5VideoPreference android:enabled="true" android:key="osie_iris5_video" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:key="osie_iris5_switch" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/optimization_effect" android:key="iris5_motion_fluency_optimization_select" settings:controller="com.oplus.settings.feature.display.controller.Iris5MotionFluencyController" settings:coui_jump_mark="@null" settings:showNormalColor="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="osie_iris5_support_applications_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/supported_applications" android:key="osie_iris5_support_applications" />
+    </PreferenceCategory>
+</PreferenceScreen>

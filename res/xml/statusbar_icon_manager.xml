@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/statusicon_label_iconmanager" android:key="statusbar_icons"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/time_format_setting_arrys" android:layout="@layout/coui_preference" android:title="@string/time_format_setting_switch" android:key="status_bar_time_format" android:order="-60" android:entryValues="@array/time_format_setting_values" settings:controller="com.oplus.settings.feature.notification.controller.RmStatusbarClockPreferenceController" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/oplus_notification_prompt_mode_os8" android:key="key_notification_prompt_mode" android:order="-50" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/show_power_style" android:key="display_battery_style" android:order="-40" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/show_power_level" android:key="display_power_percent" android:order="-30" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/show_power_level" android:key="show_power_level" android:order="-20" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="statusbar_category" android:order="10" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/oplus_carrier_info" android:key="carrier_info_settings_show_single" android:order="90" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/oplus_carrier_info" android:key="carrier_info_settings_show_two" android:order="100" android:fragment="com.oplus.settings.feature.notification.ChooseShowCarrierNameFragment" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/statusicon_tips_iconmanager" android:key="statusbar_icon_category" android:order="200" />
+</PreferenceScreen>

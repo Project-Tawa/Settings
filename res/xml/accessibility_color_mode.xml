@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_color_mode_title" android:key="captioning_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory settings:isFirstCategory="true" />
+    <com.android.settingslib.widget.LayoutPreference android:enabled="false" android:clickable="false" android:layout="@layout/accessibility_color_mode_top" android:title="@string/summary_placeholder" android:selectable="false" android:key="key_accessibility_color_mode_diff" settings:searchable="false" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/accessibility_color_mode_title" android:key="key_accessibility_color_mode" settings:controller="com.oplus.settings.feature.othersettings.controller.AccessibilityColorModePreferenceController" />
+    <PreferenceCategory android:key="accessibility_color_mode_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference_oplus" android:selectable="false" android:key="accessibility_color_mode_description_pref" android:summary="@string/accessibility_color_mode_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

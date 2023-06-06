@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/desktop_menu_search" android:shortcutId="manifest-shortcut-search" android:shortcutShortLabel="@string/desktop_search">
+        <intent android:targetPackage="com.android.settings" android:action="oplus.intent.action.settings.SHORTCUT_SEARCH" />
+    </shortcut>
+</shortcuts>

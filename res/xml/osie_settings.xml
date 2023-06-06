@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/picture_quality_and_color_enhancement_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.Iris5VideoPreference android:enabled="true" android:key="osie_animation" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/picture_quality_and_color_enhancement_title" android:key="osie_switch" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="osie_apps_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/supported_applications" android:key="osie_apps" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/global_actions_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.RestrictedSwitchPreference android:title="@string/global_actions_qaw_title" android:key="gesture_global_actions_panel_switch" android:summary="@string/global_actions_qaw_summary" app:allowDividerAbove="true" app:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" app:keywords="@string/keywords_cards_passes" />
+    <com.oplus.settings.widget.preference.RestrictedSwitchPreference android:title="@string/global_actions_device_controls_title" android:key="gesture_device_controls_switch" android:summary="@string/global_actions_device_controls_summary" app:allowDividerAbove="true" app:controller="com.oplus.settings.gestures.DeviceControlsPreferenceController" app:keywords="@string/keywords_device_controls" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+        <SwitchPreference android:title="@string/global_actions_private_title" android:key="gesture_power_menu_privacy" app:controller="com.oplus.settings.feature.othersettings.globalactions.OplusPowerMenuPrivacyPreferenceController" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

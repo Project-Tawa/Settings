@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/support_preference_titel_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon_frame" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56.0dip" android:paddingEnd="12.0dip">
+        <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/PreferenceContent">
+            <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/COUIPreferenceTitleStyle" />
+            <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/COUIPreferenceSummaryStyle" />
+        </RelativeLayout>
+        <com.oplus.settings.feature.accessibility.BalanceSeekBar android:layout_gravity="center_vertical" android:id="@id/seekbar" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/section_seekbar_text_color" android:id="@id/left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_toggle_primary_balance_left_label" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" />
+                <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/section_seekbar_text_color" android:id="@id/right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_toggle_primary_balance_right_label" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewEnd" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

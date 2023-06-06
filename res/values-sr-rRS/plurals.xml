@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="already_selected_item_count">
+        <item quantity="other">Izabrano: %d</item>
+        <item quantity="one">Izabrano: %d</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Sistem će snimiti ekran koji sadrži izveštaj o greškama za %1$d sekundi.</item>
+        <item quantity="one">Sistem će snimiti ekran koji sadrži izveštaj o greškama za %1$d sekund.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d para korisničkog imena i lozinke su sačuvana u Lozinkama.</item>
+        <item quantity="one">%d par korisničkog imena i lozinke je sačuvan u Lozinkama.</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d stavki može biti optimizovano</item>
+        <item quantity="one">%1$d stavka može biti optimizovana</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">Pokušajte ponovo za %d s</item>
+        <item quantity="one">Pokušajte ponovo za %d s</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d aplikacija zaključano</item>
+        <item quantity="one">%1$d aplikacija zaključana</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Blokirano %1$d puta</item>
+        <item quantity="one">Blokirano %1$d put</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d poziva</item>
+        <item quantity="one">%1$d poziv</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d SMS poruke</item>
+        <item quantity="one">%1$d SMS poruka</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Identifikovano %1$d brojeva</item>
+        <item quantity="one">Identifikovan %1$d broj</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Zaštićeno %1$d operacija plaćanja</item>
+        <item quantity="one">Zaštićena %1$d operacija plaćanja</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Blokirano %1$d puta</item>
+        <item quantity="one">Blokirano %1$d put</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Zaštićeno %1$d stavki ličnih podataka</item>
+        <item quantity="one">Zaštićena %1$d stavka ličnih podataka</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Blokirano %1$d lažnih baznih stanica</item>
+        <item quantity="one">Blokirana %1$d lažna bazna stanica</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d stavki može biti optimizovano</item>
+        <item quantity="one">%1$d stavka može biti optimizovana</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">Uključeno je %1$d aplikacije/a</item>
+        <item quantity="one">Uključena je %1$d aplikacija</item>
+    </plurals>
+</resources>

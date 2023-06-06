@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingBottom="@dimen/darkmode_preference_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_light_theme" android:paddingTop="20.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false" style="@style/LightThemeAttr">
+        <ImageView android:id="@id/iv_light_image" style="@style/LightModeViewCustom" />
+        <TextView android:textSize="14.0dip" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_light_text" android:layout_width="102.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/darkmode_preview_text_top" android:layout_marginBottom="@dimen/darkmode_preview_text_bottom" android:text="@string/light_mode" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        <RadioButton android:layout_gravity="center_horizontal" android:id="@id/rb_light_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_dark_theme" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false" style="@style/DarkThemeAttr">
+        <ImageView android:id="@id/iv_dark_image" style="@style/DarkModeViewCustom" />
+        <TextView android:textSize="14.0dip" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_dark_text" android:layout_width="102.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/darkmode_preview_text_top" android:layout_marginBottom="@dimen/darkmode_preview_text_bottom" android:text="@string/dark_mode" android:singleLine="true" android:fontFamily="sans-serif-medium" android:forceDarkAllowed="false" />
+        <RadioButton android:layout_gravity="center_horizontal" android:id="@id/rb_dark_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

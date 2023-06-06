@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:key="iris5_panel_preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/iris5_sr_title_new" android:key="iris5_video_super_resolution" android:summary="@string/iris5_sr_summary_new" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:key="osie_iris5_video_display_enhancement" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_osie_iris5_motion_fluency_optimization" android:key="iris5_motion_fluency_optimization_switch" android:summary="@string/motion_fluency_optimization_des_new" />
+</PreferenceScreen>

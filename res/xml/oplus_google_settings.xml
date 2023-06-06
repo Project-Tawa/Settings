@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/google_settings_title" android:key="oplus_google_settings_preference_screen" app:keywords="@string/keywords_google_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/google_mobile_services_title" android:key="oplus_google_mobile_services" android:summary="@string/google_mobile_services_summary" app:keywords="@string/keywords_google_mobile_services" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/title_google_settings" android:key="oplus_key_google_settings" android:order="900" />
+</PreferenceScreen>

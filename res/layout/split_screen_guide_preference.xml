@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/split_screen_guide" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:layout_gravity="center" android:id="@id/guide_viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:overScrollMode="never" android:layout_marginStart="@dimen/M9" android:layout_marginEnd="@dimen/M9" />
+    <com.coui.appcompat.widget.COUIPageIndicator android:layout_gravity="bottom|center" android:id="@id/guide_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" app:dotSize="6.0dip" app:dotSpacing="3.0dip" app:dotStrokeWidth="0.70000005dip" />
+</LinearLayout>

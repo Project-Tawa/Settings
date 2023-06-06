@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_reset_phone" android:key="oplus_reset_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="reset_category" android:order="-200" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:key="clear_all_settings" android:order="-150" settings:coui_jump_mark="@null" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="category_clear_contacts_mms" android:order="10">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/clear_contacts_data_title" android:key="clear_contacts_data" android:summary="@string/clear_contacts_data_summery" android:order="20" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/clear_message_data_title" android:key="clear_message_data" android:summary="@string/clear_message_data_summery" android:order="30" settings:coui_jump_mark="@null" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="key_restore_factory" android:order="100">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/clear_all_data_title" android:key="clear_all_data" android:summary="@string/settings_restore_factory" android:order="110" settings:coui_jump_mark="@null" />
+    </PreferenceCategory>
+</PreferenceScreen>

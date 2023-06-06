@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/envelope_settings_assit_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.feature.envelope.EnvelopeDetectPreference android:persistent="false" android:enabled="false" android:key="envelope_detect_preference" />
+    <androidx.preference.Preference android:layout="@layout/envelope_divide_space" android:selectable="false" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="envelop_assist_category" app:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:minHeight="@dimen/envelope_settings_preference_min_height" android:title="@string/envelope_settings_assit_name" android:key="envelope_assistant" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:minHeight="@dimen/envelope_settings_preference_min_height" android:title="@string/envelope_settings_sound_text" android:key="envelope_notice_sound" android:dependency="envelope_assistant" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:minHeight="@dimen/envelope_settings_preference_min_height" android:title="@string/envelope_settings_auto_open_text" android:key="envelope_auto_open" android:dependency="envelope_assistant" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="divider_category" app:allowDividerAbove="false" />
+</androidx.preference.PreferenceScreen>

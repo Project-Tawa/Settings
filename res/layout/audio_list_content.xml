@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/empty_container" android:visibility="gone" layout="@layout/empty_layout" />
+    <com.oplus.settings.widget.CustomRecyclerView android:id="@id/list_view" android:paddingTop="@dimen/content_margin_top" android:visibility="visible" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="?couiDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:layout_marginLeft="@dimen/common_margin" android:layout_marginRight="@dimen/common_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+</FrameLayout>

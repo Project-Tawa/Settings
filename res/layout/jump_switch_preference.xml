@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/color_preference" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:paddingEnd="@dimen/support_preference_titel_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title" android:background="@drawable/group_list_selector_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:layout_weight="1.0" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/vertial_switch_divider_padding_end" android:layout_marginStart="@dimen/coui_preference_text_margin_left" style="@style/PreferenceContent">
+        <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferenceTitle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/widget_frame" android:paddingTop="@dimen/vertial_switch_divider_padding_top" android:paddingBottom="@dimen/vertial_switch_divider_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/vertial_switch_divider_padding_start">
+        <include layout="@layout/coui_preference_widget_switch_compat" />
+    </LinearLayout>
+</LinearLayout>

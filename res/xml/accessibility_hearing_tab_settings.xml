@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/hearing_auxiliary" android:key="captions_category" settings:isFirstCategory="true">
+        <Preference android:title="@string/live_caption_title" android:key="live_caption" android:summary="@string/live_caption_summary" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen" android:fragment="com.oplus.settings.feature.accessibility.OplusCaptionPropertiesFragment" settings:showNormalColor="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:title="@string/accessibility_category_audio" android:key="audio_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_hearingaid_title" android:key="hearing_aid_preference" android:summary="@string/accessibility_hearingaid_not_connected_summary" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_toggle_primary_mono_title" android:key="toggle_master_mono" android:summary="@string/accessibility_toggle_primary_mono_summary" />
+        <com.oplus.settings.feature.accessibility.OplusBalanceSeekBarPreference android:persistent="false" android:title="@string/accessibility_master_balance_title" android:key="seekbar_master_balance" />
+    </PreferenceCategory>
+</PreferenceScreen>

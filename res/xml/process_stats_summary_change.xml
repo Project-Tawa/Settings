@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_memory_use" android:key="app_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.OplusSummaryPreference android:selectable="false" android:key="status_header" />
+    <com.android.settings.applications.SpacePreference android:layout_height="5.0dip" />
+    <com.oplus.settings.widget.preference.MalayalamNotTruncationJumpPreference android:title="@string/ram_expand_title" android:key="ram_expand_in_develop" android:summary="@string/already_expand_ram" android:fragment="com.oplus.settings.feature.ramexpand.RamExpandFragment" settings:showNormalColor="true" />
+    <com.coui.appcompat.preference.COUIPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/memory_performance" android:selectable="false" android:key="performance" />
+    <com.coui.appcompat.preference.COUIPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/total_memory" android:selectable="false" android:key="total_memory" />
+    <com.coui.appcompat.preference.COUIPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/average_used" android:selectable="false" android:key="average_used" />
+    <com.coui.appcompat.preference.COUIPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/free_memory" android:selectable="false" android:key="free" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="apps_list_category">
+        <com.oplus.settings.widget.preference.SettingsJumpIconPreference android:title="@string/memory_usage_apps" android:key="apps_list" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="app_listtst" />
+</PreferenceScreen>

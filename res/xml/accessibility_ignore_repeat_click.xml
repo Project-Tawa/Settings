@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_ignore_repeat_click"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_ignore_repeat_click" android:key="accessibility_ignore_repeat_click_button" />
+    <com.oplus.settings.widget.preference.SettingsStepperPreference android:title="@string/accessibility_ignore_repeat_click_delay" android:key="accessibility_ignore_repeat_click_delay" settings:stepperDefaultValue="100" settings:stepperMaxValue="4000" settings:stepperMinValue="100" settings:stepperMultipleValue="50" settings:stepperScaleValue="1000" />
+    <PreferenceCategory android:key="footer_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference_oplus" android:selectable="false" android:key="ignore_repeat_click_footer" />
+    </PreferenceCategory>
+</PreferenceScreen>

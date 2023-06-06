@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/convenient_tools" android:key="convenient_aid_parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_basics" android:order="0" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:persistent="false" android:title="@string/power_button" android:key="power_button" android:order="5" android:fragment="com.oplus.settings.feature.convenient.PowerButtonSettingsFragment" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/oplus_other_screen_capture" android:key="key_screen_capture" android:order="10">
+            <intent android:targetPackage="com.oplus.screenshot" android:action="oplus.intent.action.SCREENSHOT_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/oplus_other_screen_recording" android:key="key_screen_recording" android:order="20" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/opshelf" android:key="key_shelf" android:order="21" />
+        <com.oplus.settings.feature.worklifebalance.OplusWorkLifeBalancePreference android:title="@string/oplus_other_wlb" android:key="key_wlb" android:order="22" settings:controller="com.oplus.settings.feature.worklifebalance.WLBPreferenceController" settings:tintIcon="1" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/oplus_scout" android:key="key_scout" android:order="23" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_convenient" android:order="100">
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:persistent="false" android:title="@string/resizeable_screen_title" android:key="resizeable_screen" android:order="110" android:fragment="com.oplus.settings.feature.stackdivider.SplitScreenSettingFragment" settings:showSummary="false">
+            <extra android:name="dcs_event_id" android:value="top_level_resizeable_screen" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/floating_ball" android:key="floating_assistant" android:order="120">
+            <intent android:action="oplus.intent.action.FLOATING_BALL_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:key="flash_back_button" android:order="130">
+            <intent android:action="oplus.intent.action.AIR_VIEW_MAIN_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/onehandedmode_one_handed_title" android:key="one_handed" android:order="140" android:fragment="com.oplus.settings.feature.onehanded.OplusOneHandedSettings" settings:searchable="true" settings:showNormalColor="true" settings:showSummary="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_special" android:order="200">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/oplus_otg_connection" android:key="otg_connection" android:summary="@string/otg_auto_close_after_ten_min" android:order="210" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/non_sensing_certification" android:key="key_non_sensing_certification" android:summary="@string/non_sensing_certification_summary" android:order="220" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/google_assistant_title" android:key="google_asssist" android:summary="@string/google_assistant_summary" android:order="230" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

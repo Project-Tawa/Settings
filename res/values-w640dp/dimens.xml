@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="bottom_sheet_layout_percent">0.691</item>
+    <dimen name="coui_bottom_sheet_bg_bottom_corner_radius">20.0dip</dimen>
+    <dimen name="coui_full_page_statement_button_width">280.0dip</dimen>
+    <dimen name="coui_install_download_progress_width_large">280.0dip</dimen>
+    <dimen name="coui_tool_navigation_edge_item_padding">48.0dip</dimen>
+    <dimen name="coui_tool_navigation_item_height">44.0dip</dimen>
+    <item type="dimen" name="grid_guide_coulmn_1_percent">0.105</item>
+    <item type="dimen" name="grid_guide_coulmn_2_percent">0.222</item>
+    <item type="dimen" name="grid_guide_coulmn_3_percent">0.339</item>
+    <item type="dimen" name="grid_guide_coulmn_4_percent">0.456</item>
+    <item type="dimen" name="grid_guide_coulmn_5_percent">0.573</item>
+    <item type="dimen" name="grid_guide_coulmn_6_percent">0.691</item>
+    <item type="dimen" name="grid_guide_coulmn_7_percent">0.808</item>
+    <item type="dimen" name="grid_guide_coulmn_preference_percent">0.764</item>
+</resources>

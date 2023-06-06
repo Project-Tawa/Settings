@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_info_show_RAM" android:key="ram_expand_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="ram_expand_switch_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/ram_expand_title" android:key="ram_expand_switch" android:summary="@string/ram_expand_tips" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/ram_expand_size" android:key="ram_expand_size_category">
+        <com.oplus.settings.feature.ramexpand.RamExpandSizePreference android:selectable="false" android:key="ram_expand_size_preference" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:selectable="false" android:key="ram_expand_tips_key" android:summary="@string/reboot_to_enable" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time_settings_title" android:key="date_and_time_screen_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:order="10" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.RestrictedSwitchPreference android:layout="@layout/coui_preference" android:title="@string/date_time_24hour_title" android:key="24 hour" android:order="20" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:order="30" />
+    <com.oplus.settings.widget.preference.RestrictedSwitchPreference android:title="@string/date_time_auto" android:key="auto_time" android:order="40" settings:useAdditionalSummary="true" settings:userRestriction="no_config_date_time" />
+    <com.oplus.settings.widget.preference.RestrictedJumpPreference android:layout="@layout/coui_preference" android:title="@string/date_picker_title" android:key="dateset" android:order="50" settings:showNormalColor="true" settings:userRestriction="no_config_date_time" />
+    <com.oplus.settings.widget.preference.RestrictedJumpPreference android:layout="@layout/coui_preference" android:title="@string/time_picker_title" android:key="timeset" android:order="60" settings:showNormalColor="true" settings:userRestriction="no_config_date_time" />
+    <PreferenceCategory android:order="70" />
+    <com.oplus.settings.widget.preference.RestrictedSwitchPreference android:title="@string/zone_auto_title" android:key="auto_zone" android:order="80" settings:userRestriction="no_config_date_time" />
+    <com.oplus.settings.widget.preference.RestrictedJumpPreference android:title="@string/date_time_set_timezone_title" android:key="timezone" android:order="90" android:fragment="com.oplus.settings.feature.othersettings.datetime.ZonePicker" settings:showNormalColor="true" settings:userRestriction="no_config_date_time" />
+    <PreferenceCategory android:key="dual_clock_switch" android:order="100">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/dual_clock_settings" android:key="key_dual_clock" android:summary="@string/auto_show_dual_clock" android:order="110" android:fragment="com.oplus.settings.feature.othersettings.datetime.dualclock.DualClockSettingsFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

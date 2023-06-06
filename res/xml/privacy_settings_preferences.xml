@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/privacy_fragment_settings" android:key="privacy_fragment_settings" settings:keywords="@string/keywords_privacy_fragment_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/coui_pager_header_preference" android:selectable="false" android:summary="@string/privacy_password_settings_hint" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="privacy_password_settings">
+        <com.oplus.settings.widget.preference.FocusPreference android:title="@string/turn_off_password" android:key="privacy_password" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.FocusPreference android:title="@string/change_password" android:key="privacy_password_modify" settings:coui_jump_mark="@null" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="privacy_password_forget">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/privacy_question_title" android:key="privacy_answer_modify" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/safe_email" android:key="privacy_email_modify" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/privacy_bind_account" android:key="privacy_account_modify" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="privacy_password_bottom_recommended" />
+</PreferenceScreen>

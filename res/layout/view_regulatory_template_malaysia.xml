@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/regulatory_item_padding" android:paddingRight="@dimen/regulatory_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:text="@string/malaysia_country" style="@style/RegulatoryTitleStyle" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/regulatory_content_margin_top" android:src="@drawable/ic_regulatory_mas" />
+    <TextView android:textSize="9.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/cidf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/mas_regulatory" />
+</LinearLayout>

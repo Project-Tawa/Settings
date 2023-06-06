@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/special_function" android:key="special_feature_screen_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="special_feature_category_key" android:order="0" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SpecialFeatureSettingsJumpPreference android:icon="@drawable/flash_back_ic" android:persistent="false" android:title="@string/flash_back" android:key="flash_back_button" android:summary="@string/flash_back_summary" android:order="150" settings:tintIcon="1">
+            <intent android:action="oplus.intent.action.AIR_VIEW_MAIN_SETTINGS" />
+        </com.oplus.settings.widget.preference.SpecialFeatureSettingsJumpPreference>
+        <com.oplus.settings.widget.preference.SpecialFeatureSettingsJumpPreference android:icon="@drawable/settings_smart_sidebar_ic" android:persistent="false" android:title="@string/land_scape_assistant" android:key="land_scape_assistant" android:summary="@string/smart_sidebar_tips" android:order="300" settings:keywords="@string/keywords_land_scape_assistant" settings:tintIcon="1" />
+        <com.oplus.settings.widget.preference.SpecialFeatureSettingsJumpPreference android:icon="@drawable/child_mode_icon" android:persistent="false" android:title="@string/children_space_settings" android:key="key_children_space" android:summary="@string/children_space_settings_tips" android:order="400" settings:keywords="@string/keywords_children_space_settings" settings:tintIcon="1">
+            <intent android:action="oplus.intent.action.CHILDREN_MODE_SETTINGS" />
+        </com.oplus.settings.widget.preference.SpecialFeatureSettingsJumpPreference>
+        <com.oplus.settings.widget.preference.SpecialFeatureSettingsJumpPreference android:icon="@drawable/simple_mode_icon" android:persistent="false" android:title="@string/simple_mode_title" android:key="simple_mode_key" android:summary="@string/simple_mode_tips" android:order="500" settings:keywords="@string/key_simple_mode" settings:tintIcon="1" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="10.0dip" android:key="key_bottom" android:order="4000" />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="special_feature_bottom_recommended" android:order="4001" />
+</PreferenceScreen>

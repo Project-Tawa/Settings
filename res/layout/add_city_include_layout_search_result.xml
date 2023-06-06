@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/resultContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="?couiDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:forceDarkAllowed="false" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider">
+        <com.coui.appcompat.widget.COUIListView android:id="@id/resultList" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <TextView android:textSize="@dimen/dimen_15" android:textColor="#ffa1a5a4" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tapEnterToSearchOnlineHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:text="@string/no_local_search_tip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/emptyContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/image_view_empty_icon" android:layout_width="@dimen/dimen_110" android:layout_height="@dimen/dimen_110" android:layout_marginTop="@dimen/dimen_105" android:src="@drawable/city_add_search_empty_icon" />
+            <TextView android:textSize="@dimen/dimen_16" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_no_city" android:alpha="0.2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/loadingContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.coui.appcompat.widget.COUILoadingView android:id="@id/color_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_191" style="?couiLoadingViewLargeStyle" />
+            <TextView android:textSize="@dimen/dimen_16" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_searching" style="@style/Widget.COUI.COUINoContentStyle" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

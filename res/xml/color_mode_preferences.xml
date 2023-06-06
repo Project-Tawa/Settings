@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oplus_settings_title" android:key="color_settings_title" app:keywords="@string/keywords_oplus_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="color_mode_category" app:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.ScreenColorModeViewpagerPreference android:key="screen_color_mode_viewpager_preference" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/color_mode_vivid_title" android:key="color_mode_vivid" android:summary="@string/mode_vivid_summary" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:key="color_mode_soft" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/professional_mode" android:key="professional_mode_preference" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/professional_mode" android:key="professional_mode_category">
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/color_mode_colorful_title" android:key="color_mode_colorful" android:summary="@string/color_mode_colorful_summary" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/color_mode_power_saving_title" android:key="color_power_saving" android:summary="@string/color_mode_power_saving_summary" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/color_mode_adaptive_title" android:key="color_mode_adaptive" android:summary="@string/color_mode_adaptive_summery" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/color_mode_cinema_title" android:key="color_mode_cinema" android:summary="@string/color_mode_cinema_summary_with_period" />
+        <com.oplus.settings.widget.preference.OplusMarkPreference android:persistent="false" android:title="@string/color_mode_oplus_colorful_title" android:key="color_mode_colorful_oplus" android:summary="@string/mode_bright_summary" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.coui.appcompat.preference.COUISwitchWithDividerPreference android:persistent="false" android:title="@string/color_mode_color_customize" android:key="color_mode_color_customize" android:summary="@string/color_mode_color_preference_summary2" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/screen_color_temperature_title" android:key="screen_color_temperature_category">
+        <com.oplus.settings.feature.display.screencolortemp.ScreenColorTemperaturePreference android:selectable="false" android:key="screen_color_temperature" />
+        <com.oplus.settings.feature.display.screencolortemp.ScreenColorTemperatureNewPreference android:selectable="false" android:key="screen_color_temperature_new" />
+        <Preference android:layout="@layout/coui_detail_preference" android:selectable="false" android:key="screen_color_summary" android:summary="@string/screen_color_temperature_helper" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="16.0dip" android:key="recommend_space" />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="color_mode_recommend" />
+</PreferenceScreen>

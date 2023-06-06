@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:background="@drawable/coui_window_background_selector" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_empty" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/no_search_result_svg" android:visibility="gone" android:layout_width="312.0dip" android:layout_height="211.0dip" />
+        <com.oplus.anim.EffectiveAnimationView android:id="@id/anim_no_content" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/settings_empty_text_color" android:id="@id/no_search_result_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="110.0dip" android:layout_height="110.0dip" />
+    </LinearLayout>
+</ScrollView>

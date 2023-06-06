@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="30.0dip" android:width="30.0dip" />
+            <solid android:color="@color/dolby_activity_seekbar_thumb_background" />
+        </shape>
+    </item>
+    <item android:left="6.669983dip" android:top="6.669983dip" android:right="6.669983dip" android:bottom="6.669983dip">
+        <shape android:shape="oval">
+            <size android:height="10.0dip" android:width="10.0dip" />
+            <solid android:color="@color/dolby_activity_seekbar_background_enabled" />
+        </shape>
+    </item>
+    <item android:left="10.669983dip" android:top="10.669983dip" android:right="10.669983dip" android:bottom="10.669983dip">
+        <shape android:shape="oval">
+            <size android:height="7.3299866dip" android:width="7.3299866dip" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>

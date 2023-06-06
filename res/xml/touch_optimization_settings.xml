@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true" android:title="@string/touch_optimization_title" android:key="touch_optimization_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/edge_prevent_mistouch_title" android:key="edge_prevent_mistouch_preference" android:summary="@string/edge_prevent_mistouch_summary" />
+    <com.oplus.settings.widget.preference.EdgePreventMistouchPreference android:selectable="false" android:key="edge_prevent_mistouch" />
+</PreferenceScreen>

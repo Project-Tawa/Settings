@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="side_fingerprint_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/unlock_while_screen_off" android:key="way_to_unlock_when_screen_off" settings:coui_jump_mark="@null" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="side_fingerprint_category_line" />
+</androidx.preference.PreferenceScreen>

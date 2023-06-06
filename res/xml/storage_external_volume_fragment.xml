@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="storage_external_volume"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.settings.feature.storage.preferences.VolumeUsagePreference android:enabled="false" android:clickable="false" android:layout="@layout/volume_usage_preference" android:selectable="false" android:key="pref_usage" android:order="0" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:order="27" />
+</PreferenceScreen>

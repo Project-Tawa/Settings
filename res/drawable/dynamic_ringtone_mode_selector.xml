@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="2.0dip" android:color="?couiTintControlNormal" />
+            <padding android:left="@dimen/dynamic_ringtone_item_padding" android:top="@dimen/dynamic_ringtone_item_padding" android:right="@dimen/dynamic_ringtone_item_padding" android:bottom="@dimen/dynamic_ringtone_item_padding" />
+            <corners android:radius="15.5dip" />
+            <smooth-rect />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="2.0dip" android:color="@android:color/transparent" />
+            <padding android:left="@dimen/dynamic_ringtone_item_padding" android:top="@dimen/dynamic_ringtone_item_padding" android:right="@dimen/dynamic_ringtone_item_padding" android:bottom="@dimen/dynamic_ringtone_item_padding" />
+            <corners android:radius="15.5dip" />
+            <smooth-rect />
+        </shape>
+    </item>
+</selector>

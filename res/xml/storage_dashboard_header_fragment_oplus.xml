@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/storage_settings_new" android:orderingFromXml="false" android:key="storage_header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.settings.feature.storage.preferences.VolumeUsagePreference android:enabled="false" android:clickable="false" android:layout="@layout/volume_usage_preference" android:title="@string/phone_storage" android:selectable="false" android:key="pref_usage" android:order="0" />
+</androidx.preference.PreferenceScreen>

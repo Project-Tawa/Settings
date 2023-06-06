@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff2660f5" android:pathData="M10,4L22,4A6,6 0,0 1,28 10L28,22A6,6 0,0 1,22 28L10,28A6,6 0,0 1,4 22L4,10A6,6 0,0 1,10 4z" />
+    <path android:fillColor="@drawable/$ic_status_icon_notification_icon3__0" android:pathData="M10,4L22,4A6,6 0,0 1,28 10L28,22A6,6 0,0 1,22 28L10,28A6,6 0,0 1,4 22L4,10A6,6 0,0 1,10 4z" android:fillAlpha="0.15" />
+    <path android:fillColor="@drawable/$ic_status_icon_notification_icon3__1" android:pathData="M17.8888,13.5536m3.12,0a3.12,3.12 0,1 0,-6.24 0a3.12,3.12 0,1 0,6.24 0" />
+    <path android:fillColor="@drawable/$ic_status_icon_notification_icon3__2" android:pathData="M19.2092,17.3347m4.4333,0a4.4333,4.4333 0,1 0,-8.8667 0a4.4333,4.4333 0,1 0,8.8667 0" />
+    <path android:fillColor="@drawable/$ic_status_icon_notification_icon3__3" android:pathData="M13.7744,16.6734m5.44,0a5.44,5.44 45,1 0,-10.88 0a5.44,5.44 135,1 0,10.88 0" />
+</vector>

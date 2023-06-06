@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/msg_entry_item_icon_single_height" android:width="@dimen/msg_entry_item_icon_single_width" />
+            <solid android:color="#ffffbb0e" />
+        </shape>
+    </item>
+    <item android:height="@dimen/msg_entry_item_icon_single_height" android:width="@dimen/msg_entry_item_icon_single_width" android:drawable="@drawable/ic_iris5_sr_message_entry_inner" android:top="0.0dip" android:start="0.0dip" />
+</layer-list>

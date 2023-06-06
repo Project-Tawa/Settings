@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DarkModeViewCustom">
+        <item name="android:layout_width">170.0dip</item>
+        <item name="android:layout_height">120.0dip</item>
+        <item name="android:src">@drawable/darkmode_sketch_plus</item>
+    </style>
+    <style name="DarkThemeAttr">
+        <item name="android:paddingStart">9.0dip</item>
+    </style>
+    <style name="LightModeViewCustom">
+        <item name="android:layout_width">170.0dip</item>
+        <item name="android:layout_height">120.0dip</item>
+        <item name="android:src">@drawable/lightmode_sketch_plus</item>
+    </style>
+    <style name="LightThemeAttr">
+        <item name="android:paddingEnd">9.0dip</item>
+    </style>
+</resources>

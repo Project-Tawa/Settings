@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/onehandedmode_one_handed_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:persistent="false" android:layout="@layout/oplus_one_handed_header" android:selectable="false" android:key="one_handed_header" app:allowDividerBelow="false" app:searchable="false" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/onehandedmode_one_handed_title" android:key="gesture_one_handed_mode_enabled" app:controller="com.oplus.settings.feature.onehanded.OplusOneHandedEnablePreferenceController" app:keywords="@string/keywords_one_handed" app:persistent="true" />
+</PreferenceScreen>

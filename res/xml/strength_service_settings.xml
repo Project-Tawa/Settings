@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_strengthen_service" android:key="strength_service_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

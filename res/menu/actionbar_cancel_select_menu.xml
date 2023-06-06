@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/coui_menu_ic_cancel" android:id="@id/menu_cancel" android:title="@android:string/cancel" app:showAsAction="always" />
+    <item android:id="@id/menu_select_all" android:title="@string/select_all" app:actionViewClass="com.coui.appcompat.widget.COUICheckBox" app:showAsAction="always" />
+</menu>

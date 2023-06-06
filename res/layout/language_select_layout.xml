@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/group_list_selector_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/oplus_font_size_16SP" android:textColor="@color/coui_preference_title_color" android:ellipsize="marquee" android:id="@android:id/title" android:paddingTop="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:layout_marginStart="@dimen/toolbar_margin" style="@style/COUIListViewTextAppearance.Large" />
+    <TextView android:textSize="@dimen/oplus_font_size_12DP" android:textColor="@color/coui_preference_secondary_text_color" android:id="@android:id/summary" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/COUIListViewTextAppearance.Small" />
+</RelativeLayout>

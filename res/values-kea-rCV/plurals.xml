@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">836704_1 app has full access to your device</item>
+        <item quantity="zero">872871_1 app has full access to your device</item>
+        <item quantity="one">145880_1 app has full access to your device.</item>
+        <item quantity="two">872874_1 app has full access to your device</item>
+        <item quantity="few">872872_1 app has full access to your device</item>
+        <item quantity="many">872873_1 app has full access to your device</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">837289_Long (%1$s second)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">814389_Long (%1$s seconds)</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">837280_Medium (%1$s second)</item>
+        <item quantity="zero">874611_Medium (%1$s second)</item>
+        <item quantity="one">814380_Medium (%1$s seconds)</item>
+        <item quantity="two">874614_Medium (%1$s second)</item>
+        <item quantity="few">874612_Medium (%1$s second)</item>
+        <item quantity="many">874613_Medium (%1$s second)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">837279_Short (%1$s second)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">814379_Short (%1$s seconds)</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="action_record_today_num">
+        <item quantity="other">880906_%1$d times</item>
+        <item quantity="zero">880907_%1$d times</item>
+        <item quantity="one">880905_%1$d time</item>
+        <item quantity="two">880909_%1$d times</item>
+        <item quantity="few">880908_%1$d times</item>
+        <item quantity="many">880910_%1$d times</item>
+    </plurals>
+    <plurals name="action_record_today_protect_num">
+        <item quantity="other">902928_隐私替身生效%1$d次</item>
+        <item quantity="zero">902929_隐私替身生效%1$d次</item>
+        <item quantity="one">902927_隐私替身生效%1$d次</item>
+        <item quantity="two">902931_隐私替身生效%1$d次</item>
+        <item quantity="few">902930_隐私替身生效%1$d次</item>
+        <item quantity="many">902932_隐私替身生效%1$d次</item>
+    </plurals>
+    <plurals name="already_selected_item_count">
+        <item quantity="other">837129_%d selected</item>
+        <item quantity="zero">874212_%d selected</item>
+        <item quantity="one">168910_%d selected</item>
+        <item quantity="two">874215_%d selected</item>
+        <item quantity="few">874213_%d selected</item>
+        <item quantity="many">874214_%d selected</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">837288_App claims to handle %d link</item>
+        <item quantity="zero">874643_App claims to handle %d link</item>
+        <item quantity="one">814388_App claims to handle %d links</item>
+        <item quantity="two">874646_App claims to handle %d link</item>
+        <item quantity="few">874644_App claims to handle %d link</item>
+        <item quantity="many">874645_App claims to handle %d link</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">836716_Off for %d app</item>
+        <item quantity="zero">872911_Off for %d app</item>
+        <item quantity="one">146126_Off for %d apps</item>
+        <item quantity="two">872914_Off for %d app</item>
+        <item quantity="few">872912_Off for %d app</item>
+        <item quantity="many">872913_Off for %d app</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">836735_%1$d app restricted</item>
+        <item quantity="zero">872979_%1$d app restricted</item>
+        <item quantity="one">146734_%1$d apps restricted</item>
+        <item quantity="two">872982_%1$d app restricted</item>
+        <item quantity="few">872980_%1$d app restricted</item>
+        <item quantity="many">872981_%1$d app restricted</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">836733_Restrict app?</item>
+        <item quantity="zero">872971_Restrict app?</item>
+        <item quantity="one">146712_Restrict %1$d apps?</item>
+        <item quantity="two">872974_Restrict app?</item>
+        <item quantity="few">872972_Restrict app?</item>
+        <item quantity="many">872973_Restrict app?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">"836732_This app can't run in the background"</item>
+        <item quantity="zero">"872967_This app can't run in the background"</item>
+        <item quantity="one">"146711_These apps can't run in the background"</item>
+        <item quantity="two">"872970_This app can't run in the background"</item>
+        <item quantity="few">"872968_This app can't run in the background"</item>
+        <item quantity="many">"872969_This app can't run in the background"</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">836730_%1$s recently restricted</item>
+        <item quantity="zero">872963_%1$s recently restricted</item>
+        <item quantity="one">146709_%2$d apps recently restricted</item>
+        <item quantity="two">872966_%1$s recently restricted</item>
+        <item quantity="few">872964_%1$s recently restricted</item>
+        <item quantity="many">872965_%1$s recently restricted</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">836729_Restrict %1$d app</item>
+        <item quantity="zero">872959_Restrict %1$d app</item>
+        <item quantity="one">146708_Restrict %1$d apps</item>
+        <item quantity="two">872962_Restrict %1$d app</item>
+        <item quantity="few">872960_Restrict %1$d app</item>
+        <item quantity="many">872961_Restrict %1$d app</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">836719_%d day left</item>
+        <item quantity="zero">872923_%d day left</item>
+        <item quantity="one">146163_%d days left</item>
+        <item quantity="two">872926_%d day left</item>
+        <item quantity="few">872924_%d day left</item>
+        <item quantity="many">872925_%d day left</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">836113_The system will capture the screen containing the error report in %1$d seconds.</item>
+        <item quantity="zero">871616_The system will capture the screen containing the error report in %1$d seconds.</item>
+        <item quantity="one">73059_The system will capture the screen containing the error report in %1$d second.</item>
+        <item quantity="two">871619_The system will capture the screen containing the error report in %1$d seconds.</item>
+        <item quantity="few">871617_The system will capture the screen containing the error report in %1$d seconds.</item>
+        <item quantity="many">871618_The system will capture the screen containing the error report in %1$d seconds.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">836997_%d username and password pairs are saved in \"Passwords\".</item>
+        <item quantity="zero">873780_%d username and password pairs are saved in \"Passwords\".</item>
+        <item quantity="one">162242_%d username and password pair is saved in \"Passwords\".</item>
+        <item quantity="two">873783_%d username and password pairs are saved in \"Passwords\".</item>
+        <item quantity="few">873781_%d username and password pairs are saved in \"Passwords\".</item>
+        <item quantity="many">873782_%d username and password pairs are saved in \"Passwords\".</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">836114_%1$d apps are allowed to use unlimited data when Data Saver is turned on.</item>
+        <item quantity="zero">871620_%1$d apps are allowed to use unlimited data when Data Saver is turned on.</item>
+        <item quantity="one">73139_1 app is allowed to use unlimited data when Data Saver is turned on.</item>
+        <item quantity="two">871623_%1$d apps are allowed to use unlimited data when Data Saver is turned on.</item>
+        <item quantity="few">871621_%1$d apps are allowed to use unlimited data when Data Saver is turned on.</item>
+        <item quantity="many">871622_%1$d apps are allowed to use unlimited data when Data Saver is turned on.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">836706_Camera app</item>
+        <item quantity="zero">872879_Camera app</item>
+        <item quantity="one">145895_Camera apps</item>
+        <item quantity="two">872882_Camera app</item>
+        <item quantity="few">872880_Camera app</item>
+        <item quantity="many">872881_Camera app</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">836707_Email client app</item>
+        <item quantity="zero">872883_Email client app</item>
+        <item quantity="one">145901_Email client apps</item>
+        <item quantity="two">872886_Email client app</item>
+        <item quantity="few">872884_Email client app</item>
+        <item quantity="many">872885_Email client app</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">836708_Phone app</item>
+        <item quantity="zero">872887_Phone app</item>
+        <item quantity="one">145905_Phone apps</item>
+        <item quantity="two">872890_Phone app</item>
+        <item quantity="few">872888_Phone app</item>
+        <item quantity="many">872889_Phone app</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">836717_%d category deleted</item>
+        <item quantity="zero">872915_%d category deleted</item>
+        <item quantity="one">146128_%d categories deleted</item>
+        <item quantity="two">872918_%d category deleted</item>
+        <item quantity="few">872916_%d category deleted</item>
+        <item quantity="many">872917_%d category deleted</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">836128_Remove the selected languages?</item>
+        <item quantity="zero">871672_Remove the selected languages?</item>
+        <item quantity="one">73528_Remove the selected language?</item>
+        <item quantity="two">871675_Remove the selected languages?</item>
+        <item quantity="few">871673_Remove the selected languages?</item>
+        <item quantity="many">871674_Remove the selected languages?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">836723_One app opening supported links</item>
+        <item quantity="zero">872939_One app opening supported links</item>
+        <item quantity="one">146288_%d apps opening supported links</item>
+        <item quantity="two">872942_One app opening supported links</item>
+        <item quantity="few">872940_One app opening supported links</item>
+        <item quantity="many">872941_One app opening supported links</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">836245_%d CA certificates at least</item>
+        <item quantity="zero">871916_%d CA certificates at least</item>
+        <item quantity="one">84614_%d CA certificate at least</item>
+        <item quantity="two">871919_%d CA certificates at least</item>
+        <item quantity="few">871917_%d CA certificates at least</item>
+        <item quantity="many">871918_%d CA certificates at least</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">836246_Attempted %d times</item>
+        <item quantity="zero">871920_Attempted %d times</item>
+        <item quantity="one">84619_Attempted %d time</item>
+        <item quantity="two">871923_Attempted %d times</item>
+        <item quantity="few">871921_Attempted %d times</item>
+        <item quantity="many">871922_Attempted %d times</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">836260_%d apps</item>
+        <item quantity="zero">871932_%d apps</item>
+        <item quantity="one">85539_%d app</item>
+        <item quantity="two">871935_%d apps</item>
+        <item quantity="few">871933_%d apps</item>
+        <item quantity="many">871934_%d apps</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">836259_Minimum %d apps</item>
+        <item quantity="zero">871928_Minimum %d apps</item>
+        <item quantity="one">85534_Minimum %d app</item>
+        <item quantity="two">871931_Minimum %d apps</item>
+        <item quantity="few">871929_Minimum %d apps</item>
+        <item quantity="many">871930_Minimum %d apps</item>
+    </plurals>
+    <plurals name="have_authorizations_count">
+        <item quantity="other">863104_%1$d permissions granted</item>
+        <item quantity="zero">877077_%1$d permissions granted</item>
+        <item quantity="one">863105_%1$d permission granted</item>
+        <item quantity="two">877080_%1$d permissions granted</item>
+        <item quantity="few">877078_%1$d permissions granted</item>
+        <item quantity="many">877079_%1$d permissions granted</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">836142_%s h</item>
+        <item quantity="zero">871700_%s h</item>
+        <item quantity="one">74918_1 h</item>
+        <item quantity="two">871703_%s h</item>
+        <item quantity="few">871701_%s h</item>
+        <item quantity="many">871702_%s h</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">837284_%d app connected</item>
+        <item quantity="zero">874627_%d app connected</item>
+        <item quantity="one">814384_%d apps connected</item>
+        <item quantity="two">874630_%d app connected</item>
+        <item quantity="few">874628_%d app connected</item>
+        <item quantity="many">874629_%d app connected</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">836749_Must contain at least 1 letter</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147501_Must contain at least %d letters</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">836750_Must contain at least 1 lowercase letter</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147502_Must contain at least %d lowercase letters</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">836754_Must contain at least 1 non-letter character</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147506_Must contain at least %d non-letter characters</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">837290_Must contain at least 1 non-numerical character</item>
+        <item quantity="zero">874647_Must contain at least 1 non-numerical character</item>
+        <item quantity="one">814390_Must contain at least %d non-numerical characters</item>
+        <item quantity="two">874650_Must contain at least 1 non-numerical character</item>
+        <item quantity="few">874648_Must contain at least 1 non-numerical character</item>
+        <item quantity="many">874649_Must contain at least 1 non-numerical character</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">836752_Must contain at least 1 numerical digit</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147504_Must contain at least %d numerical digits</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">836753_Must contain at least 1 special symbol</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147505_Must contain at least %d special symbols</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">836751_Must contain at least 1 uppercase letter</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147503_Must contain at least %d uppercase letters</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">836747_Must be fewer than %d character</item>
+        <item quantity="zero">873023_Must be fewer than %d character</item>
+        <item quantity="one">147492_Must be fewer than %d characters</item>
+        <item quantity="two">873026_Must be fewer than %d character</item>
+        <item quantity="few">873024_Must be fewer than %d character</item>
+        <item quantity="many">873025_Must be fewer than %d character</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">836745_Must contain at least %d character</item>
+        <item quantity="zero">873015_Must contain at least %d character</item>
+        <item quantity="one">147490_Must be at least %d characters</item>
+        <item quantity="two">873018_Must contain at least %d character</item>
+        <item quantity="few">873016_Must contain at least %d character</item>
+        <item quantity="many">873017_Must contain at least %d character</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">836748_Must be fewer than %d digit</item>
+        <item quantity="zero">873027_Must be fewer than %d digit</item>
+        <item quantity="one">147493_Must be fewer than %d digits</item>
+        <item quantity="two">873030_Must be fewer than %d digit</item>
+        <item quantity="few">873028_Must be fewer than %d digit</item>
+        <item quantity="many">873029_Must be fewer than %d digit</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">836746_PIN must contain at least %d digit</item>
+        <item quantity="zero">873019_PIN must contain at least %d digit</item>
+        <item quantity="one">147491_PIN must be at least %d digits</item>
+        <item quantity="two">873022_PIN must contain at least %d digit</item>
+        <item quantity="few">873020_PIN must contain at least %d digit</item>
+        <item quantity="many">873021_PIN must contain at least %d digit</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">836712_%d app can read notifications</item>
+        <item quantity="zero"></item>
+        <item quantity="one">146072_%d apps can read notifications</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">836756_1 active trust agent</item>
+        <item quantity="zero">873035_1 active trust agent</item>
+        <item quantity="one">147518_%d active trust agents</item>
+        <item quantity="two">873038_1 active trust agent</item>
+        <item quantity="few">873036_1 active trust agent</item>
+        <item quantity="many">873037_1 active trust agent</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">835927_%1$d apps used memory in the last %2$s</item>
+        <item quantity="zero">871361_%1$d apps used memory in the last %2$s</item>
+        <item quantity="one">64089_1 app used memory in the last %2$s</item>
+        <item quantity="two">871364_%1$d apps used memory in the last %2$s</item>
+        <item quantity="few">871362_%1$d apps used memory in the last %2$s</item>
+        <item quantity="many">871363_%1$d apps used memory in the last %2$s</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">836141_%s min</item>
+        <item quantity="zero">871696_%s min</item>
+        <item quantity="one">74917_1 min</item>
+        <item quantity="two">871699_%s min</item>
+        <item quantity="few">871697_%s min</item>
+        <item quantity="many">871698_%s min</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">836700_%1$d SIM</item>
+        <item quantity="zero">872855_%1$d SIM</item>
+        <item quantity="one">145712_%1$d SIMs</item>
+        <item quantity="two">872858_%1$d SIM</item>
+        <item quantity="few">872856_%1$d SIM</item>
+        <item quantity="many">872857_%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">836718_1 restriction</item>
+        <item quantity="zero">872919_1 restriction</item>
+        <item quantity="one">146137_%1$d restrictions</item>
+        <item quantity="two">872922_1 restriction</item>
+        <item quantity="few">872920_1 restriction</item>
+        <item quantity="many">872921_1 restriction</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">836715_%d category</item>
+        <item quantity="zero">872907_%d category</item>
+        <item quantity="one">146118_%d categories</item>
+        <item quantity="two">872910_%d category</item>
+        <item quantity="few">872908_%d category</item>
+        <item quantity="many">872909_%d category</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">837282_%d notification</item>
+        <item quantity="zero">874619_%d notification</item>
+        <item quantity="one">814382_%d notifications</item>
+        <item quantity="two">874622_%d notification</item>
+        <item quantity="few">874620_%d notification</item>
+        <item quantity="many">874621_%d notification</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">836709_Off for 1 app</item>
+        <item quantity="zero"></item>
+        <item quantity="one">146007_Off for %d apps</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">836722_%d category turned off</item>
+        <item quantity="zero">872935_%d category turned off</item>
+        <item quantity="one">146274_%d categories turned off</item>
+        <item quantity="two">872938_%d category turned off</item>
+        <item quantity="few">872936_%d category turned off</item>
+        <item quantity="many">872937_%d category turned off</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">836710_~%d notification per day</item>
+        <item quantity="zero">872891_~%d notification per day</item>
+        <item quantity="one">146066_~%d notifications per day</item>
+        <item quantity="two">872894_~%d notification per day</item>
+        <item quantity="few">872892_~%d notification per day</item>
+        <item quantity="many">872893_~%d notification per day</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">836711_~%d notification per week</item>
+        <item quantity="zero">872895_~%d notification per week</item>
+        <item quantity="one">146068_~%d notifications per week</item>
+        <item quantity="two">872898_~%d notification per week</item>
+        <item quantity="few">872896_~%d notification per week</item>
+        <item quantity="many">872897_~%d notification per week</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">836755_%d active app</item>
+        <item quantity="zero">873031_%d active app</item>
+        <item quantity="one">147515_%d active apps</item>
+        <item quantity="two">873034_%d active app</item>
+        <item quantity="few">873032_%d active app</item>
+        <item quantity="many">873033_%d active app</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">836068_%1$d items can be optimized</item>
+        <item quantity="zero">871536_%1$d items can be optimized</item>
+        <item quantity="one">70310_%1$d item can be optimized</item>
+        <item quantity="two">871539_%1$d items can be optimized</item>
+        <item quantity="few">871537_%1$d items can be optimized</item>
+        <item quantity="many">871538_%1$d items can be optimized</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">836703_1 app</item>
+        <item quantity="zero">872867_1 app</item>
+        <item quantity="one">145876_%s apps</item>
+        <item quantity="two">872870_1 app</item>
+        <item quantity="few">872868_1 app</item>
+        <item quantity="many">872869_1 app</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">835924_%d permissions granted</item>
+        <item quantity="zero">871349_%d permissions granted</item>
+        <item quantity="one">63996_%d permission granted</item>
+        <item quantity="two">871352_%d permissions granted</item>
+        <item quantity="few">871350_%d permissions granted</item>
+        <item quantity="many">871351_%d permissions granted</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">836724_%1$s behaving abnormally</item>
+        <item quantity="zero">872943_%1$s behaving abnormally</item>
+        <item quantity="one">146330_%2$d apps behaving abnormally</item>
+        <item quantity="two">872946_%1$s behaving abnormally</item>
+        <item quantity="few">872944_%1$s behaving abnormally</item>
+        <item quantity="many">872945_%1$s behaving abnormally</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">836725_%1$s draining battery</item>
+        <item quantity="zero">872947_%1$s draining battery</item>
+        <item quantity="one">146331_Apps draining battery</item>
+        <item quantity="two">872950_%1$s draining battery</item>
+        <item quantity="few">872948_%1$s draining battery</item>
+        <item quantity="many">872949_%1$s draining battery</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">836738_1 print job</item>
+        <item quantity="zero">872991_1 print job</item>
+        <item quantity="one">146971_%1$d print jobs</item>
+        <item quantity="two">872994_1 print job</item>
+        <item quantity="few">872992_1 print job</item>
+        <item quantity="many">872993_1 print job</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">836737_1 print service on</item>
+        <item quantity="zero">872987_1 print service on</item>
+        <item quantity="one">146970_%1$d print services on</item>
+        <item quantity="two">872990_1 print service on</item>
+        <item quantity="few">872988_1 print service on</item>
+        <item quantity="many">872989_1 print service on</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">840948_%d new notifications</item>
+        <item quantity="one">840949_%d new notification</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">836734_Limiting battery usage for %1$d app</item>
+        <item quantity="zero">872975_Limiting battery usage for %1$d app</item>
+        <item quantity="one">146727_Limiting battery usage for %1$d apps</item>
+        <item quantity="two">872978_Limiting battery usage for %1$d app</item>
+        <item quantity="few">872976_Limiting battery usage for %1$d app</item>
+        <item quantity="many">872977_Limiting battery usage for %1$d app</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">836935_Try again in %d s</item>
+        <item quantity="zero">873584_Try again in %d s</item>
+        <item quantity="one">158130_Try again in %d s</item>
+        <item quantity="two">873587_Try again in %d s</item>
+        <item quantity="few">873585_Try again in %d s</item>
+        <item quantity="many">873586_Try again in %d s</item>
+    </plurals>
+    <plurals name="running_applications_freed">
+        <item quantity="other">837471_%1$d apps closed, %2$.2f MB freed up</item>
+        <item quantity="zero">875093_%1$d apps closed, %2$.2f MB freed up</item>
+        <item quantity="one">827452_%1$d app closed, %2$.2f MB freed up</item>
+        <item quantity="two">875096_%1$d apps closed, %2$.2f MB freed up</item>
+        <item quantity="few">875094_%1$d apps closed, %2$.2f MB freed up</item>
+        <item quantity="many">875095_%1$d apps closed, %2$.2f MB freed up</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">835922_%d additional permissions</item>
+        <item quantity="zero">871341_%d additional permissions</item>
+        <item quantity="one">63994_%d additional permission</item>
+        <item quantity="two">871344_%d additional permissions</item>
+        <item quantity="few">871342_%d additional permissions</item>
+        <item quantity="many">871343_%d additional permissions</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">835923_%1$d (out of %2$d) permissions granted</item>
+        <item quantity="zero">871345_%1$d (out of %2$d) permissions granted</item>
+        <item quantity="one">63995_%1$d (out of %2$d) permission granted</item>
+        <item quantity="two">871348_%1$d (out of %2$d) permissions granted</item>
+        <item quantity="few">871346_%1$d (out of %2$d) permissions granted</item>
+        <item quantity="many">871347_%1$d (out of %2$d) permissions granted</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">836140_%s s</item>
+        <item quantity="zero">871692_%s s</item>
+        <item quantity="one">74916_1 s</item>
+        <item quantity="two">871695_%s s</item>
+        <item quantity="few">871693_%s s</item>
+        <item quantity="many">871694_%s s</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">835920_%1$d fingerprints set</item>
+        <item quantity="zero"></item>
+        <item quantity="one">63589_%1$d fingerprint set</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">83706_%1$d apps locked</item>
+        <item quantity="one">83706_%1$d app locked</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">83699_Blocked %1$d Times</item>
+        <item quantity="one">83699_Blocked %1$d Time</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">83702_%1$d Calls</item>
+        <item quantity="one">83702_%1$d Call</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">83703_%1$d SMS Messages</item>
+        <item quantity="one">83703_%1$d SMS Message</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">83705_Identified %1$d Numbers</item>
+        <item quantity="one">83705_Identified %1$d Number</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">83701_Protected %1$d payments</item>
+        <item quantity="one">83701_Protected %1$d payment</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">83698_Blocked %1$d Times</item>
+        <item quantity="one">83698_Blocked %1$d Time</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">85951_Protected %1$d Items of Personal Information</item>
+        <item quantity="one">85951_Protected %1$d Item of Personal Information</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">83704_Blocked %1$d Fake Base Stations</item>
+        <item quantity="one">83704_Blocked %1$d Fake Base Station</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">836814_%1$d items can be optimized</item>
+        <item quantity="zero">873235_%1$d items can be optimized</item>
+        <item quantity="one">150726_%1$d item can be optimized</item>
+        <item quantity="two">873238_%1$d items can be optimized</item>
+        <item quantity="few">873236_%1$d items can be optimized</item>
+        <item quantity="many">873237_%1$d items can be optimized</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">836143_Show %d hidden items</item>
+        <item quantity="zero">871704_Show %d hidden items</item>
+        <item quantity="one">74955_Show %d hidden item</item>
+        <item quantity="two">871707_Show %d hidden items</item>
+        <item quantity="few">871705_Show %d hidden items</item>
+        <item quantity="many">871706_Show %d hidden items</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">836757_You are now %1$d step away from being a developer.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147598_You are now %1$d steps away from being a developer.</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">836736_%1$d saved hearing aid</item>
+        <item quantity="zero">872983_%1$d saved hearing aid</item>
+        <item quantity="one">146939_%1$d saved hearing aids</item>
+        <item quantity="two">872986_%1$d saved hearing aid</item>
+        <item quantity="few">872984_%1$d saved hearing aid</item>
+        <item quantity="many">872985_%1$d saved hearing aid</item>
+    </plurals>
+    <plurals name="special_access_permission_allowed_count">
+        <item quantity="other">863051_Permission granted to %1$d apps</item>
+        <item quantity="zero">877073_Permission granted to %1$d apps</item>
+        <item quantity="one">863050_Permission granted to %1$d app</item>
+        <item quantity="two">877076_Permission granted to %1$d apps</item>
+        <item quantity="few">877074_Permission granted to %1$d apps</item>
+        <item quantity="many">877075_Permission granted to %1$d apps</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">836701_1 app can use unrestricted data</item>
+        <item quantity="zero">872859_1 app can use unrestricted data</item>
+        <item quantity="one">145759_%d apps can use unrestricted data</item>
+        <item quantity="two">872862_1 app can use unrestricted data</item>
+        <item quantity="few">872860_1 app can use unrestricted data</item>
+        <item quantity="many">872861_1 app can use unrestricted data</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">836119_Trust or remove certificates</item>
+        <item quantity="zero">871640_Trust or remove certificates</item>
+        <item quantity="one">73279_Trust or remove certificate</item>
+        <item quantity="two">871643_Trust or remove certificates</item>
+        <item quantity="few">871641_Trust or remove certificates</item>
+        <item quantity="many">871642_Trust or remove certificates</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"836117_%s has installed several certificate authorities for your work profile. These can be used to monitor your network activity (including the use of email, apps, and secure websites) while you work.
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="zero">"871632_%s has installed several certificate authorities for your work profile. These can be used to monitor your network activity (including the use of email, apps, and secure websites) while you work.
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="one">"73277_%s has installed one certificate authority for your work profile. This can be used to monitor your network activity (including the use of email, apps, and secure websites) while you work.
+
+For more details about this certificate, please contact your administrator."</item>
+        <item quantity="two">"871635_%s has installed several certificate authorities for your work profile. These can be used to monitor your network activity (including the use of email, apps, and secure websites) while you work.
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="few">"871633_%s has installed several certificate authorities for your work profile. These can be used to monitor your network activity (including the use of email, apps, and secure websites) while you work.
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="many">"871634_%s has installed several certificate authorities for your work profile. These can be used to monitor your network activity (including the use of email, apps, and secure websites) while you work.
+
+For more details about these certificates, please contact your administrator."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"836118_%s has installed several certificate authorities on your device. These can be used to monitor your device's network activity (including the use of email, apps, and secure websites).
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="zero">"871636_%s has installed several certificate authorities on your device. These can be used to monitor your device's network activity (including the use of email, apps, and secure websites).
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="one">"73278_%s has installed one certificate authority on your device. This can be used to monitor your device's network activity (including the use of email, apps, and secure websites).
+
+For more details about this certificate, please contact your administrator."</item>
+        <item quantity="two">"871639_%s has installed several certificate authorities on your device. These can be used to monitor your device's network activity (including the use of email, apps, and secure websites).
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="few">"871637_%s has installed several certificate authorities on your device. These can be used to monitor your device's network activity (including the use of email, apps, and secure websites).
+
+For more details about these certificates, please contact your administrator."</item>
+        <item quantity="many">"871638_%s has installed several certificate authorities on your device. These can be used to monitor your device's network activity (including the use of email, apps, and secure websites).
+
+For more details about these certificates, please contact your administrator."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">836116_Check certificates</item>
+        <item quantity="zero">871628_Check certificates</item>
+        <item quantity="one">73276_Check certificate</item>
+        <item quantity="two">871631_Check certificates</item>
+        <item quantity="few">871629_Check certificates</item>
+        <item quantity="many">871630_Check certificates</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">836714_+1 suggestion</item>
+        <item quantity="zero">872903_+1 suggestion</item>
+        <item quantity="one">146103_+%1$d suggestions</item>
+        <item quantity="two">872906_+1 suggestion</item>
+        <item quantity="few">872904_+1 suggestion</item>
+        <item quantity="many">872905_+1 suggestion</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">836713_1 suggestion</item>
+        <item quantity="zero">872899_1 suggestion</item>
+        <item quantity="one">146101_%1$d suggestions</item>
+        <item quantity="two">872902_1 suggestion</item>
+        <item quantity="few">872900_1 suggestion</item>
+        <item quantity="many">872901_1 suggestion</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">837128_%1$d apps on</item>
+        <item quantity="zero">874208_%1$d apps on</item>
+        <item quantity="one">168689_%1$d app on</item>
+        <item quantity="two">874211_%1$d apps on</item>
+        <item quantity="few">874209_%1$d apps on</item>
+        <item quantity="many">874210_%1$d apps on</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">836126_%d items</item>
+        <item quantity="zero">871668_%d items</item>
+        <item quantity="one">73327_1 item</item>
+        <item quantity="two">871671_%d items</item>
+        <item quantity="few">871669_%d items</item>
+        <item quantity="many">871670_%d items</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">836742_1 network</item>
+        <item quantity="zero">873003_1 network</item>
+        <item quantity="one">147403_%d networks</item>
+        <item quantity="two">873006_1 network</item>
+        <item quantity="few">873004_1 network</item>
+        <item quantity="many">873005_1 network</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">836744_1 network &amp; subscription</item>
+        <item quantity="zero">873011_1 network &amp; subscription</item>
+        <item quantity="one">147407_%d networks &amp; subscriptions</item>
+        <item quantity="two">873014_1 network &amp; subscription</item>
+        <item quantity="few">873012_1 network &amp; subscription</item>
+        <item quantity="many">873013_1 network &amp; subscription</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">836743_1 subscription</item>
+        <item quantity="zero">873007_1 subscription</item>
+        <item quantity="one">147405_%d subscriptions</item>
+        <item quantity="two">873010_1 subscription</item>
+        <item quantity="few">873008_1 subscription</item>
+        <item quantity="many">873009_1 subscription</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">147850_%1$d devices connected</item>
+        <item quantity="one">147850_%1$d device connected</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">836740_Incorrect SIM PIN code, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">147236_Incorrect SIM PIN code, you have %d remaining attempts.</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">835925_Change to Alarms Only, valid for %1$d hours (until %2$s)</item>
+        <item quantity="zero">871353_Change to Alarms Only, valid for %1$d hours (until %2$s)</item>
+        <item quantity="one">64027_Change to Alarms Only, valid for 1 hour (until %2$s)</item>
+        <item quantity="two">871356_Change to Alarms Only, valid for %1$d hours (until %2$s)</item>
+        <item quantity="few">871354_Change to Alarms Only, valid for %1$d hours (until %2$s)</item>
+        <item quantity="many">871355_Change to Alarms Only, valid for %1$d hours (until %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">835926_Change to Alarms Only, valid for %1$d minutes (until %2$s)</item>
+        <item quantity="zero">871357_Change to Alarms Only, valid for %1$d minutes (until %2$s)</item>
+        <item quantity="one">64028_Change to Alarms Only, valid for 1 minute (until %2$s)</item>
+        <item quantity="two">871360_Change to Alarms Only, valid for %1$d minutes (until %2$s)</item>
+        <item quantity="few">871358_Change to Alarms Only, valid for %1$d minutes (until %2$s)</item>
+        <item quantity="many">871359_Change to Alarms Only, valid for %1$d minutes (until %2$s)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/darkmode_auto_time_switch"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:layout="@layout/darkmode_empty_preference_auto" android:selectable="false" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/darkmode_auto_time_switch" android:key="dark_mode_auto_toggle" />
+    <com.oplus.settings.widget.preference.OplusMarkPreference android:title="@string/darkmode_open_from_sunset_to_sunrise" android:key="dark_mode_open_sunset_to_sunrise" />
+    <com.oplus.settings.widget.preference.OplusMarkPreference android:title="@string/darkmode_user_definded_time" android:key="dark_mode_open_custom" />
+    <com.oplus.settings.feature.display.darkmodewidget.DarkModeSettingTimePreference android:key="dark_mode_widget_time_settings" />
+    <androidx.preference.Preference android:layout="@layout/darkmode_preference_bottom_devider" android:selectable="false" android:key="dark_mode_bottom_divider" />
+    <androidx.preference.Preference android:layout="@layout/darkmode_ui_mode_auto_hint" android:selectable="false" android:key="dark_mode_switch_hint" />
+</androidx.preference.PreferenceScreen>

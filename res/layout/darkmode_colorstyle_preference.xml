@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/tv_darkmode_style_text" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/darkmode_color_style" android:layout_marginStart="24.0dip" android:forceDarkAllowed="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <FrameLayout android:id="@id/ll_darkmode_high_level" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_darkmode_heighten" android:layout_width="fill_parent" android:layout_height="102.0dip" android:src="@drawable/darkmode_heighten_normal" android:maxWidth="98.0dip" android:forceDarkAllowed="false" />
+                <TextView android:textSize="14.0dip" android:gravity="center_horizontal" android:id="@id/tv_dark_heighten_text" android:layout_width="98.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/darkmode_heighten" />
+                <RadioButton android:layout_gravity="center" android:id="@id/rb_heighten_button" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_darkmode_mid_level" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_darkmode_middle" android:layout_width="fill_parent" android:layout_height="102.0dip" android:src="@drawable/darkmode_middle_normal" android:maxWidth="98.0dip" android:forceDarkAllowed="false" />
+            <TextView android:textSize="14.0dip" android:layout_gravity="center" android:id="@id/tv_dark_middle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/darkmode_moderate" />
+            <RadioButton android:layout_gravity="center" android:id="@id/rb_middle_button" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/ll_darkmode_gentle_level" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/match_parent">
+                <ImageView android:id="@id/iv_darkmode_gentle" android:layout_width="fill_parent" android:layout_height="102.0dip" android:src="@drawable/darkmode_gentle_normal" android:maxWidth="98.0dip" android:forceDarkAllowed="false" />
+                <TextView android:textSize="14.0dip" android:gravity="center_horizontal" android:id="@id/tv_dark_gentle_text" android:layout_width="98.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/darkmode_gentle" />
+                <RadioButton android:id="@id/rb_gentle_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/tv_dark_mode_display_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abnormal_display_when_low_brightness" android:alpha="55.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:forceDarkAllowed="false" />
+    </LinearLayout>
+</LinearLayout>

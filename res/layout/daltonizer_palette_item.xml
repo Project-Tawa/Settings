@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/accessibility_palette_item" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/daltonizer_palette_color" android:layout_width="30.0dip" android:layout_height="154.0dip" android:layout_marginTop="6.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" android:forceDarkAllowed="false" />
+        <TextView android:textSize="12.0dip" android:textColor="#4d000000" android:layout_gravity="center_horizontal" android:id="@id/daltonizer_palette_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/color_red" />
+    </LinearLayout>
+    <Space android:layout_width="4.0dip" android:layout_height="207.0dip" />
+</LinearLayout>

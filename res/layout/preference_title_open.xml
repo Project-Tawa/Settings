@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_title" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="148.0dip" android:fontFamily="sans-serif-medium" android:layout_alignParentStart="true" android:layout_alignParentEnd="@id/tv_switch" style="?android:textAppearanceSmall" />
+    <TextView android:id="@id/tv_switch" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="148.0dip" android:fontFamily="sans-serif-medium" android:layout_alignParentEnd="true" style="?android:textAppearanceSmall" />
+</RelativeLayout>

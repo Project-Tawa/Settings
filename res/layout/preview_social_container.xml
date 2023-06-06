@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingTop="11.0dip" android:paddingRight="24.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preview_avatar" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/coui_textview_default_normal" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preview_name" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/coui_preference_secondary_text_color_normal" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/preview_email" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/coui_textview_default_normal" android:id="@id/content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/font_and_display_size_socializing_example_title" android:fontFamily="sans-serif-medium" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/coui_textview_default_normal" android:id="@id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/font_and_display_size_socializing_example_desc" android:lineSpacingMultiplier="1.2" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/preview_3_image" android:scaleType="fitXY" />
+</merge>

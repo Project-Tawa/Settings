@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="follow_sim_one_category_key" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/follow_to_settings" android:key="follow_sim_one_key" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="vibrate_category_key" settings:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:key="vibrate_key" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.ringtone.RingtoneRadioPreferencesGroup android:title="@string/ringtone_default" android:key="ringtone_default_category_key" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceEnableCategory android:title="@string/customize_ringtone" android:key="ringtone_custom_category_key">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/local_ringtone" android:key="from_filemanager" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/ringtone_from_network" android:key="from_network" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/video_ringtone" android:key="video_ringtone" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceEnableCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceEnableCategory android:title="@string/ringtone_duration_tips" android:key="ringtone_duration_tips_key" settings:isFirstCategory="true" settings:textAllCaps="false" settings:textDefaultTypeface="true" />
+    <com.android.settings.applications.SpacePreference android:layout_height="30.0dip" android:order="10000" />
+</androidx.preference.PreferenceScreen>

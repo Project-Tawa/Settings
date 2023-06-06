@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/search_result_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="?couiDividerBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:forceDarkAllowed="false" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider">
+        <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/search_result_recycler_view" android:background="#00000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/search_empty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.oplus.anim.EffectiveAnimationView android:id="@id/empty_anim_view" android:layout_width="@dimen/empty_anim_view_width" android:layout_height="@dimen/empty_anim_view_height" android:layout_marginTop="@dimen/empty_anim_view_margin_top" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/coui_textview_default_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_no_results" android:alpha="0.3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/search_recommend_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/search_recent_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:layout_marginStart="@dimen/M10" android:layout_marginEnd="@dimen/M10">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="28.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/oplus_font_size_12SP" android:textStyle="bold" android:textColor="@color/coui_preference_secondary_text_color_normal" android:ellipsize="end" android:id="@id/start_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_history" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_alignParentStart="true" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/coui_toolbar_title_text_color" android:ellipsize="end" android:id="@id/btn_clear" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_clear_history" android:maxLines="1" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <com.google.android.material.chip.ChipGroup android:id="@id/search_recent_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:chipSpacingHorizontal="6.0dip" app:chipSpacingVertical="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/search_recommend_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:layout_marginStart="@dimen/M10" android:layout_marginEnd="@dimen/M10">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/oplus_font_size_12SP" android:textStyle="bold" android:textColor="@color/coui_preference_secondary_text_color_normal" android:ellipsize="end" android:gravity="start|center" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_28" android:text="@string/search_tip_suggestion" android:maxLines="1" />
+                <com.google.android.material.chip.ChipGroup android:id="@id/search_recommend_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:chipSpacingHorizontal="6.0dip" app:chipSpacingVertical="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

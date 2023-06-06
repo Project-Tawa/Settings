@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/recyclerView" android:paddingBottom="@dimen/dimen_30" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <FrameLayout android:id="@id/container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/background_mask" style="@style/BackgroundMaskStyle" />
+    </FrameLayout>
+    <include layout="@layout/add_city_include_layout_search_result" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="@string/add_city_search_behavior">
+        <com.coui.appcompat.widget.toolbar.COUIToolbar android:id="@id/toolbar" android:background="@drawable/coui_toolbar_bg" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/toolbar_min_height" app:navigationIcon="@drawable/coui_back_arrow" app:supportTitle="@string/dual_clock_resident_city" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle" app:titleCenter="false" />
+        <TextView android:id="@id/toolbar_title" android:background="@drawable/coui_toolbar_largest_title_bg" android:paddingTop="@dimen/title_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/title_below_toolbar_height" android:text="@string/dual_clock_resident_city" android:paddingStart="@dimen/common_margin" style="@style/ToolbarLargeTitleStyle" />
+        <com.coui.appcompat.widget.COUISearchViewAnimate android:layout_gravity="center_horizontal" android:id="@id/searchView" android:layout_width="fill_parent" android:layout_height="@dimen/searchview_height" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" app:searchHint="@string/search_hint" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

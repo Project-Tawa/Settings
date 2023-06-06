@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.settings.feature.display.font.OplusMessageBubbleBackground android:orientation="vertical" android:id="@id/message_text_and_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:forceDarkAllowed="false">
+        <TextView android:textSize="@dimen/conversation_message_text_size" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="true" />
+        <TextView android:textSize="@dimen/conversation_status_text_size" android:id="@id/message_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="true" />
+    </com.oplus.settings.feature.display.font.OplusMessageBubbleBackground>
+</LinearLayout>

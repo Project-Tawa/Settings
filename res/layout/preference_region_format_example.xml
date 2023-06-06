@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/coui_preference_category_layout" />
+    <TextView android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_marginStart="@dimen/support_preference_category_layout_title_margin_start" android:layout_marginEnd="@dimen/support_preference_category_layout_title_margin_end" style="@style/COUIPreferenceSummaryStyle" />
+</LinearLayout>

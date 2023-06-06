@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/resultContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="?couiDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:forceDarkAllowed="false" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider">
+        <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/resultList" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/emptyContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.oplus.anim.EffectiveAnimationView android:id="@id/img" android:layout_width="@dimen/empty_anim_view_width" android:layout_height="@dimen/empty_anim_view_height" android:layout_marginTop="@dimen/empty_anim_view_margin_top" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/settings_search_empty_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_search_no_result" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

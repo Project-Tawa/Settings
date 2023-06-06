@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d ta ilova qurilmangizdan butunlay foydalana oladi</item>
+        <item quantity="one">1 ta ilova qurilmangizdan toʻliq foydalana oladi.</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Uzun (%1$s soniya)</item>
+        <item quantity="one">Uzun (%1$s soniya)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Oʻrtacha (%1$s soniya)</item>
+        <item quantity="one">Oʻrtacha (%1$s soniya)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Qisqa (%1$s soniya)</item>
+        <item quantity="one">Qisqa (%1$s soniya)</item>
+    </plurals>
+    <plurals name="action_record_today_num">
+        <item quantity="other">%1$d marta</item>
+        <item quantity="one">%1$d marta</item>
+    </plurals>
+    <plurals name="already_selected_item_count">
+        <item quantity="other">%d ta tanlandi</item>
+        <item quantity="one">%d ta tanlandi</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">Ilova %d ta havolani qayta ishlamoqchi</item>
+        <item quantity="one">Ilova %d ta havolani qayta ishlamoqchi</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">%d ta ilova uchun o‘chiq</item>
+        <item quantity="one">%d ta ilova uchun o‘chiq</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d ta ilova cheklandi</item>
+        <item quantity="one">%1$d ta ilova cheklandi</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">%1$d ta ilova cheklansinmi?</item>
+        <item quantity="one">Ilova cheklansinmi?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Bu ilovalar fonda ishlay olmaydi</item>
+        <item quantity="one">Bu ilova fonda ishlay olmaydi</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d ta ilova yaqinda cheklangan</item>
+        <item quantity="one">%1$s ta ilova yaqinda cheklangan</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">%1$d ta ilovani cheklash</item>
+        <item quantity="one">%1$d ta ilovani cheklash</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d kun qoldi</item>
+        <item quantity="one">%d kun qoldi</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Xato hisoboti ekranini tizim %1$d soniyadan so‘ng rasmga oladi.</item>
+        <item quantity="one">Xato hisoboti ekranini tizim %1$d soniyadan so‘ng rasmga oladi.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d ta foydalanuvchi nomi va paroli juftligi Parollarga saqlandi.</item>
+        <item quantity="one">%d ta foydalanuvchi nomi va paroli juftligi Parollarga saqlandi.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d ta ilovaga trafikni tejash yoniq bo‘lganda cheklanmagan internetdan foydalanishga ruxsat berilgan.</item>
+        <item quantity="one">1 ta ilovaga trafikni tejash yoniq bo‘lganda cheklanmagan internetdan foydalanishga ruxsat berilgan.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kamera ilovalari</item>
+        <item quantity="one">Kamera ilovasi</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Elektron pochta mijoz ilovalari</item>
+        <item quantity="one">Elektron pochta mijoz ilovasi</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefon ilovalari</item>
+        <item quantity="one">Telefon ilovasi</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d ta turkum o‘chirib tashlandi</item>
+        <item quantity="one">%d ta turkum o‘chirib tashlandi</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Tanlangan tillar olib tashlansinmi?</item>
+        <item quantity="one">Tanlangan til olib tashlansinmi?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d ta ilova qo‘llab-quvvatlanadigan havolalarni ocha oladi</item>
+        <item quantity="one">Bitta ilova qo‘llab-quvvatlanadigan havolalarni ocha oladi</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Kamida %d ta CA sertifikati</item>
+        <item quantity="one">Kamida %d ta CA sertifikati</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d marta urinildi</item>
+        <item quantity="one">%d marta urinildi</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d ta ilova</item>
+        <item quantity="one">%d ta ilova</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Kamida %d ta ilova</item>
+        <item quantity="one">Kamida %d ta ilova</item>
+    </plurals>
+    <plurals name="have_authorizations_count">
+        <item quantity="other">%1$d ta ruxsat berilgan</item>
+        <item quantity="one">%1$d ta ruxsat berilgan</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s st</item>
+        <item quantity="one">1 st</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d ta ilova ulandi</item>
+        <item quantity="one">%d ta ilova ulandi</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Kamida %d ta harf qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta harf qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Kamida %d ta kichik harf qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta kichik harf qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Kamida %d ta harf boʻlmagan belgi qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta harf boʻlmagan belgi qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Kamida %d ta raqam boʻlmagan belgi qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta raqam boʻlmagan belgi qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Kamida %d ta raqam qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta raqam qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Kamida %d ta maxsus belgi qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta maxsus belgi qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Kamida %d ta katta harf qatnashishi kerak</item>
+        <item quantity="one">Kamida 1 ta katta harf qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">%d ta belgidan oshmasligi kerak</item>
+        <item quantity="one">%d ta belgidan oshmasligi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Kamida %d ta belgi qatnashishi kerak</item>
+        <item quantity="one">Kamida %d ta belgi qatnashishi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">%d ta raqamdan oshmasligi kerak</item>
+        <item quantity="one">%d ta raqamdan oshmasligi kerak</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN kod kamida %d ta raqamdan tashkil topishi kerak</item>
+        <item quantity="one">PIN kod tarkibida kamida %d raqam qatnashishi kerak</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ta ilova bildirishnomalarni oʻqiy oladi</item>
+        <item quantity="one">%d ta ilova bildirishnomalarni oʻqiy oladi</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d ta faol ishonchli agent</item>
+        <item quantity="one">1 ta faol ishonchli agent</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">So‘nggi %2$s ichida %1$d ta ilova xotiradan foydalandi</item>
+        <item quantity="one">So‘nggi %2$s ichida 1 ta ilova xotiradan foydalandi</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s daq</item>
+        <item quantity="one">1 daq</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d ta SIM karta</item>
+        <item quantity="one">%1$d ta SIM karta</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d ta cheklov</item>
+        <item quantity="one">1 ta cheklov</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d ta turkum</item>
+        <item quantity="one">%d ta turkum</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d ta bildirishnoma</item>
+        <item quantity="one">%d ta bildirishnoma</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d ta ilova uchun o‘chiq</item>
+        <item quantity="one">1 ta ilova uchun o‘chirilgan</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d ta turkum faolsizlantirilgan</item>
+        <item quantity="one">%d ta turkum faolsizlantirilgan</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">Har kuni %d ta bildirishnoma</item>
+        <item quantity="one">Har kuni %d ta bildirishnoma</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">Haftada ~%d ta bildirishnoma</item>
+        <item quantity="one">Haftada ~%d ta bildirishnoma</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d ta faol ilova</item>
+        <item quantity="one">%d ta faol ilova</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d tasini optimallash mumkin</item>
+        <item quantity="one">%1$d tasini optimallash mumkin</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s ta ilova</item>
+        <item quantity="one">1 ta ilova</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d ta ruxsat berildi</item>
+        <item quantity="one">%d ta ruxsat berildi</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d ta ilova noto‘g‘ri ishlayapti</item>
+        <item quantity="one">%1$s noto‘g‘ri ishlayapti</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Ko‘p quvvat sarflayotgan ilovalar</item>
+        <item quantity="one">%1$s ko‘p quvvat sarflayapti</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d ta chop etish vazifasi</item>
+        <item quantity="one">1 ta chop etish vazifasi</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d ta chop qilish xizmati yoniq</item>
+        <item quantity="one">1 ta chop qilish xizmati yoniq</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">%1$d ta ilova uchun batareyadan foydalanishni cheklash</item>
+        <item quantity="one">%1$d ta ilova uchun batareyadan foydalanishni cheklash</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">%d soniyadan keyin qayta urining</item>
+        <item quantity="one">%d soniyadan keyin qayta urining</item>
+    </plurals>
+    <plurals name="running_applications_freed">
+        <item quantity="other">%1$d ta ilova yopildi, %2$.2f MB boʻshatildi</item>
+        <item quantity="one">%1$d ta ilova yopildi, %2$.2f MB boʻshatildi</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ta qo‘shimcha ruxsat</item>
+        <item quantity="one">%d ta qo‘shimcha ruxsat</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (%2$d tadan) ta ruxsat berildi</item>
+        <item quantity="one">%1$d (%2$d tadan) ta ruxsat berildi</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d ta barmoq izi sozlandi</item>
+        <item quantity="one">%1$d ta barmoq izi sozlandi</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d ta ilova qulflangan</item>
+        <item quantity="one">%1$d ta ilova qulflangan</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">%1$d marta bloklandi</item>
+        <item quantity="one">%1$d marta bloklandi</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d ta chaqiruv</item>
+        <item quantity="one">%1$d ta chaqiruv</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d ta SMS xabari</item>
+        <item quantity="one">%1$d ta SMS xabari</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">%1$d ta raqam aniqlandi</item>
+        <item quantity="one">%1$d ta raqam aniqlandi</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Himoyalangan %1$d ta toʻlov</item>
+        <item quantity="one">Himoyalangan %1$d ta toʻlov</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">%1$d marta bloklandi</item>
+        <item quantity="one">%1$d marta bloklandi</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">"%1$d shaxsiy ma'lumot elementlari himoyalandi"</item>
+        <item quantity="one">"%1$d shaxsiy ma'lumot elementi himoyalandi"</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">%1$d ta soxta stansiya bloklandi</item>
+        <item quantity="one">%1$d ta soxta stansiya bloklandi</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d tasini optimallash mumkin</item>
+        <item quantity="one">%1$d tasini optimallash mumkin</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">%d ta berkitilgan elementni chiqarish</item>
+        <item quantity="one">%d ta berkitilgan elementni chiqarish</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Hozirda dasturichi boʻlishingizga %1$d qadam qoldi.</item>
+        <item quantity="one">Hozirda dasturichi boʻlishingizga %1$d qadam qoldi.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d ta saqlangan eshitish apparati</item>
+        <item quantity="one">%1$d ta saqlangan eshitish apparati</item>
+    </plurals>
+    <plurals name="special_access_permission_allowed_count">
+        <item quantity="other">%1$d ta ilovaga ruxsat berilgan</item>
+        <item quantity="one">%1$d ta ilovaga ruxsat berilgan</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d ta ilova cheklanmagan trafikdan foydalanishi mumkin</item>
+        <item quantity="one">1 ta ilova cheklanmagan trafikdan foydalanishi mumkin</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Sertifikatlarni ishonchli deb belgilash yoki olib tashlash</item>
+        <item quantity="one">Sertifikatni ishonchli deb belgilash yoki olib tashlash</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s ishchi profilingizga bir nechta sertifikat markazi o‘rnatildi. Bular ishlayotganingizda tarmoq harakatlarini (jumladan, e-pochta, ilova va xavfsiz saytlardan foydalanish) nazorat qilishda foydalanilishi mumkin.
+
+Ushbu sertifikatlar haqida batafsil axborot olish uchun administratoringizga murojaat qiling."</item>
+        <item quantity="one">"%s ishchi profilingizga bitta sertifikat markazi o‘rnatildi. Bu ishlayotganingizda tarmoq harakatlarini (jumladan, e-pochta, ilova va xavfsiz saytlardan foydalanish) nazorat qilishda foydalanilishi mumkin.
+
+Bu sertifikat haqida batafsil axborot olish uchun administratoringizga murojaat qiling."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s qurilmangizda bir nechta sertifikatlar markazini o‘rnatdi. Bular qurilmaning tarmoq harakatlarini (jumladan, e-pochta, ilova va xavfsiz saytlardan foydalanish) nazorat qilishda foydalanilishi mumkin.
+
+Ushbu sertifikatlar haqida batafsil axborot olish uchun administratoringizga murojaat qiling."</item>
+        <item quantity="one">"%s qurilmangizda bitta sertifikatlar markazini o‘rnatdi. Bu qurilmaning tarmoq harakatlarini (jumladan, e-pochta, ilova va xavfsiz saytlardan foydalanish) nazorat qilishda foydalanilishi mumkin.
+
+Bu sertifikat haqida batafsil axborot olish uchun administratoringizga murojaat qiling."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Sertifikatlarni tekshirish</item>
+        <item quantity="one">Sertifikatni tekshirish</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d ta tavsiya</item>
+        <item quantity="one">+1 ta tavsiya</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d ta tavsiya</item>
+        <item quantity="one">1 ta tavsiya</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">%1$d ta ilova ochiq</item>
+        <item quantity="one">%1$d ta ilova ochiq</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d ta element</item>
+        <item quantity="one">1 ta element</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d ta tarmoq</item>
+        <item quantity="one">1 ta tarmoq</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d ta tarmoq va obuna</item>
+        <item quantity="one">1 ta tarmoq va obuna</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d ta obuna</item>
+        <item quantity="one">1 ta obuna</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM karta PIN kodi noto‘g‘ri, sizda %d ta urinish qoldi.</item>
+        <item quantity="one">SIM karta PIN kodi noto‘g‘ri, yana %d ta urinish imkoniyatingiz qolmoqda, undan keyin qurilmangiz qulfini ochish uchun aloqa operatoringizga murojaat qilishingiz talab qilinadi.</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Faqat signallarda o‘zgarish, %1$d soat qo‘llanadi (%2$s gacha)</item>
+        <item quantity="one">Faqat signallarda o‘zgarish, 1 soat qo‘llanadi (%2$s gacha)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Faqat signallarda o‘zgarish, %1$d daqiqa qo‘llanadi (%2$s gacha)</item>
+        <item quantity="one">Faqat signallarda o‘zgarish, 1 daqiqa qo‘llanadi (%2$s gacha)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sound_and_vibrator" android:key="sound_settings" settings:keywords="@string/keywords_sound_and_vibrator_details"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.NoLinearVibrationSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/volume_silent" android:key="volume_silent" android:disableDependentsState="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/zen_mode_settings_title" android:key="holiday_mode" settings:showNormalColor="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="voice_mode_category">
+        <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/volume_mode" android:layout="@layout/coui_preference" android:title="@string/volume_mode" android:key="volume_mode" android:entryValues="@array/volume_mode_value" settings:controller="com.oplus.settings.feature.sound.controller.VolumeModePreferenceController" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/volume_regulator" android:key="volume_category">
+        <com.oplus.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/media_volume_option_title" android:selectable="false" android:key="media_volume" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/oplus_ring_volume_option_title" android:selectable="false" android:key="ring_volume" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/notification_volume_option_title" android:selectable="false" android:key="notification_volume" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/alarm_volume_option_title" android:selectable="false" android:key="alarm_volume" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+        <com.coui.appcompat.preference.COUIPreference android:layout="@layout/preference_summary_layout" android:key="super_volume_mode" android:summary="@string/super_volume_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="key_media_volume_to_zero_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/media_volume_to_zero" android:key="key_media_volume_to_zero" android:summary="@string/media_volume_to_zero_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ringtones_category_preference_title" android:key="ring_tone_category">
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/phone_ringing" android:key="key_phone_ringtone" android:ringtoneType="ringtone" android:showSilent="false" settings:oplusRingtoneType="ringtone" settings:simSlot="sim1" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/oplus_sms_notification_sound_title" android:key="key_mms_notification_ringtone" android:ringtoneType="notification" settings:oplusRingtoneType="notification_sms" settings:simSlot="sim1" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/oplus_notification_tone" android:key="notification_ringtone" android:ringtoneType="notification" settings:oplusRingtoneType="notification" />
+    </PreferenceCategory>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/sound_work_settings" android:key="sound_work_settings_section">
+        <SwitchPreference android:title="@string/work_use_personal_sounds_title" android:key="work_use_personal_sounds" android:summary="@string/work_use_personal_sounds_summary" android:disableDependentsState="true" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/work_ringtone_title" android:key="work_ringtone_sim1" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="ringtone" settings:oplusRingtoneType="ringtone" settings:simSlot="sim1" settings:workRingtone="true" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/work_ringtone_title" android:key="work_ringtone_sim2" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="ringtone" settings:oplusRingtoneType="ringtone_sim2" settings:simSlot="sim2" settings:workRingtone="true" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/work_notification_ringtone_title" android:key="work_notification_ringtone" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="notification" settings:oplusRingtoneType="notification" settings:workRingtone="true" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/work_alarm_ringtone_title" android:key="work_alarm_ringtone" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="alarm" settings:oplusRingtoneType="alarm" settings:workRingtone="true" />
+    </com.android.settings.widget.WorkOnlyCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="scence_mode_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/vibrates_when_it_rings" android:key="vibrate_when_ringing" android:disableDependentsState="true" settings:keywords="@string/keywords_vibrates_when_rings" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/vibrate_when_silent" android:key="vibrate_when_silent" android:disableDependentsState="true" settings:keywords="@string/keywords_vibrate_when_silent" />
+        <com.coui.appcompat.preference.COUIPreference android:layout="@layout/coui_preference" android:title="@string/string_vibration_intensity" android:key="vibration_intensity" settings:keywords="@string/keywords_vibration_intensity" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/touch_and_sound" android:key="sound_feedback_category_eight" android:fragment="com.oplus.settings.feature.sound.SoundSystemFeedBackFragment" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="sound_effect_settings_category">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/oplus_sound_effect_dirac_title" android:key="key_dirac">
+            <intent android:action="oplus.intent.action.settings.DIRAC_MAIN" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/dolby_name" android:key="key_dolby">
+            <intent android:action="oplus.intent.action.settings.DOLBY_MAIN" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/advanced_settings" android:key="key_more_sound_settings" android:fragment="com.oplus.settings.feature.sound.MoreSoundSettingsFragment" />
+    </PreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="16.0dip" />
+    <com.oplus.settings.widget.preference.RecommendedPreference android:key="sound_vibrate_bottom_recommended" />
+</PreferenceScreen>

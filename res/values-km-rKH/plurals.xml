@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">កម្មវិធី %1$d មានសិទ្ធិចូលប្រើឧបករណ៍របស់អ្នកពេញលេញ</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">យូរ (%1$s វិនាទី)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">មធ្យម (%1$s វិនាទី)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">ខ្លី (%1$s វិនាទី)</item>
+    </plurals>
+    <plurals name="action_record_today_num">
+        <item quantity="other">%1$d ដង</item>
+    </plurals>
+    <plurals name="already_selected_item_count">
+        <item quantity="other">បានជ្រើសរើស %d</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">កម្មវិធីទាមទារគ្រប់គ្រងតំណ %d</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">បិទសម្រាប់កម្មវិធី %d</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">កម្មវិធី %1$d ត្រូវបានដាក់កំហិត</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">ដាក់កំហិតលើកម្មវិធី %1$d?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">កម្មវិធីទាំងនេះមិនអាចដំណើរការក្នុងផ្ទៃខាងក្រោយបានទេ</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">កម្មវិធី %2$d ត្រូវបានដាក់កំហិតថ្មីៗនេះ</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">កម្មវិធី %2$d មានការប្រើថ្មផ្ទៃខាងក្រោយខ្ពស់</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">ដាក់កំហិតលើកម្មវិធី %1$d</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">នៅសល់ %d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">ប្រព័ន្ធនឹងថតអេក្រង់ដែលមានរបាយការណ៍កំហុសក្នុងពេល %1$d វិនាទី។</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">គូឈ្មោះអ្នកប្រើប្រាស់ និងពាក្យសម្ងាត់ %d ត្រូវបានរក្សាទុកនៅក្នុងពាក្យសម្ងាត់។</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">កម្មវិធី%1$d ត្រូវបានអនុញ្ញាតឲ្យប្រើទិន្នន័យគ្មានដែនកំណត់នៅពេលកម្មវិធីសន្សំសំចៃទិន្នន័យត្រូវបានបើក។</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">កម្មវិធីកាមេរ៉ា</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">កម្មវិធីអ៊ីមែលអតិថិជន</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">កម្មវិធីទូរស័ព្ទ</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">បានលុបប្រភេទ%d</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">យកចេញភាសាដែលបានជ្រើស?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">កម្មវិធី %d កំពុងបើកតំណភ្ជាប់ដែលគាំទ្រ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">យ៉ាងណាស់វិញ្ញាបនបត្រ CA %d</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">បានព្យាយាម %d ដង</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d កម្មវិធី</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">យ៉ាងតិច %d កម្មវិធី</item>
+    </plurals>
+    <plurals name="have_authorizations_count">
+        <item quantity="other">បានផ្ដល់ការអនុញ្ញាត %1$d</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s ម៉ោង</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">បានភ្ជាប់កម្មវិធី %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរតូច</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់%d តួមិនមែនជាអក្សរ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">ត្រូវតែមានតួដែលមិនមែនជាលេខយ៉ាងហោចណាស់ %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់លេខ %d ខ្ទង់</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរពិសេស</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរធំ</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">ត្រូវតែតិចជាង %d តួអក្សរ</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">ត្រូវតែមានយ៉ាងហោចណាស់ %d តួអក្សរ</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">ត្រូវតែតិចជាង %d ខ្ទង់</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN ត្រូវតែមានយ៉ាងហោចណាស់ %d ខ្ទង់</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">កម្មវិធី %d អាចអានការជូនដំណឹង</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">ភ្នាក់ងារទុកចិត្តសកម្មចំនួន %d</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">កម្មវិធី %1$d បានប្រើអង្គចងចាំនៅក្នុងរយៈពេល %2$s ចុងក្រោយ</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s នាទី</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">SIM %1$d</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">ការដាក់កំហិត %1$d</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d ប្រភេទ</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">ការជូនដំណឹង %d</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">បិទសម្រាប់កម្មវិធី %d</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">ប្រភេទ %d ត្រូវបានបិទ</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d ការជូនដំណឹងក្នុងមួយថ្ងៃ</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d ការជូនដំណឹងក្នុងមួយសប្ដាហ៍</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">កម្មវិធីសកម្ម %d</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d ធាតុអាចត្រូវបានបង្កើនប្រសិទ្ធភាព</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s កម្មវិធី</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d ការអនុញ្ញាតត្រូវបានផ្តល់ឱ្យ</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">កម្មវិធី %2$d កំពុងមានអាក្បកិរិយាខុសប្រក្រតី</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">កម្មវិធីដែលធ្វើឲ្យឆាប់អស់ថ្ម</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">ការងារបោះពុម្ព %1$d</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">សេវាបោះពុម្ព%1$d បើក</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">ការជូនដំណឹងថ្មីៗ %d</item>
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">កំពុងដាក់កំណត់ការប្រើប្រាស់ថ្មសម្រាប់កម្មវិធី %1$d</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">ព្យាយាមម្ដងទៀតក្នុងពេល %d វិនាទី</item>
+    </plurals>
+    <plurals name="running_applications_freed">
+        <item quantity="other">បានបិទកម្មវិធី %1$d បានបង្កើនទំហំផ្ទុក %2$.2f MB</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ការអនុញ្ញាតបន្ថែម</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (ចេញពី %2$d) ការអនុញ្ញាតត្រូវបានផ្តល់ឱ្យ</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s វិនាទី</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d ស្នាមម្រាមដៃត្រូវបានរៀបចំ</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">កម្មវិធី %1$d ត្រូវបានចាក់សោ</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">បានប្លុក %1$d ដង</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">ការហៅ%1$d</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">សារ SMS %1$d</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">បានកំណត់អត្តសញ្ញាណ %1$d លេខ</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">បានការពារប្រតិបត្តិការបង់ប្រាក់ %1$d</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">បានប្លុក %1$d ដង</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">បានការពារធាតុនៃព័ត៌មានផ្ទាល់ខ្លួនចំនួន %1$d</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">បានប្លុកស្ថានីយមូលដ្ឋានសហនាម %1$d</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d ធាតុអាចត្រូវបានបង្កើនប្រសិទ្ធភាព</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">បង្ហាញ %d ធាតុដែលលាក់</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ឥឡូវនេះ អ្នកនៅសល់ %1$d ជំហានទៀតប៉ុណ្ណោះនឹងក្លាយជាអ្នកអភិវឌ្ឍហើយ។</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">ឧបករណ៍ជំនួយការស្ដាប់ដែលបានរក្សាទុក %1$d</item>
+    </plurals>
+    <plurals name="special_access_permission_allowed_count">
+        <item quantity="other">បានផ្ដល់ការអនុញ្ញាតទៅកម្មវិធី %1$d</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">កម្មវិធី %d អាចប្រើទិន្នន័យដែលបានដាក់កំហិត</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">ទុកចិត្ត ឬយកចេញវិញ្ញាបនបត្រ</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s បានដំឡើងអាជ្ញាធរវិញ្ញាបនបត្របីបួនសម្រាប់ប្រវត្តិរូបការងាររបស់អ្នក។ ទាំងនេះអាចត្រូវបានប្រើដើម្បីត្រួតពិនិត្យសកម្មភាពបណ្ដាញរបស់អ្នក (រួមទាំងការប្រើអ៊ីម៉ែល កម្មវិធី វិបសាយដែលមានសុវត្ថិភាព) ខណៈដែលអ្នកកំពុងធ្វើការ។
+
+សម្រាប់ព័ត៌មានលម្អិតបន្ថែមអំពីវិញ្ញាបនបត្រទាំងនេះ សូមទាក់ទងទៅកាន់អ្នកគ្រប់គ្រងរបស់អ្នក។"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s បានដំឡើងអាជ្ញាធរវិញ្ញាបនបត្របីបួននៅលើឧបករណ៍របស់អ្នក។ ទាំងនេះអាចត្រូវបានប្រើដើម្បីត្រួតពិនិត្យសកម្មភាពបណ្ដាញរបស់ឧបករណ៍របស់អ្នក (រួមទាំងការប្រើអ៊ីម៉ែល កម្មវិធី វិបសាយដែលមានសុវត្ថិភាព)។
+
+សម្រាប់ព័ត៌មានលម្អិតបន្ថែមអំពីវិញ្ញាបនបត្រទាំងនេះ សូមទាក់ទងទៅកាន់អ្នកគ្រប់គ្រងរបស់អ្នក។"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">ត្រួតពិនិត្យវិញ្ញាបនបត្រ</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">ការផ្ដល់យោបល់ +%1$d</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">ការផ្ដល់យោបល់ %1$d</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">កម្មវិធី %1$d បានបើក</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">ធាតុ %d</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d បណ្ដាញ</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">បណ្ដាញ &amp; ការជាវ %d</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">ការជាវ%d</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">កូដ PIN របស់ SIM មិនត្រឹមត្រូវ អ្នកនៅសល់ការព្យាយាម %d ដងទៀត។</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">ផ្តល់ប្តូរដើម្បីរោទ៍ប៉ុណ្ណោះ %1$d ម៉ោង (រហូតដល់ %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">ផ្តល់ប្តូរដើម្បីរោទ៍ប៉ុណ្ណោះ %1$d នាទី (រហូតដល់ %2$s)</item>
+    </plurals>
+</resources>

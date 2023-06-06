@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/regulatory_item_padding_mader" android:paddingRight="@dimen/regulatory_item_padding_mader" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fcc_us_title" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/model_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/regulatory_content_margin_top" android:layoutDirection="ltr">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/regulatory_model_prefix" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/model" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layoutDirection="ltr">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/fcc_id_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fcc_us_id_prefix" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/fcc_id_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/hac_rating" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/hac_rating" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/company_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/company_name_lower_case" />
+    <TextView android:textSize="12.0sp" android:textColor="#8c000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bottom_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mexico_fcc_bottom_tip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/regulatory_info_canada" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layoutDirection="ltr">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/canada" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/canada_ic" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/regulatory_info_canada_can" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/regulatory_info_canada_can" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/regulatory_info_canada_can_rss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/regulatory_info_canada_rss" />
+    </LinearLayout>
+</LinearLayout>

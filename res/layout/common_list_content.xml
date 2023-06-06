@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.COUIRecyclerView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:fastScrollEnabled="false" />
+                <ViewStub android:id="@id/empty_stub" android:layout="@layout/simple_empty_layout" android:inflatedId="@id/empty_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <TextView android:layout_gravity="center" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.COUI.COUINoContentStyle" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/pinned_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" />
+            <FrameLayout android:id="@id/container_searchView_below_toolbar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:id="@id/background_mask_searchView_below_toolbar" style="@style/BackgroundMaskStyle" />
+            </FrameLayout>
+            <include layout="@layout/manage_apps_search_result_panel" />
+        </RelativeLayout>
+        <include layout="@layout/loading_container_oplus" />
+    </FrameLayout>
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/abl" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" settings:elevation="0.0dip" settings:layout_behavior="@string/app_list_search_behavior">
+        <com.coui.appcompat.widget.toolbar.COUIToolbar android:id="@id/toolbar" android:background="@drawable/coui_toolbar_bg" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/toolbar_min_height" settings:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+        <com.coui.appcompat.widget.COUISearchViewAnimate android:id="@id/search_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/app_list_search_bar_height" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

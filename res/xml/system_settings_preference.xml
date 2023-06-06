@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_settings" android:key="parent_screen" settings:keywords="@string/keywords_other_advanced_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="key_common" android:order="0" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/system_navigation_method" android:key="navigation_mode" android:order="10" android:fragment="com.oplus.settings.feature.navbar.NavigationBarSettingsFragment" settings:keywords="@string/keywords_navigation_method" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/system_language" android:key="system_language" android:order="20" android:fragment="com.oplus.settings.feature.language.LocaleSettingFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/language_settings_new" android:key="language_settings" android:order="30" android:fragment="com.oplus.settings.feature.othersettings.input.InputMethodSettingsFragment" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/date_and_time_settings_title" android:key="date_time_settings" android:order="40" android:fragment="com.oplus.settings.feature.othersettings.datetime.DateTimeSettingFragment" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="key_convenient" android:order="100">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_settings" android:key="accessibility_settings" android:order="110" android:fragment="com.oplus.settings.feature.accessibility.OplusAccessibilitySettings" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/floating_ball" android:key="floating_assistant" android:order="120">
+            <intent android:action="oplus.intent.action.FLOATING_BALL_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/smart_apperceive_control_settings" android:key="gesture_control_settings" android:order="125" settings:keywords="@string/keywords_smart_apperceive_control_settings">
+            <intent android:action="com.oplus.action.oplusGestureGuide" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/onehandedmode_one_handed_title" android:key="one_handed" android:order="126" android:fragment="com.oplus.settings.feature.onehanded.OplusOneHandedSettings" settings:searchable="true" settings:showNormalColor="true" settings:showSummary="true" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:persistent="false" android:title="@string/power_button" android:key="power_button" android:order="127" android:fragment="com.oplus.settings.feature.convenient.PowerButtonSettingsFragment" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/oplus_other_screen_capture" android:key="key_screen_capture" android:order="128">
+            <intent android:targetPackage="com.oplus.screenshot" android:action="oplus.intent.action.SCREENSHOT_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/oplus_other_screen_recording" android:key="key_screen_recording" android:order="129" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:persistent="false" android:title="@string/oplus_title_red_envelope_assistant" android:key="key_assistant_red_envelope" android:summary="@string/red_envelope_assistant_tips" android:order="131" settings:tintIcon="1">
+            <intent android:action="oplus.intent.action.ENVELOP_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/video_call_beauty" android:key="video_beauty_settings" android:summary="@string/video_call_beauty_tips" android:order="133" android:fragment="com.oplus.settings.feature.othersettings.videobeauty.VideoBeautySettingFragment" settings:tintIcon="1" />
+        <com.oplus.settings.widget.preference.SettingsSimpleJumpPreference android:title="@string/timepower_settings_title" android:key="timepower_settings" android:order="135">
+            <intent android:targetPackage="com.android.settings" android:action="android.settings.TIMEPOWER_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingsSimpleJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/global_actions_title" android:key="global_actions_menu" android:order="138" android:fragment="com.oplus.settings.feature.othersettings.globalactions.OplusPowerMenuSettings" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/touch_optimization_title" android:key="touch_optimization" android:order="140" android:fragment="com.oplus.settings.feature.othersettings.touchoptimization.TouchOptimizationFragment" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/camera_3d_effect" android:key="camera_effect_settings" android:order="150" android:fragment="com.oplus.settings.feature.othersettings.cameraeffect.CameraEffectFragment" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/search_setting_title" android:key="search" android:order="160">
+            <intent android:action="com.android.quicksearchbox.action.SEARCHABLE_ITEMS" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/recommend_settings_title" android:key="recommend_settings" android:order="170" android:fragment="com.oplus.settings.feature.othersettings.recommends.RecommendSettings" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/protective_shell_fill_light_title_new" android:key="protective_shell_fill_light" android:summary="@string/protective_shell_fill_light_summary_new" android:order="180" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="complex_category" android:order="200">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/oplus_otg_connection" android:key="otg_connection" android:summary="@string/otg_auto_close_after_ten_min" android:order="205" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/non_sensing_certification" android:key="key_non_sensing_certification" android:summary="@string/non_sensing_certification_summary" android:order="220" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:key="google_asssist" android:order="230" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/development_settings_title" android:key="development_settings" android:order="300" android:fragment="com.oplus.settings.feature.othersettings.development.OplusDevelopmentSettingsDashboardFragment">
+            <intent android:targetPackage="com.android.settings" android:action="android.settings.APPLICATION_DEVELOPMENT_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/ramboost_title" android:key="ramboost_settings" android:summary="@string/ramboost_switch_summary" android:order="400" android:fragment="com.oplus.settings.feature.othersettings.ramboost.RamBoostSettings" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:targetPackage="com.android.settings" android:title="@string/running_applications_title" android:key="processes_settings" android:order="500">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.feature.process.RunningApplicationActivity" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/system_strengthen_service" android:key="strengthen_service" android:order="240">
+            <intent android:targetPackage="com.android.settings" android:action="oplus.intent.action.settings.STRENGTHEN_SERVICE" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/backup_restore_and_phone_clone" android:key="backup_restore" android:order="600">
+            <intent android:action="oplus.intent.action.BACKUP_MAIN" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.RestrictedJumpPreference android:layout="@layout/coui_preference" android:title="@string/settings_reset_phone" android:key="privacy_settings" android:order="700" settings:useAdminDisabledSummary="true" settings:userRestriction="no_factory_reset" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/privacy_settings_title_new" android:key="privacy_settings_exp" android:order="800" android:fragment="com.oplus.settings.feature.othersettings.backup.PrivacySettingsExp" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/title_google_settings" android:key="google_settings" android:order="900">
+            <intent android:action="com.android.settings.action.EXTRA_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/google_settings_title" android:key="oplus_google_settings" android:order="1000" android:fragment="com.oplus.settings.feature.othersettings.googlesettings.OplusGoogleSettingsFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

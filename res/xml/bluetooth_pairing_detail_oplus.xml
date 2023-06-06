@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_hearingaid_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/bluetooth_device_name" android:key="bt_pair_rename_devices" settings:controller="com.oplus.settings.feature.accessibility.controller.OplusBluetoothDeviceRenamePreferenceController" settings:coui_jump_mark="@null" settings:showNormalColor="true">
+        <intent android:targetPackage="com.android.settings" android:action="oplus.intent.action.settings.PHONE_NAME_SETTINGS" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@string/bluetooth_paired_device_title" android:key="available_devices" />
+    <com.android.settingslib.widget.FooterPreference settings:isPreferenceVisible="false" />
+</PreferenceScreen>

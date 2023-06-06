@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_recording_checkmark__2" android:duration="400" android:startOffset="0" android:valueFrom="15" android:valueTo="20" android:valueType="floatType" android:propertyName="strokeWidth" />
+    <objectAnimator android:interpolator="@drawable/$face_recording_checkmark__3" android:duration="333" android:startOffset="400" android:valueFrom="20" android:valueTo="15" android:valueType="floatType" android:propertyName="strokeWidth" />
+</set>

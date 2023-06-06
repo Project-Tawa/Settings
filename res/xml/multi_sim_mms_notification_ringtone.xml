@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oplus_sms_notification_sound_title" android:key="sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="ring_tone_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/oplus_sms_notification_sound_title" android:key="sms_notification_ringtone_1" android:ringtoneType="notification" settings:oplusRingtoneType="notification_sms" settings:simSlot="sim1" />
+        <com.oplus.settings.widget.preference.OplusRingtonePreference android:persistent="false" android:title="@string/oplus_sms_notification_sound_title" android:key="sms_notification_ringtone_2" android:ringtoneType="notification" settings:oplusRingtoneType="notification_sms_sim2" settings:simSlot="sim2" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

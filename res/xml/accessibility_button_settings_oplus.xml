@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_shortcut_software"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:persistent="false" android:layout="@layout/accessibility_button_preview" android:title="@string/summary_placeholder" android:selectable="false" android:key="accessibility_button_preview" settings:searchable="false" />
+    <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/accessibility_button_location_selector_titles_oplus" android:title="@string/accessibility_button_location_title" android:key="accessibility_button_location" android:summary="%s" android:entryValues="@array/accessibility_button_location_selector_values" settings:showNormalColor="true" />
+    <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/accessibility_button_size_selector_titles" android:title="@string/accessibility_button_size_title" android:key="accessibility_button_size" android:summary="%s" android:entryValues="@array/accessibility_button_size_selector_values" settings:showNormalColor="true" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_floating_button_fade_title" android:key="accessibility_button_fade" android:summary="@string/accessibility_floating_button_fade_summary" />
+    <com.oplus.settings.widget.preference.OplusSeekBarPreference android:persistent="false" android:title="@string/accessibility_floating_button_opacity_title" android:key="accessibility_button_opacity" settings:showPreferenceTitleStyle="true" />
+    <PreferenceCategory android:key="footer_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference_oplus" android:selectable="false" android:key="accessibility_button_footer" android:summary="@string/accessibility_floating_button_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

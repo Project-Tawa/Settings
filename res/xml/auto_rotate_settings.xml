@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accelerometer_auto_rotate_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accelerometer_auto_rotate_title" android:key="auto_rotate_inside" settings:keywords="@string/keywords_auto_rotate" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/intelligent_auto_rotate_title" android:key="auto_intelligent_rotate" android:summary="@string/intelligent_auto_rotate_summary" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory />
+</PreferenceScreen>

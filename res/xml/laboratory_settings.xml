@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_laboratory_title" android:key="laboratory_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="lab_features_category" settings:isFirstCategory="true" />
+    <com.oplus.settings.widget.preference.LaboratoryBannerPreference android:key="lab_banner" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/dual_earphone_setting_title" android:key="lab_double_ear" android:fragment="com.oplus.settings.doubleears.DoubleEarphoneSettingFragment" settings:keywords="@string/dual_earphone_setting_title" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/settings_dc_backlight_mode_title_new_DC" android:key="key_dc_backlight_in_mode" android:fragment="com.oplus.settings.feature.laboratory.RmDcDimmingFragment" settings:keywords="@string/settings_dc_backlight_mode_title_new_DC" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/string_well_being_title" android:key="lab_well_being" android:summary="@string/string_well_being_summary" settings:controller="com.oplus.settings.feature.laboratory.WellBeingPreferenceController">
+        <intent android:action="oppo.intent.action.REALME_WELL_BEING" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/heart_rate_detection" android:key="heart_rate_detection" settings:controller="com.oplus.settings.feature.laboratory.HeartrateDetectionPreferenceController">
+        <intent android:action="heart.rate.intent.action.start" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="laboratory_description">
+        <Preference android:summary="@string/string_laboratory_summary" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

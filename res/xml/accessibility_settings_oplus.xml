@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/vision_auxiliary" android:key="screen_reader_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_tts_title" android:key="tts_settings_preference" android:fragment="com.oplus.settings.feature.accessibility.OplusTextToSpeechSettings" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_screen_magnification_title" android:key="magnification_preference_screen" android:fragment="com.android.settings.accessibility.MagnificationPreferenceFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/vision_correction_title" android:key="vision_correction_preference" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_display_daltonizer_preference_title" android:key="daltonizer_preference" android:fragment="com.oplus.settings.feature.accessibility.OplusToggleDaltonizerPreferenceFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_color_mode" android:key="toggle_accessibility_color_mode" android:fragment="com.oplus.settings.feature.accessibility.AccessibilityColorModeFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_toggle_high_text_contrast_preference_title" android:key="toggle_high_text_contrast_preference" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_disable_animations" android:key="toggle_disable_animations" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/accessibility_display_inversion_preference_title" android:key="toggle_inversion_preference" android:fragment="com.oplus.settings.feature.accessibility.OplusToggleColorInversionPreferenceFragment" settings:showNormalColor="true" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:title="@string/hearing_auxiliary" android:key="audio_and_captions_category">
+        <Preference android:title="@string/live_caption_title" android:key="live_caption" android:summary="@string/live_caption_summary" settings:controller="com.android.settings.accessibility.LiveCaptionPreferenceController" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_toggle_primary_mono_title" android:key="toggle_master_mono" android:summary="@string/accessibility_toggle_primary_mono_summary" />
+        <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/accessibility_toggle_primary_balance_title" android:key="seekbar_master_balance_category" settings:isFirstCategory="true">
+            <com.oplus.settings.feature.accessibility.OplusBalanceSeekBarPreference android:persistent="false" android:key="seekbar_master_balance" />
+        </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen" android:fragment="com.oplus.settings.feature.accessibility.OplusCaptionPropertiesFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_hearingaid_title" android:key="hearing_aid_preference" android:summary="@string/accessibility_hearingaid_not_connected_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/accessibility_interactive_action_category" android:key="interaction_control_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_power_button_ends_call_prerefence_title" android:key="toggle_power_button_ends_call_preference" />
+        <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/long_press_timeout_selector_titles" android:layout="@layout/coui_preference" android:title="@string/accessibility_long_press_timeout_preference_title" android:key="select_long_press_timeout_preference" android:summary="@string/accessibility_touch_delay_summary" android:widgetLayout="@layout/coui_preference_widget_jump" android:entryValues="@array/long_press_timeout_selector_values" settings:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:persistent="false" android:title="@string/accessibility_control_timeout_preference_title" android:key="accessibility_control_timeout_preference_fragment" android:fragment="com.oplus.settings.feature.accessibility.OplusAccessibilityControlTimeoutPreferenceFragment" settings:showNormalColor="true" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_vibration_settings_title" android:key="vibration_preference_screen" android:fragment="com.oplus.settings.feature.accessibility.OplusVibrationSettings" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_toggle_large_pointer_icon_title" android:key="toggle_large_pointer_icon" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/accessibility_autoclick_preference_title" android:key="autoclick_preference" android:fragment="com.oplus.settings.feature.accessibility.OplusToggleAutoclickPreferenceFragment" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_installed_services_category_title" android:key="user_installed_services_category" />
+    <PreferenceCategory android:key="accessibility_shortcut_preference_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_shortcut_on_lock_screen_title" android:key="accessibility_shortcut_preference" android:summary="@string/accessibility_shortcut_on_lock_screen_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="accessibility_foot_divide" />
+</PreferenceScreen>

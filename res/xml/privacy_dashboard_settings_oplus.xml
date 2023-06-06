@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/authority_and_privacy" android:key="privacy_dashboard_page" settings:keywords="@string/keywords_privacy_catogory"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.SpacePreference android:layout_height="10.0dip" android:order="1" />
+    <Preference android:title="@string/work_policy_privacy_settings" android:key="work_policy_info" android:summary="@string/work_policy_privacy_settings_summary" android:order="10" settings:allowDividerAbove="true" settings:controller="com.android.settings.privacy.WorkPolicyInfoPreferenceController" />
+    <Preference android:layout="@layout/action_record_preference" android:selectable="false" android:key="action_record" android:order="11" settings:allowDividerAbove="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:key="action_record_all" android:order="12" settings:allowDividerAbove="true" settings:controller="com.oplus.settings.feature.privacy.ActionRecordJumpPreferenceController" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="action_record_divider" android:order="13" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/permissions_usage_title" android:key="privacy_permissions_usage" android:order="15">
+        <intent android:action="android.intent.action.REVIEW_PERMISSION_USAGE" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/app_permissions_category" android:key="category_system_permission" android:order="20" settings:isFirstCategory="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:key="privacy_manage_perms" android:order="30" settings:allowDividerAbove="true" settings:controller="com.oplus.settings.feature.privacy.AppPermissionJumpPreferenceController" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/location_settings_title" android:key="location" android:order="40" android:fragment="com.oplus.settings.feature.security.location.OplusLocationSettings" settings:controller="com.oplus.settings.feature.privacy.LocationPreferenceController" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/permission_all_use_camera" android:key="privacy_camera_toggle" android:order="41" settings:controller="com.oplus.settings.feature.privacy.OplusCameraToggleController" settings:searchable="true" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/permission_all_use_mic" android:key="privacy_mic_toggle" android:order="42" settings:controller="com.oplus.settings.feature.privacy.OplusMicToggleController" settings:searchable="true" />
+    <Preference android:title="@string/accessibility_usage_title" android:key="privacy_accessibility_usage" android:order="50" settings:allowDividerAbove="true" settings:controller="com.android.settings.privacy.AccessibilityUsagePreferenceController">
+        <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES" />
+    </Preference>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/security_category_privacy_protect" android:key="category_privacy_protected" android:order="70">
+        <com.android.settings.applications.SpacePreference android:layout_height="6.0dip" android:order="71" />
+        <com.oplus.settings.widget.preference.SquareItemJumpPreference android:icon="@drawable/privacy_apps_lock_ic" android:title="@string/privacy_title_apps_lock" android:key="key_apps_security" android:order="80" settings:tintIcon="@integer/tint_item_icon_ops" />
+        <com.oplus.settings.widget.preference.SquareItemJumpPreference android:icon="@drawable/privacy_apps_hidden_ic" android:title="@string/privacy_title_apps_hiden" android:key="key_app_hiden" android:order="90" settings:tintIcon="@integer/tint_item_icon_ops" />
+        <com.oplus.settings.widget.preference.SquareItemJumpPreference android:icon="@drawable/security_data_protect_kit_ic" android:title="@string/security_title_data_protect_kit" android:key="key_data_protect_kit" android:order="100" settings:controller="com.oplus.settings.feature.privacy.DataProtectKitPreferenceController" settings:keywords="@string/keywords_security_protect_kit" settings:tintIcon="@integer/tint_item_icon_ops" />
+        <com.oplus.settings.widget.preference.SquareItemJumpPreference android:icon="@drawable/multi_system_ic" android:title="@string/multi_system" android:key="key_system_clone" android:order="110" settings:keywords="@string/keywords_multi_system" settings:tintIcon="@integer/tint_item_icon_ops" />
+        <com.oplus.settings.widget.preference.SquareItemJumpPreference android:icon="@drawable/security_private_info_protect_ic" android:title="@string/security_title_private_info_protect" android:key="key_private_info_protect" android:order="120" settings:controller="com.oplus.settings.feature.privacy.PrivateInfoProtectPreferenceController" settings:keywords="@string/keywords_security_title_private_info_protect" settings:tintIcon="@integer/tint_item_icon_ops" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="20.0dip" android:order="139" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/security_passwords_title" android:key="category_privacy_protect" android:order="140" settings:isFirstCategory="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/devices_id_and_advertise" android:key="devices_id" android:order="150" android:fragment="com.oplus.settings.feature.notification.DevicesIdentifyFragment" />
+    <com.oplus.settings.widget.OplusRestrictedListPreference android:title="@string/lock_screen_notifications_title" android:key="privacy_lock_screen_notifications" android:summary="@string/summary_placeholder" android:order="160" settings:searchable="true" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/show_password" android:key="show_password" android:summary="@string/show_password_summary" android:order="170" settings:controller="com.oplus.settings.feature.privacy.OplusShowPasswordPreferenceController" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/maintenance_space" android:key="maintenance_space" android:order="175" settings:controller="com.oplus.settings.feature.privacy.MaintenanceSpacePreferenceController" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/experience_improvement_programs" android:key="experience_improvement" android:order="180" android:fragment="com.oplus.settings.feature.privacy.ExperienceImprovementFragment" settings:allowDividerAbove="true" settings:controller="com.oplus.settings.feature.privacy.UserImprovementController" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/more_privacy_settings" android:key="privacy_more_settings" android:order="200" android:fragment="com.oplus.settings.privacy.MorePrivacySettings" settings:allowDividerAbove="true" settings:controller="com.oplus.settings.feature.privacy.MoreAdvancedSettingController" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="privacy_services" android:order="220" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="230" />
+    <PreferenceCategory android:title="@string/profile_section_header" android:key="privacy_work_profile_notifications_category" android:order="998" settings:searchable="false">
+        <com.android.settings.RestrictedListPreference android:title="@string/locked_work_profile_notification_title" android:key="privacy_lock_screen_work_profile_notifications" android:summary="@string/summary_placeholder" android:order="999" settings:searchable="false" />
+    </PreferenceCategory>
+    <SwitchPreference android:title="@string/content_capture" android:key="content_capture" android:summary="@string/content_capture_summary" android:order="1100" settings:controller="com.android.settings.privacy.EnableContentCapturePreferenceController" />
+    <com.android.settings.widget.PrimarySwitchPreference android:title="@string/content_capture" android:key="content_capture_custom_settings" android:summary="@string/content_capture_summary" android:order="1110" settings:controller="com.android.settings.privacy.EnableContentCaptureWithServiceSettingsPreferenceController" />
+    <SwitchPreference android:title="@string/show_clip_access_notification" android:key="show_clip_access_notification" android:order="1150" settings:controller="com.oplus.settings.feature.privacy.OplusShowClipAccessNotificationPreferenceController" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="privacy_dashboard_bottom" android:order="1300" settings:isFirstCategory="true">
+        <com.android.settings.applications.SpacePreference android:layout_height="16.0dip" />
+        <com.oplus.settings.widget.preference.RecommendedPreference android:key="privacy_dashboard_bottom_recommended" android:order="1400" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.android.settings.applications.SpacePreference android:layout_height="15.0dip" android:order="2000" />
+</PreferenceScreen>

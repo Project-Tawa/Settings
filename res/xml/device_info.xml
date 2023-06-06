@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_device" android:key="my_device_info_pref_screen" settings:keywords="@string/keywords_about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="device_info_category_cards" android:order="@integer/device_info_first_category_order" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.AboutDeviceOtaUpdatePreference android:title="@string/already_newest_version" android:key="key_ota_update" android:order="@integer/key_ota_update_order" settings:isPreferenceVisible="false" />
+        <com.oplus.settings.widget.preference.DeviceInfoSquarePreference android:icon="@drawable/settings_about_device_ic" android:title="@string/device_info_phone_name" android:key="device_name" android:order="@integer/device_name_order" settings:isRight="false" settings:showStatusText="false" settings:showSummary="true" settings:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.feature.deviceinfo.aboutphone.PhoneNameSettingsActivity">
+                <extra android:name="intent_jump_flag" android:value="1" />
+            </intent>
+        </com.oplus.settings.widget.preference.DeviceInfoSquarePreference>
+        <com.oplus.settings.widget.preference.DeviceInfoSquarePreference android:icon="@drawable/settings_storage_ic" android:title="@string/storage_settings_new" android:key="device_storage" android:order="@integer/device_storage_order" settings:isRight="true" settings:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$StorageDashboardActivity" />
+        </com.oplus.settings.widget.preference.DeviceInfoSquarePreference>
+        <com.oplus.settings.feature.deviceinfo.processor.ProcessorDetailPreference android:icon="@drawable/settings_processor_detail_ic" android:title="@string/device_info_show_CPU" android:key="processor_detail" android:order="@integer/device_processor_detail_order" settings:showSummary="false" settings:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.oplus.settings.OplusSettingsActivity$ProcessorDetailActivity" />
+        </com.oplus.settings.feature.deviceinfo.processor.ProcessorDetailPreference>
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.feature.deviceinfo.DeviceRamInfoItemPreference android:title="@string/device_info_show_RAM" android:selectable="false" android:key="ram_info" android:order="@integer/ram_info_order_without_ram_expand" android:fragment="com.oplus.settings.feature.ramexpand.RamExpandFragment" settings:couiClickStyle="unclick" settings:showSummary="false" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_info_show_CPU" android:selectable="false" android:key="cpu_info" android:order="@integer/cpu_info_order" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" settings:showSummary="false" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_info_show_ixd_version" android:selectable="false" android:key="oplusos_version" android:order="@integer/oplusos_version_order" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" settings:showSummary="false" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplus_device_info_show_ixd_version" android:selectable="false" android:key="oplusos_rlm_version" android:order="@integer/oplusos_version_order" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" settings:showSummary="false" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/firmware_version" android:key="firmware_version" android:order="@integer/firmware_version_order" android:fragment="com.oplus.settings.feature.deviceinfo.aboutphone.AndroidVersionInfoFragment" settings:keywords="@string/keywords_android_version" settings:showSummary="false" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_info_show_model_num" android:selectable="false" android:key="device_model" android:order="@integer/device_model_order" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" settings:showSummary="false" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_camera_info" android:selectable="false" android:key="camera_info" android:order="@integer/camera_info_order" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:order="@integer/device_info_second_category_order" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_version_info" android:key="version_info" android:order="@integer/version_info_order" android:fragment="com.oplus.settings.feature.deviceinfo.aboutphone.DeviceVersionInfoFragment" settings:allowDividerAbove="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/legal_information" android:key="legal_container" android:order="@integer/legal_container_order" android:fragment="com.oplus.settings.feature.legalinfo.OplusLegalSettings" settings:allowDividerAbove="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplus_authentication_title" android:key="authentication_info" android:order="@integer/authentication_info_order" android:fragment="com.oplus.settings.feature.deviceinfo.AuthenticationInfoFragment" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_status" android:key="status_info" android:order="@integer/status_info">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.OplusSettingsActivity$StatusInfoActivity" />
+        <extra android:name="dcs_event_id" android:value="about_device_status_info" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/settings_label" android:key="key_operation_manual" android:order="@integer/key_operation_manual_order" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:order="@integer/device_info_third_category_order" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/experience_improvement_plan_title" android:key="experience_improvement_plan" android:order="@integer/experience_improvement_plan_order" android:fragment="com.oplus.settings.privacy.ExperienceImprovePlanSettings" settings:allowDividerAbove="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplusos_co_creator_planet" android:key="contributor_info" android:order="@integer/contributors_info_order" settings:controller="com.oplus.settings.feature.deviceinfo.controller.ContributorInfoPreferenceController">
+        <intent android:action="oplus.intent.action.Contributors_List" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/forum_award_title" android:key="forum_contributors_info" android:summary="@string/forum_contributors_summary" android:order="@integer/forum_contributors_info_order" android:fragment="com.oplus.settings.feature.deviceinfo.ForumContributorsFragment" settings:controller="com.oplus.settings.feature.deviceinfo.controller.ForumContributorsInfoController" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/regulatory_labels" android:key="regulatory_info" android:order="@integer/regulatory_info_order">
+        <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/safety_and_regulatory_info" android:key="safety_info" android:order="@integer/safety_info_order">
+        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_feedback" android:key="device_feedback" android:order="@integer/device_feedback_order" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/network_access_license" android:key="network_access_license" android:order="@integer/network_access_license_order">
+        <intent android:action="android.settings.NETWORK_ACCESS_LICENCE" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/e_label" android:key="e_label" android:order="@integer/e_label_order">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.oplus.settings.feature.deviceinfo.ELabelActivity" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/network_access_license" android:key="regulatory_info_above_oplusos_six" android:order="@integer/regulatory_info_above_oplusos_six_order">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.oplus.settings.feature.deviceinfo.regulatory.RegulatoryInfoActivity" />
+    </com.oplus.settings.widget.preference.SettingJumpPreference>
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/device_info_software_version" android:key="key_sw_version" android:order="@integer/sw_version_order" settings:controller="com.oplus.settings.feature.deviceinfo.controller.OplusSoftwareVersionController" settings:showSummary="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/hardware_revision" android:selectable="false" android:key="key_hw_version" android:order="@integer/hw_version_order" settings:controller="com.oplus.settings.feature.deviceinfo.controller.OplusHardwareVersionController" settings:couiClickStyle="unclick" settings:coui_jump_mark="@null" settings:showSummary="true" />
+    <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/oplus_network_unlock" android:key="key_network_unlock" android:order="@integer/network_unlock_order" settings:controller="com.oplus.settings.feature.deviceinfo.controller.NetworkUnlockController" settings:showSummary="true" />
+</PreferenceScreen>

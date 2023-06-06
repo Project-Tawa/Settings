@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/keyboard_position"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.SpacePreference android:layout_height="10.0dip" android:key="key_header" />
+    <Preference android:layout="@layout/coui_pager_header_preference" android:selectable="false" android:key="keyboard_position_desc" android:summary="@string/keyboard_position_desc" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="keyboard_position_category">
+        <com.oplus.settings.feature.othersettings.input.OplusKeyboardPositionSwitchPreference android:key="keyboard_position" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.feature.othersettings.input.DisablePerferenceCategory android:title="@string/keyboard_position_raise_area_setting" android:key="raise_area_category">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:layout="@layout/coui_preference" android:title="@string/keyboard_position_input_method_quick_switch" android:key="keyboard_quick_switch" />
+    </com.oplus.settings.feature.othersettings.input.DisablePerferenceCategory>
+</PreferenceScreen>

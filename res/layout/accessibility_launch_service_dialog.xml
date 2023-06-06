@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+            <TextView android:id="@id/tv_title" android:text="@string/accessibility_tutorial_dialog_title_button" style="@style/AccessibilityDialogTitle" />
+            <TextView android:id="@id/tv_subtitle" android:text="@string/accessibility_service_enable_dialog_software_tips" style="@style/AccessibilityDialogDescription" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_illustration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/illustration_accessibility_button" android:scaleType="fitCenter" />
+        <TextureView android:layout_gravity="center_horizontal" android:id="@id/tv_video" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="200.0dip" />
+        <com.coui.appcompat.widget.COUIButton android:layout_gravity="bottom|center" android:id="@id/btn_confirm" android:background="@drawable/large_main_button_bg" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="36.0dip" android:text="@string/accessibility_tutorial_dialog_button" android:contentDescription="@string/accessibility_tutorial_dialog_button" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?couiButtonColorfulDefaultStyle" />
+    </LinearLayout>
+</ScrollView>

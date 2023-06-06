@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/breathing_light" android:key="breathing_light_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.feature.display.breathinglight.BreathingLightAnimationPreference android:key="breathing_light_animation" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/breathing_light" android:key="breathing_light_master_switch" android:summary="@string/breathing_light_master_siwtch_summary" />
+    <com.oplus.settings.feature.display.breathinglight.BreathingLightTimePreference android:title="@string/breathing_light_display_time" android:key="breathing_light_show_time" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/breathing_light_reminder_lighting_effect" android:key="breathing_light_reminder_lighting_effect">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/breathing_light_charging_reminder_always_on" android:key="breathing_light_charging_reminder_always_on" android:summary="@string/breathing_light_charging_reminder_always_on_summary" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/breathing_light_incoming_call_flashing" android:key="breathing_light_incoming_call_flashing" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/breathing_light_information_reminder_breathe" android:key="breathing_light_information_reminder_breathe" android:summary="@string/breathing_light_information_reminder_breathe_summary_new" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:layout="@layout/coui_preference" android:title="@string/breathing_light_notification_support_apps" android:key="breathing_light_information_reminder_apps" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/breathing_light_atmosphere_lighting_effect" android:key="breathing_light_atmosphere_lighting_effect">
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/breathing_light_game_start_light_effect_enter" android:key="breathing_light_game_start_light_effect_enter" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>

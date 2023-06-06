@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:id="@id/main_frame" android:background="@drawable/coui_preference_bg_selector" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:layout_weight="1.0" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/support_preference_titel_padding_end">
+        <FrameLayout android:id="@id/icon_frame" android:paddingTop="16.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56.0dip" android:paddingEnd="12.0dip">
+            <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PreferenceContent">
+            <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/COUIPreferenceTitleStyle" />
+            <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/COUIPreferenceSummaryStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="58.0dip" />
+</LinearLayout>

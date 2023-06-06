@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/coui_transparence" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.widget.toolbar.COUIToolbar android:id="@id/normal_bottom_sheet_toolbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/M10" android:paddingEnd="@dimen/M10">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/coui_preference_title_color" android:id="@id/normal_bottom_sheet_edit_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_centerHorizontal="true" android:textAlignment="center" android:paddingStart="@dimen/toolbar_margin" android:paddingEnd="@dimen/toolbar_margin" />
+            <com.coui.appcompat.widget.COUIEditText android:ellipsize="end" android:id="@id/normal_bottom_sheet_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/input_verify_code" android:singleLine="true" android:layout_below="@id/normal_bottom_sheet_edit_title" android:inputType="textEmailAddress" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/resend" app:quickDelete="true" style="?couiEditTextLineHintDisableStyle" />
+            <Button android:textSize="@dimen/oplus_font_size_12DP" android:id="@id/resend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/normal_bottom_sheet_edit_text" android:layout_alignParentEnd="true" style="?android:buttonStyleSmall" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

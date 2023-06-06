@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="bottom_sheet_layout_percent">0.475</item>
+    <item type="dimen" name="grid_guide_coulmn_10_percent">0.797</item>
+    <item type="dimen" name="grid_guide_coulmn_11_percent">0.877</item>
+    <item type="dimen" name="grid_guide_coulmn_1_percent">0.074</item>
+    <item type="dimen" name="grid_guide_coulmn_2_percent">0.154</item>
+    <item type="dimen" name="grid_guide_coulmn_3_percent">0.234</item>
+    <item type="dimen" name="grid_guide_coulmn_4_percent">0.315</item>
+    <item type="dimen" name="grid_guide_coulmn_5_percent">0.395</item>
+    <item type="dimen" name="grid_guide_coulmn_6_percent">0.475</item>
+    <item type="dimen" name="grid_guide_coulmn_7_percent">0.556</item>
+    <item type="dimen" name="grid_guide_coulmn_8_percent">0.636</item>
+    <item type="dimen" name="grid_guide_coulmn_9_percent">0.717</item>
+    <item type="dimen" name="grid_guide_coulmn_preference_percent">0.678</item>
+    <dimen name="responsive_ui_extend_hierarchy_parent_width">360.0dip</dimen>
+</resources>

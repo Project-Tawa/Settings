@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settingslib_config_bodyFontFamily">@android:string/fingerprint_acquired_too_slow</string>
+    <string name="settingslib_config_bodyFontFamilyMedium">@android:string/fingerprint_error_canceled</string>
+    <string name="settingslib_config_headlineFontFamily">@android:string/httpErrorOk</string>
+    <string name="settingslib_config_headlineFontFamilyMedium">@android:string/httpErrorProxyAuth</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="optical_fingerprint_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/fingerprint_ql_title" android:key="quick_launch_key">
+            <intent android:action="com.oplus.intent.action.FINGERPRINT_QUICK_LAUNCH_SETTINGS" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/fingerprint_style" android:key="anim_styles">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.oplus.settings.feature.fingerprint.FingerprintAnimStyleActivity" />
+        </com.oplus.settings.widget.preference.SettingJumpPreference>
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/show_fingerprint_while_screen_off" android:key="show_fingerprint_when_screen_off" android:summary="@string/show_fingerprint_while_screen_off_tips" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:key="optical_fingerprint_category_line" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/customize_question_preference_layout" android:key="edit_question" />
+    <com.android.settings.applications.SpacePreference android:layout_height="@dimen/common_margin" android:key="key_header" android:order="6" />
+</PreferenceScreen>

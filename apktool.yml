@@ -1,0 +1,165 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Settings.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- assets/accessible/res/drawable-xhdpi/settings_send_msg_bg.9.png
+- assets/accessible/res/drawable-xxhdpi/settings_send_msg_bg.9.png
+- png
+- res/drawable-land-xxhdpi-v4/coui_panel_nine_patch_bg_with_shadow.9.png
+- res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxhdpi-v17/coui_btn_dropdown_disabled.9.png
+- res/drawable-ldrtl-xxhdpi-v17/coui_btn_dropdown_normal.9.png
+- res/drawable-ldrtl-xxhdpi-v17/coui_btn_dropdown_pressed.9.png
+- res/drawable-ldrtl-xxhdpi-v4/msg_bubble_incoming.9.png
+- res/drawable-ldrtl-xxhdpi-v4/msg_bubble_outgoing.9.png
+- res/drawable-night-nodpi-v8/coui_tablayout_bg.9.png
+- res/drawable-night-xxhdpi-v29/coui_detail_floating_background.9.png
+- res/drawable-night-xxhdpi-v29/coui_edittext_default_background_normal.9.png
+- res/drawable-night-xxhdpi-v29/coui_fast_scroller_message_background.9.png
+- res/drawable-night-xxhdpi-v29/coui_picker_full_bg.9.png
+- res/drawable-night-xxhdpi-v29/coui_popup_list_window_bg.9.png
+- res/drawable-night-xxhdpi-v29/coui_scrollbar_handle_horizontal.9.png
+- res/drawable-night-xxhdpi-v29/coui_scrollbar_handle_vertical.9.png
+- res/drawable-night-xxhdpi-v29/coui_scrollbar_thumb.9.png
+- res/drawable-night-xxhdpi-v29/coui_tool_navigation_view_bg.9.png
+- res/drawable-night-xxhdpi-v29/coui_tool_navigation_view_bg_dark.9.png
+- jpg
+- res/drawable-nodpi-v4/coui_activity_title_bar.9.png
+- res/drawable-nodpi-v4/coui_alertdialog_content_background.9.png
+- res/drawable-nodpi-v4/coui_alertdialog_content_full_background.9.png
+- res/drawable-nodpi-v4/coui_divider_horizontal_without_padding.9.png
+- res/drawable-nodpi-v4/coui_list_preference_bg.9.png
+- res/drawable-nodpi-v4/coui_list_statusbar_bg.9.png
+- res/drawable-nodpi-v4/coui_list_toolbar_bg.9.png
+- res/drawable-nodpi-v4/coui_spinner_dropdown_background_down.9.png
+- res/drawable-nodpi-v4/coui_spinner_dropdown_background_up.9.png
+- res/drawable-nodpi-v4/coui_statusbar_bg.9.png
+- res/drawable-nodpi-v4/coui_tab_navigation_view_bg.9.png
+- res/drawable-nodpi-v4/coui_tab_navigation_view_bg_dark.9.png
+- res/drawable-nodpi-v4/coui_tablayout_bg.9.png
+- res/drawable-nodpi-v4/coui_tablayout_bg_dark.9.png
+- res/drawable-nodpi-v4/coui_toolbar_bg.9.png
+- res/drawable-nodpi-v4/coui_toolbar_largest_title_bg.9.png
+- res/drawable-nodpi-v4/list_sort_item_bg.9.png
+- webp
+- res/drawable-nodpi-v4/split_menu_view_bg.9.png
+- res/drawable-nodpi-v4/statusbar_no_alpha_bg.9.png
+- res/drawable-xhdpi-v4/coui_activity_content_foreground.9.png
+- res/drawable-xhdpi-v4/coui_alertdialog_button_background.9.png
+- res/drawable-xhdpi-v4/coui_alertdialog_button_disable.9.png
+- res/drawable-xhdpi-v4/coui_alertdialog_button_normal.9.png
+- res/drawable-xhdpi-v4/coui_alertdialog_button_pressed.9.png
+- res/drawable-xhdpi-v4/coui_alertdialog_list_area.9.png
+- res/drawable-xhdpi-v4/coui_alertdialog_title_bar.9.png
+- res/drawable-xhdpi-v4/coui_btn_stress_disabled.9.png
+- res/drawable-xhdpi-v4/coui_btn_stress_normal.9.png
+- res/drawable-xhdpi-v4/coui_btn_stress_pressed.9.png
+- res/drawable-xhdpi-v4/coui_divider_horizontal_default.9.png
+- res/drawable-xhdpi-v4/coui_grid_selector_background_focus.9.png
+- res/drawable-xhdpi-v4/coui_grid_selector_background_pressed.9.png
+- res/drawable-xhdpi-v4/coui_list_selector_background_disabled.9.png
+- res/drawable-xhdpi-v4/coui_menu_background.9.png
+- res/drawable-xhdpi-v4/coui_menu_dropdown_panel.9.png
+- res/drawable-xhdpi-v4/coui_searchview_voice_normal.9.png
+- res/drawable-xhdpi-v4/coui_searchview_voice_pressed.9.png
+- res/drawable-xhdpi-v4/coui_tab_selected.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/catgory_title_bg.9.png
+- res/drawable-xxhdpi-v4/coui_bottom_alert_dialog_bg.9.png
+- res/drawable-xxhdpi-v4/coui_bottom_alert_dialog_bg_with_shadow.9.png
+- res/drawable-xxhdpi-v4/coui_btn_dropdown_disabled.9.png
+- res/drawable-xxhdpi-v4/coui_btn_dropdown_normal.9.png
+- res/drawable-xxhdpi-v4/coui_btn_dropdown_pressed.9.png
+- res/drawable-xxhdpi-v4/coui_center_alert_dialog_bg.9.png
+- res/drawable-xxhdpi-v4/coui_center_alert_dialog_bg_with_shadow.9.png
+- res/drawable-xxhdpi-v4/coui_detail_floating_background.9.png
+- res/drawable-xxhdpi-v4/coui_edittext_default_background_focus.9.png
+- res/drawable-xxhdpi-v4/coui_edittext_default_background_normal.9.png
+- res/drawable-xxhdpi-v4/coui_edittext_warning_background_normal.9.png
+- res/drawable-xxhdpi-v4/coui_fast_scroller_message_background.9.png
+- res/drawable-xxhdpi-v4/coui_navigation_popup_bg.9.png
+- res/drawable-xxhdpi-v4/coui_panel_nine_patch_bg_with_shadow.9.png
+- res/drawable-xxhdpi-v4/coui_picker_full_bg.9.png
+- res/drawable-xxhdpi-v4/coui_popup_list_window_bg.9.png
+- res/drawable-xxhdpi-v4/coui_popup_list_window_bg_dark.9.png
+- res/drawable-xxhdpi-v4/coui_progressbar_bg_full.9.png
+- res/drawable-xxhdpi-v4/coui_progressbar_progress_full.9.png
+- res/drawable-xxhdpi-v4/coui_scrollbar_handle_horizontal.9.png
+- res/drawable-xxhdpi-v4/coui_scrollbar_handle_vertical.9.png
+- res/drawable-xxhdpi-v4/coui_scrollbar_handle_vertical_dark.9.png
+- res/drawable-xxhdpi-v4/coui_scrollbar_thumb.9.png
+- res/drawable-xxhdpi-v4/coui_searchview_textfield_default.9.png
+- res/drawable-xxhdpi-v4/coui_searchview_textfield_disable.9.png
+- res/drawable-xxhdpi-v4/coui_snack_bar_background.9.png
+- res/drawable-xxhdpi-v4/coui_tool_navigation_view_bg.9.png
+- res/drawable-xxhdpi-v4/coui_tool_navigation_view_bg_dark.9.png
+- res/drawable-xxhdpi-v4/coui_tool_tips_background.9.png
+- res/drawable-xxhdpi-v4/coui_touchsearch_second_name_bg.9.png
+- res/drawable-xxhdpi-v4/data_grid_border.9.png
+- res/drawable-xxhdpi-v4/dolby_music_equalizer_normal.9.png
+- res/drawable-xxhdpi-v4/dolby_music_equalizer_selected.9.png
+- res/drawable-xxhdpi-v4/dynamic_ringtone_bg_normal.9.png
+- res/drawable-xxhdpi-v4/dynamic_ringtone_bg_selected.9.png
+- res/drawable-xxhdpi-v4/large_button_bg_disabled.9.png
+- res/drawable-xxhdpi-v4/large_main_button_bg_normal.9.png
+- res/drawable-xxhdpi-v4/large_main_button_bg_pressed.9.png
+- res/drawable-xxhdpi-v4/msg_bubble_incoming.9.png
+- res/drawable-xxhdpi-v4/msg_bubble_outgoing.9.png
+- res/drawable-xxhdpi-v4/seek_bar_progress.9.png
+- res/drawable-xxhdpi-v4/settings_receive_msg_bg.9.png
+- res/drawable-xxhdpi-v4/settings_send_msg_bg.9.png
+- res/drawable-xxhdpi-v4/toolbar_title_bg.9.png
+- res/drawable-xxhdpi-v4/voice_commands_half_bg.9.png
+- res/drawable/coui_toolbar_bg.9.png
+- res/drawable/coui_toolbar_largest_title_bg.9.png
+- gif
+- mp4
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '28'
+  targetSdkVersion: '31'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0-dirty
+versionInfo:
+  versionCode: '12001002'
+  versionName: 12.1.2

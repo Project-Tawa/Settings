@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/regulatory_item_padding" android:paddingRight="@dimen/regulatory_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:text="@string/philippines_country" style="@style/RegulatoryTitleStyle" />
+    <LinearLayout android:background="@drawable/regulatory_solid_line_rect" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/regulatory_content_margin_top" android:layoutDirection="ltr">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/ic_philippines_regulatory" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/ntc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NTC" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/approval_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Type Approval No.:" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/number_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/philippines_regulatory" />
+                <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

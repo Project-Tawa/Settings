@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/status_icon_dialog_item_color" android:pathData="M11.0098,10.3556C12.2552,9.2626 13.8876,8.6 15.675,8.6C19.5828,8.6 22.75,11.7672 22.75,15.675C22.75,17.3494 22.1685,18.8878 21.1965,20.0994L11.0098,10.3556ZM9.9333,11.54C9.0943,12.703 8.6,14.1312 8.6,15.675C8.6,19.5828 11.7672,22.75 15.675,22.75C17.3317,22.75 18.8553,22.1808 20.0608,21.2272L9.9333,11.54ZM15.675,7C10.8835,7 7,10.8835 7,15.675C7,20.4665 10.8835,24.35 15.675,24.35C20.4665,24.35 24.35,20.4665 24.35,15.675C24.35,10.8835 20.4665,7 15.675,7Z" android:fillAlpha="0.85" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="COUIAlertDialogBottomButtonDivider">
+        <item name="android:layout_width">@dimen/coui_delete_alert_dialog_divider_height</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/coui_alert_dialog_horizontal_button_divider_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/coui_alert_dialog_horizontal_button_divider_vertical_margin</item>
+        <item name="android:src">?couiDialogButtonDividerColor</item>
+    </style>
+    <style name="DarkForceStyle">
+        <item name="enableFollowSystemForceDarkRank">true</item>
+    </style>
+    <style name="RingtoneSettingsTheme" parent="@style/Theme.COUI.Green">
+        <item name="android:layout">@layout/ringtone_preference_list_fragment</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.COUI.Dialog.Alert.Storage" parent="@style/Theme.COUI.Dialog.Alert">
+        <item name="enableFollowSystemForceDarkRank">true</item>
+        <item name="layoutBackgroundTint">@color/coui_alert_dialog_background_tint</item>
+    </style>
+    <style name="VibrateSettingsTheme" parent="@style/Theme.COUI.Green">
+        <item name="android:layout">@layout/vibrate_preference_list_fragment</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget.COUI.Button.Small.Light" parent="@style/Widget.COUI.Button.Small">
+        <item name="android:textColor">@color/coui_btn_large_text_color_light</item>
+        <item name="brightness">0.8</item>
+        <item name="drawableColor">?couiTintLightNormal</item>
+    </style>
+    <style name="Widget.COUI.CompoundButton.CheckBox" parent="@style/Widget.COUI.CompoundButton">
+        <item name="android:button">?android:listChoiceIndicatorMultiple</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@dimen/coui_btn_checkbox_paddingleft</item>
+    </style>
+</resources>

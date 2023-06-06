@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/software_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/accessibility_edit_shortcut_item" />
+        <include android:id="@id/hardware_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" layout="@layout/accessibility_edit_shortcut_item" />
+        <include android:id="@id/triple_tap_shortcut" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" layout="@layout/accessibility_edit_shortcut_item" />
+        <View android:id="@id/advanced_shortcut" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

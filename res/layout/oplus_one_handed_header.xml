@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/onehandedheader_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/imageOneHanded" android:layout_width="126.0dip" android:layout_height="249.0dip" android:scaleType="centerCrop" android:maxWidth="126.0dip" android:maxHeight="249.0dip" android:forceDarkAllowed="false" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" android:text="@string/onehandedmode_settings_description" android:layout_below="@id/layout_view" />
+</RelativeLayout>

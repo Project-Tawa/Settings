@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.SpacePreference android:layout_height="2.0dip" android:key="password_category_space" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:title="@string/change_lock_password" android:key="change_lock_password_category" app:isFirstCategory="true">
+        <com.android.settings.applications.SpacePreference android:layout_height="8.0dip" android:key="password_space" />
+        <com.oplus.settings.feature.password.PasswordTypeItemPreference android:icon="@drawable/ic_change_numeric_password" android:title="@string/oplus_unlock_set_number_title" android:key="change_numeric_pwd" android:summary="@string/oplus_set_numeritipc_password_tip" app:coui_jump_mark="@null" />
+        <com.oplus.settings.feature.password.PasswordTypeItemPreference android:icon="@drawable/ic_change_complex_password" android:title="@string/oplus_unlock_set_complex_title" android:key="change_complex_pwd" android:summary="@string/oplus_set_complex_password_tip" app:coui_jump_mark="@null" />
+        <com.oplus.settings.feature.password.PasswordTypeItemPreference android:icon="@drawable/ic_change_pattern_password" android:title="@string/oplus_unlock_set_unlock_mode_pattern" android:key="change_pattern_pwd" android:summary="@string/oplus_set_pattern_password_tip" app:coui_jump_mark="@null" />
+        <com.oplus.settings.widget.preference.SettingSwitchPreference android:title="@string/oplus_quick_unlock_switch_title" android:key="quick_unlock" android:summary="@string/oplus_quick_unlock_switch_summary" />
+        <Preference android:layout="@layout/coui_preference_red" android:title="@string/close_lock_password" android:key="turn_off_guard_key" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:layout="@layout/coui_detail_preference" android:selectable="false" android:key="lock_pwd_footer" android:summary="@string/remember_lock_pwd_msg" />
+    </PreferenceCategory>
+</PreferenceScreen>

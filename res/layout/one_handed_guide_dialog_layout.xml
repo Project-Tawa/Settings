@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:layout_gravity="center" android:paddingTop="10.0dip" android:text="@string/onehandedmode_control_center_title" style="@style/panel_ordinary_first_level_content_title" />
+            <TextView android:layout_gravity="center" android:text="@string/onehandedmode_settings_description" style="@style/panel_ordinary_first_level_content_text" />
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/imageOneHandedCon" android:background="@drawable/side_gesture_background" android:layout_width="126.0dip" android:layout_height="249.0dip" android:scaleType="centerCrop" android:maxWidth="126.0dip" android:maxHeight="249.0dip" android:forceDarkAllowed="false" />
+            <com.coui.appcompat.widget.COUIButton android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="36.0dip" android:text="@string/onehandedmode_control_center_confirm" android:layout_marginStart="70.0dip" android:layout_marginEnd="70.0dip" style="?couiButtonColorfulDefaultStyle" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

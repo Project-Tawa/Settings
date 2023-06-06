@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="178.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/dynamic_weather_view_pager2" android:layout_width="fill_parent" android:layout_height="178.0dip" />
+    <com.coui.appcompat.widget.COUIPageIndicator android:id="@id/dynamic_weather_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:dotColor="#ffffffff" app:dotSize="6.0dip" app:dotSpacing="3.0dip" app:dotStrokeWidth="0.70000005dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:traceDotColor="#ffffffff" />
+</androidx.constraintlayout.widget.ConstraintLayout>

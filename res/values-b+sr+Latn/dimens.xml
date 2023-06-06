@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_number_picker_am_pm_width_small">92.0dip</dimen>
+    <dimen name="coui_number_picker_width_biggest">120.0dip</dimen>
+</resources>

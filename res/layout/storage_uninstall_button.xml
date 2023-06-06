@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.widget.COUIButton android:layout_gravity="bottom|center" android:id="@id/btn_uninstall" android:background="@drawable/large_main_button_bg" android:layout_width="260.0dip" android:layout_height="44.0dip" android:layout_marginBottom="30.0dip" android:text="@string/storage_operation_uninstall" android:forceDarkAllowed="false" style="?couiButtonColorfulDefaultStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

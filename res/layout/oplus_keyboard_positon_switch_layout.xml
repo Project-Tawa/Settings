@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rg_keyboard_position" android:paddingTop="36.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oplus_keyboard_position_default" android:forceDarkAllowed="false" />
+        <TextView android:id="@id/tv_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/keyboard_position_default" style="@style/COUIPreferenceSummaryStyle" />
+        <RadioButton android:id="@id/rb_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+        <ImageView android:id="@id/img_raise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oplus_keyboard_position_raised" android:forceDarkAllowed="false" />
+        <TextView android:id="@id/tv_raise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/keyboard_position_raise" style="@style/COUIPreferenceSummaryStyle" />
+        <RadioButton android:id="@id/rb_raise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

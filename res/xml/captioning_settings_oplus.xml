@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen_key" android:fragment="com.oplus.settings.feature.accessibility.OplusCaptionPropertiesFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/captioning_preview_oplus" android:title="@string/summary_placeholder" android:key="caption_preview" settings:searchable="false" />
+    <com.oplus.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/accessibility_captioning_title" android:key="enable_captioning" />
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="standard" settings:isFirstCategory="true">
+        <com.android.settings.accessibility.LocalePreference android:persistent="false" android:title="@string/captioning_locale" android:key="captioning_locale" />
+        <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/captioning_font_size_selector_titles" android:title="@string/captioning_text_size" android:key="captioning_font_size" android:entryValues="@array/captioning_font_size_selector_values" />
+        <com.oplus.settings.feature.accessibility.OplusPresetPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/captioning_preset" android:key="captioning_preset" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <PreferenceCategory android:title="@string/captioning_custom_options_title" android:key="custom">
+        <com.oplus.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/captioning_typeface_selector_titles" android:title="@string/captioning_typeface" android:key="captioning_typeface" android:entryValues="@array/captioning_typeface_selector_values" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:title="@string/captioning_foreground_color" android:key="captioning_foreground_color" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:title="@string/captioning_foreground_opacity" android:key="captioning_foreground_opacity" />
+        <com.oplus.settings.feature.accessibility.OplusEdgeTypePreference android:persistent="false" android:title="@string/captioning_edge_type" android:key="captioning_edge_type" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:title="@string/captioning_edge_color" android:key="captioning_edge_color" android:dependency="captioning_edge_type" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:title="@string/captioning_background_color" android:key="captioning_background_color" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:title="@string/captioning_background_opacity" android:key="captioning_background_opacity" android:dependency="captioning_background_color" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:title="@string/captioning_window_color" android:key="captioning_window_color" />
+        <com.oplus.settings.feature.accessibility.CaptionPreference android:persistent="false" android:layout="@layout/coui_preference" android:title="@string/captioning_window_opacity" android:key="captioning_window_opacity" android:dependency="captioning_window_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_display_area" android:key="display_compat_root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="cutout_category" settings:isFirstCategory="true">
+        <com.oplus.settings.widget.preference.CutoutImagePreference android:key="cutout_image" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/custom_cutout_mode_app" android:key="custom_cutout_mode" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+    <com.oplus.settings.widget.preference.SettingsPreferenceCategory android:key="full_screen_category">
+        <com.oplus.settings.widget.preference.CutoutImagePreference android:key="full_screen_image" />
+        <com.oplus.settings.widget.preference.SettingJumpPreference android:title="@string/custom_full_screen_display_app" android:key="custom_full_screen" />
+    </com.oplus.settings.widget.preference.SettingsPreferenceCategory>
+</PreferenceScreen>
